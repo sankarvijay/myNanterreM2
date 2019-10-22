@@ -1,0 +1,20 @@
+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8§Š†ò–-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8§Š†ò–-
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ8§Š†ò–-
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ‡¡Ëıÿÿÿÿ8§Š†ò–-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8§Š†ò–-
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8§Š†ò–-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§Š†ò–-
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÈÚ—ıøÿÿÿÿ8§Š†ò–-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8§Š†ò–-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8§Š†ò–-
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êç¢‡8§Š†ò–-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§Š†ò–-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÂËÜî8§Š†ò–-
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ßìê¯8§Š†ò–-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8§Š†ò–-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8§Š†ò–-
+Lsquid:S1659"+Declare "mDisplayDate2" on a separate line.(İƒˆÿÿÿÿÿ8¿ê«Ş™-
+~squid:UselessImportCheck"URemove this unused import 'miage.parisnanterre.fr.mynanterre.fragment.SportFragment'.(ÖÍÍİ8İæßæ™-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8İæßæ™-

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AccueilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="715dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="myNanterre"
+                android:textAlignment="center"
+                android:textColor="#E40E1F"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="88dp"
+                android:layout_height="85dp"
+                app:srcCompat="@drawable/logomynanterre" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/direction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E40E1F"
+            android:ems="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sandw" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Une pause midi de 40 minutes ? Pas de stress, ouvre myNanterre et regarde où il y a encore des salades et où aller pour attendre le moins longtemps." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/transpo" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Envie de papoter avant de rentrer ? Pas de soucis, jette un coup d'oeil aux horaires du prochain train sur myNanterre" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="67dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ballon" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Pas de motivation pour ta séance de sport ? Programme ta séance de sport sur myNanterre et des étudiants te rejoindront " />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editText21"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/direction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E40E1F"
+            android:ems="10" />
+
+
+        <Button
+            android:id="@+id/cgu"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="0dp"
+            android:background="#E40E1F"
+            android:fontFamily="@font/alice"
+            android:text="Licences"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/planBat"
+            android:layout_width="67dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@drawable/map" />
+
+    </LinearLayout>
+
+</LinearLayout>

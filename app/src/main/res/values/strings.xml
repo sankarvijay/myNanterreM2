@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyNanterre</string>
+    <string name="hello_world">Hello World</string>
+    <string name="appbar_scrolling_view_behavior" />
+    <string-array name="Trains">
+        <item>Rer A</item>
+        <item>Ligne L</item>
+    </string-array>
+</resources>

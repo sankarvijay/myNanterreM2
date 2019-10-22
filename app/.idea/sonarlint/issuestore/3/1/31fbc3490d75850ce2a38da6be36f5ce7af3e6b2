@@ -1,0 +1,8 @@
+
+0squid:S1643"Use a StringBuilder instead.(î±òm
+usquid:S1450"[Remove the "singleParsed" field and declare it as a local variable in the relevant methods.(ª½Ô²ýÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(º„¸Úúÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(áÚž©ýÿÿÿÿ
+qsquid:S1450"\Remove the "singleParsed2" field and declare it as a local variable in the relevant methods.(ÏÙ² 
+vsquid:S1450"\Remove the "singleParsed3" field and declare it as a local variable in the relevant methods.(Üý´ÿÿÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(ÑÐ§Úþÿÿÿÿ

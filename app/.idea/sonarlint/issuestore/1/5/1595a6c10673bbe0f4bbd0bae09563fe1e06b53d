@@ -1,0 +1,11 @@
+
+qsquid:S1450"\Remove the "singleParsed2" field and declare it as a local variable in the relevant methods.(ÏÙ² 
+0squid:S1643"Use a StringBuilder instead.(î±òm
+6squid:S1643"Use a StringBuilder instead.(ÑÐ§Úþÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(®¾ç¸þÿÿÿÿ
+vsquid:S1450"\Remove the "singleParsed3" field and declare it as a local variable in the relevant methods.(Üý´ÿÿÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(º„¸Úúÿÿÿÿ
+usquid:S1450"[Remove the "singleParsed" field and declare it as a local variable in the relevant methods.(ª½Ô²ýÿÿÿÿ
+Vsquid:S1479"BReduce the number of non-empty switch cases from 46 to at most 30.(þ¥à
+6squid:S1643"Use a StringBuilder instead.(áÚž©ýÿÿÿÿ

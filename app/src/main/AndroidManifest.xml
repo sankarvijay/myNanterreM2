@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="miage.parisnanterre.fr.mynanterre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomynanterre"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCXIgtO2gOZInMN04YNN1zWzr9qS7lpgs8"/>
+        <activity android:name=".implem.Accueil">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".implem.ListeSport"></activity>
+        <activity android:name=".implem.Plannification"></activity>
+        <activity android:name=".implem.Seance"></activity>
+        <activity android:name=".implem.TrainLigneL"></activity>
+        <activity android:name=".implem.TrainPlanLigneL"></activity>
+        <activity android:name=".implem.GareFavoriteLigneL"></activity>
+        <activity android:name=".implem.GareFavoriteRerA"></activity>
+        <activity android:name=".implem.TrainRerA"></activity>
+        <activity android:name=".implem.TrainPlanRerA"></activity>
+        <activity android:name=".implem.ListeCrous"></activity>
+        <activity android:name=".implem.ListeProduit"></activity>
+        <activity android:name=".implem.Cgu"></activity>
+        <activity android:name=".implem.PlanBatiments"></activity>
+        <activity android:name=".implem.ListeTrain"></activity>
+        <activity android:name=".implem.PlanBatimentCarte"></activity>
+        <activity android:name=".implem.PlanGoogleMaps"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission." />
+
+    <!-- on crée une permission pour notre application -->
+    <permission android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <!-- on ajoute notre permission à la liste de permissions requises par l'API -->
+    <uses-permission android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <!-- Enter your GoogleMap Android API Key -->
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCXIgtO2gOZInMN04YNN1zWzr9qS7lpgs8" />
+</manifest>

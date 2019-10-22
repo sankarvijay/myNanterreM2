@@ -1,0 +1,27 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿ»ÃØŞ-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8Ÿ»ÃØŞ-
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8Ÿ»ÃØŞ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(—õË»øÿÿÿÿ8Ÿ»ÃØŞ-
+]squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8Ÿ»ÃØŞ-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8Ÿ»ÃØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8Ÿ»ÃØŞ-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8Ÿ»ÃØŞ-
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ì„æşÿÿÿÿ8Ÿ»ÃØŞ-
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ8Ÿ»ÃØŞ-
+tsquid:S1192"SDefine a constant instead of duplicating this literal "' WHERE batiment='" 3 times.(ôş¯øÿÿÿÿ8Ÿ»ÃØŞ-
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ì„æşÿÿÿÿ8Ÿ»ÃØŞ-
+ysquid:S1192"XDefine a constant instead of duplicating this literal "UPDATE Crous SET vote='" 3 times.(ôş¯øÿÿÿÿ8Ÿ»ÃØŞ-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8Ÿ»ÃØŞ-
+gsquid:S1192"FDefine a constant instead of duplicating this literal "HH:mm" 3 times.(¢šµÖùÿÿÿÿ8Ÿ»ÃØŞ-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8Ÿ»ÃØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿ»ÃØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿ»ÃØŞ-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8Ÿ»ÃØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8Ÿ»ÃØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿ»ÃØŞ-
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ì„æşÿÿÿÿ8Ÿ»ÃØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8Ÿ»ÃØŞ-
+isquid:S1192"MDefine a constant instead of duplicating this literal "c'est notÃ©!" 3 times.(‡¸‚8Ÿ»ÃØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8Ÿ»ÃØŞ-
