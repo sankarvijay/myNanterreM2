@@ -68,7 +68,8 @@ public class Accueil extends AppCompatActivity {
                                 fragment = new TrainFragment();
                                 break;
                             case R.id.navigation_plan:
-                                fragment=new PlanFragment();
+                                fragment= new PlanFragment();
+                                break;
                             default:
                                 break;
                         }

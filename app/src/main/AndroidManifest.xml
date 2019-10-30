@@ -11,9 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCXIgtO2gOZInMN04YNN1zWzr9qS7lpgs8"/>
+            android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
         <activity android:name=".implem.Accueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,8 +36,8 @@
         <activity android:name=".implem.Cgu"></activity>
         <activity android:name=".implem.PlanBatiments"></activity>
         <activity android:name=".implem.ListeTrain"></activity>
-        <activity android:name=".implem.PlanBatimentCarte"></activity>
-        <activity android:name=".implem.PlanGoogleMaps"></activity>
+        <activity android:name=".implem.GoogleMaps"></activity>
+
 
     </application>
 
@@ -53,12 +55,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
 
     <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
 
-    <!-- Enter your GoogleMap Android API Key -->
-    <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyCXIgtO2gOZInMN04YNN1zWzr9qS7lpgs8" />
+
 </manifest>
