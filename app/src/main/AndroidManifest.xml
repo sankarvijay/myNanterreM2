@@ -37,6 +37,7 @@
         <activity android:name=".implem.PlanBatiments"></activity>
         <activity android:name=".implem.ListeTrain"></activity>
         <activity android:name=".implem.GoogleMaps"></activity>
+		<activity android:name=".implem.FrequentationBatiment"></activity>
 
 
     </application>
