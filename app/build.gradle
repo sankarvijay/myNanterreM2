@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "miage.parisnanterre.fr.mynanterre"
@@ -59,6 +60,8 @@ dependencies {
 	 implementation project(':mysql-connector-java-5.1.18-bin')
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+
+    implementation project(path: ':mysql-connector-java-5.1.48-bin')
 
 }
 repositories {
