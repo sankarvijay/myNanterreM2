@@ -58,7 +58,6 @@
             android:layout_width="43dp"
             android:layout_height="45dp"
             app:srcCompat="@drawable/chart"
-            tools:layout_marginLeft="10dp"
             tools:layout_marginLeft="60dp" />
 
     </LinearLayout>
