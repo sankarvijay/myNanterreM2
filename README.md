@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/sankarvijay/myNanterreM2.svg?branch=master)](https://travis-ci.org/sankarvijay/myNanterreM2)
 [![GitHub issues](https://img.shields.io/github/issues/sankarvijay/myNanterreM2.svg)](https://github.com/sankarvijay/myNanterreM2/issues)
 [![License](https://img.shields.io/github/license/sankarvijay/myNanterreM2.svg?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/github/release/sankarvijay/MyNanterreM2.svg?label=version&style=flat-square)](build.gradle)
