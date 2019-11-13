@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".implem.ListeCrous">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="437dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginBottom="40dp"
+        android:background="#E40E1F"
+        android:fontFamily="@font/alice"
+        android:text="Dîner"
+        android:textAlignment="center"
+        android:textColor="#EEEEF0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="411dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="560dp"
+
+        android:layout_marginBottom="30dp"
+
+        android:fontFamily="@font/alice"
+
+        android:lines="2"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="Brasserie Millénium ouverte de 18h30 à 20h45
+                                Menu étudiant à 3.25 euros (entrée, plat, dessert, laitage, pain)"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="436dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="70dp"
+        android:background="#E40E1F"
+        android:fontFamily="@font/alice"
+        android:text="Déjeuner"
+        android:textAlignment="center"
+        android:textColor="#EEEEF0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/menuTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/alice"
+            android:text="Menu du jour"
+            android:textColor="#E40E1F"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="78dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Brasserie"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/MenuDej"
+        android:layout_width="130dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="24dp"
+
+        android:lines="10"
+        android:maxLines="10"
+        android:singleLine="false"
+        android:text="  - Fromage
+                       - Fromage blanc
+                       - Yaourt nature
+                        Desserts
+                       - Fruits
+                        - Yaourts
+                       - Crèmes desserts
+                       - Dessert du Chef"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="235dp"
+        android:layout_height="36dp"
+        android:text="Ouvert de 11h30 à 14h00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/MenuDej"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
