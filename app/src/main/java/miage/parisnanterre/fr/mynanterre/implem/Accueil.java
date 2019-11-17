@@ -15,6 +15,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.fragment.AccueilFragment;
+import miage.parisnanterre.fr.mynanterre.fragment.BiblioFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.CrousFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.PlanFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.SportFragment;
@@ -55,14 +56,17 @@ public class Accueil extends AppCompatActivity {
 
 
                         switch (menuItem.getItemId()) {
-                            case R.id.navigation_accueil:
-                                fragment = new AccueilFragment();
-                                break;
+                          //  case R.id.navigation_accueil:
+                            //    fragment = new AccueilFragment();
+                              //  break;
                             case R.id.navigation_sports:
                                 fragment = new SportFragment();
                                 break;
                             case R.id.navigation_crous:
                                 fragment = new CrousFragment();
+                                break;
+                            case R.id.navigation_biblio:
+                                fragment = new BiblioFragment();
                                 break;
                             case R.id.navigation_train:
                                 fragment = new TrainFragment();
