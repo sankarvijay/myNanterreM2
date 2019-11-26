@@ -40,6 +40,7 @@
 		<activity android:name=".implem.FrequentationBatiment"></activity>
 
         <activity android:name=".implem.MenuCrous"></activity>
+        <activity android:name=".implem.LiveTweet"></activity>
 
     </application>
 

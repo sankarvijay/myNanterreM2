@@ -184,12 +184,24 @@ public class ListeCrous extends AppCompatActivity {
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
 
+            }
+        });
+
+
+        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
+        TweetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
             }
         });
 

@@ -59,6 +59,9 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.twitter.sdk.android:twitter:3.3.0'
+
+    implementation project(path: ':mysql-connector-java-5.1.48-bin')
 }
 repositories {
     mavenCentral()
