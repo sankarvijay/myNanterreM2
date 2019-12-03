@@ -129,6 +129,16 @@
             android:clickable="true"
             android:src="@drawable/info"
             app:backgroundTint="@color/colorPrimary" />
+<<<<<<< HEAD
     </RelativeLayout>
+=======
+
+
+
+    </RelativeLayout>
+
+
+
+>>>>>>> dev
 
 </androidx.constraintlayout.widget.ConstraintLayout>
