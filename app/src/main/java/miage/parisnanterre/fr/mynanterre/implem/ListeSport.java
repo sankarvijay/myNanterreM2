@@ -13,6 +13,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -117,6 +118,19 @@ public class ListeSport extends AppCompatActivity {
 
         });
 
+        Button btnFiltre = (Button) findViewById(R.id.btnFiltre);
+        btnFiltre.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+               openDialog();
+            }
+        });
+
+    }
+
+    //ouverture du dialog box pour filtre
+    public void openDialog(){
+        FiltreDialog filtreDialog = new FiltreDialog();
+        filtreDialog.show(getSupportFragmentManager(), "filtre dialog");
     }
 
     private List<Sport> getListData() {

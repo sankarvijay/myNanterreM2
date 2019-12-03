@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".implem.ListeSport"
     tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btnFiltre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:text="Filtre Date"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeances"
+        app:layout_constraintTop_toBottomOf="@+id/myFrame" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -107,5 +117,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
-
-</androidx.constraintlayout.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

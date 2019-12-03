@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".implem.FrequentationBatiment">
+
+    <TextView
+        android:id="@+id/nomBatiment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="605dp"
+        android:fontFamily="@font/alice"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+    android:id="@+id/textGrid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="630dp"
+    android:fontFamily="@font/alice"
+    android:text="Fréquentation en % en fonction de l'heure"
+    android:textColor="#E40E1F"
+    android:textSize="18sp" />
+
+<com.github.mikephil.charting.charts.BarChart
+    android:layout_width="match_parent"
+    android:layout_height="600sp"
+    android:id="@+id/barchart"
+    ></com.github.mikephil.charting.charts.BarChart>
+
+</RelativeLayout>

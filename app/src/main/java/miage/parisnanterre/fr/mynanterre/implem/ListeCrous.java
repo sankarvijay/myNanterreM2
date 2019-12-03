@@ -26,6 +26,9 @@ import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
@@ -164,7 +167,7 @@ public class ListeCrous extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
-                        Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
+                      //  Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(ListeCrous.this, ListeCrous.class));
 
@@ -174,6 +177,34 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
+
+
+
+        FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
+        MenuCrous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
+            }
+        });
+
+
+        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
+        TweetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+            }
+        });
+
     }
 
     private List<Crous> getListData() {

@@ -42,8 +42,8 @@
             android:id="@+id/buttonfreq"
             android:layout_width="43dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="5dp"
             app:srcCompat="@drawable/foule" />
 
         <ImageView
@@ -51,7 +51,15 @@
             android:layout_width="43dp"
             android:layout_height="45dp"
             app:srcCompat="@drawable/sandwich"
+            tools:layout_marginLeft="5dp" />
+
+        <ImageView
+            android:id="@+id/buttonChartFreq"
+            android:layout_width="43dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/chart"
             tools:layout_marginLeft="60dp" />
+
     </LinearLayout>
 
     <TextView
