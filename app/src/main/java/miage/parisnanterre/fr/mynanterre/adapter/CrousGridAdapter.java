@@ -16,15 +16,18 @@ import java.util.List;
 
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.implem.Crous;
+import miage.parisnanterre.fr.mynanterre.implem.FrequentationBatiment;
 import miage.parisnanterre.fr.mynanterre.implem.ListeProduit;
 
 
-public class CrousGridAdapter extends BaseAdapter {
+public class CrousGridAdapter extends BaseAdapter{
 
     private List<Crous> listData;
     private LayoutInflater layoutInflater;
     private Context context;
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "com.example.myfirstapp.MESSAGE2";
+
 
     public CrousGridAdapter(Context aContext, List<Crous> listData) {
         this.context = aContext;
@@ -57,6 +60,7 @@ public class CrousGridAdapter extends BaseAdapter {
             holder.lieu = (TextView) convertView.findViewById(R.id.lieu);
             holder.sandwich = (ImageView) convertView.findViewById(R.id.buttonSand);
             holder.vote = (TextView) convertView.findViewById(R.id.vote);
+            holder.chart = (ImageView) convertView.findViewById(R.id.buttonChartFreq);
             convertView.setTag(holder);
         } else {
             holder = (CrousGridAdapter.ViewHolder) convertView.getTag();
@@ -86,6 +90,18 @@ public class CrousGridAdapter extends BaseAdapter {
                 context.startActivity(myIntent);
             }
         });
+
+        holder.chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(context.getApplicationContext(), FrequentationBatiment.class);
+                Bundle extras = new Bundle();
+                extras.putString(EXTRA_MESSAGE, String.valueOf(crous.getId()));
+                extras.putString(EXTRA_MESSAGE2, String.valueOf(crous.getBatiment()));
+                myIntent.putExtras(extras);
+                context.startActivity(myIntent);
+            }
+        });
         return convertView;
     }
 
@@ -104,6 +120,8 @@ public class CrousGridAdapter extends BaseAdapter {
         private TextView lieu;
         private ImageView sandwich;
         private TextView vote;
+        private ImageView chart;
+
     }
 
 }

@@ -28,7 +28,7 @@ public class FetchDataRetourRerA extends AsyncTask<Void, Void, Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/nanterre+universite/R");
+            URL url = new URL("https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/nanterre+universite/R");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,6 +27,12 @@
 
     </RelativeLayout>
 
+
+
+
+
+
+
     <GridView
         android:id="@+id/gridview"
         android:layout_width="fill_parent"
@@ -41,7 +47,19 @@
         android:verticalSpacing="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+    </GridView>
+
+
+
+
+
+
+
+
+
 
     <TextView
         android:id="@+id/nothing"
@@ -68,5 +86,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
+    <RelativeLayout
+        android:id="@+id/LayoutMenuCrous"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
 
-</androidx.constraintlayout.ConstraintLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/MenuCrous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/menucrous"
+            app:backgroundTint="@color/colorPrimary" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutTweet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Tweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="90dp"
+            android:clickable="true"
+            android:src="@drawable/info"
+            app:backgroundTint="@color/colorPrimary" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
