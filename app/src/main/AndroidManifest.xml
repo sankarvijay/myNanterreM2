@@ -41,6 +41,8 @@
 
         <activity android:name=".implem.MenuCrous"></activity>
         <activity android:name=".implem.LiveTweet"></activity>
+		<activity android:name=".implem.CarteCrous"></activity>
+		
 
     </application>
 

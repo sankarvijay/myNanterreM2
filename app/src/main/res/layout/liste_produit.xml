@@ -68,6 +68,17 @@
         app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
+		
+		<TextView
+        android:id="@+id/descri"
+        android:layout_width="83dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="320dp"
+        android:fontFamily="@font/alice"
+        android:text="Votes selon les étudiants"
+        app:layout_constraintBottom_toTopOf="@+id/gridview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
