@@ -38,6 +38,13 @@ public class LiveTweet extends ListActivity {
 
         TweetUi.getInstance(); // TweetUi for displaying Tweets and Timelines
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
+>>>>>>> dev
         final UserTimeline userTimeline = new UserTimeline.Builder()
                 .screenName("UParisNanterre")
                 .includeRetweets(false)
@@ -50,5 +57,19 @@ public class LiveTweet extends ListActivity {
                 .build();
         setListAdapter(adapter);
 
+<<<<<<< HEAD
     }
+=======
+<<<<<<< HEAD
+    }
+=======
+
+
+
+
+    }
+
+
+>>>>>>> dev
+>>>>>>> dev
 }
