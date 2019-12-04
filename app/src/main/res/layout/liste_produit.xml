@@ -9,6 +9,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/relativeLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
@@ -68,8 +69,8 @@
         app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
-		
-		<TextView
+
+    <TextView
         android:id="@+id/descri"
         android:layout_width="83dp"
         android:layout_height="35dp"
