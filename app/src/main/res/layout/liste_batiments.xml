@@ -79,6 +79,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/descri"
         android:layout_width="83dp"
@@ -91,6 +92,65 @@
         app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+    <RelativeLayout
+        android:id="@+id/LayoutMenuCrous"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
 
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/MenuCrous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/menucrous"
+            app:backgroundTint="@color/colorPrimary" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutTweet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Tweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="90dp"
+            android:clickable="true"
+            android:src="@drawable/info"
+            app:backgroundTint="@color/colorPrimary" />
+<<<<<<< HEAD
+    </RelativeLayout>
+=======
+<<<<<<< HEAD
+    </RelativeLayout>
+=======
+
+
+
+    </RelativeLayout>
+
+
+>>>>>>> dev
+
+>>>>>>> dev
+>>>>>>> dev
 
 </androidx.constraintlayout.widget.ConstraintLayout>

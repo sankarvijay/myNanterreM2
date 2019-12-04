@@ -3,6 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="miage.parisnanterre.fr.mynanterre">
 
+    <uses-permission android:name="android.permission." />
+
+    <!-- on crée une permission pour notre application -->
+    <permission
+        android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <!-- on ajoute notre permission à la liste de permissions requises par l'API -->
+    <uses-permission
+        android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logomynanterre"
@@ -12,17 +34,74 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dev
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+<<<<<<< HEAD
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw" />
+
+        <activity android:name=".implem.Accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+=======
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw" />
+
+        <activity android:name=".implem.Accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+=======
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
         <activity android:name=".implem.Accueil">
+>>>>>>> dev
+>>>>>>> dev
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dev
+        <activity android:name=".implem.ListeSport" />
+        <activity android:name=".implem.Plannification" />
+        <activity android:name=".implem.Seance" />
+        <activity android:name=".implem.TrainLigneL" />
+        <activity android:name=".implem.TrainPlanLigneL" />
+        <activity android:name=".implem.GareFavoriteLigneL" />
+        <activity android:name=".implem.GareFavoriteRerA" />
+        <activity android:name=".implem.TrainRerA" />
+        <activity android:name=".implem.TrainPlanRerA" />
+        <activity android:name=".implem.ListeCrous" />
+        <activity android:name=".implem.ListeProduit" />
+        <activity android:name=".implem.Cgu" />
+        <activity android:name=".implem.PlanBatiments" />
+        <activity android:name=".implem.ListeTrain" />
+        <activity android:name=".implem.GoogleMaps" />
+        <activity android:name=".implem.FrequentationBatiment" />
+        <activity android:name=".implem.MenuCrous" />
+        <activity android:name=".implem.LiveTweet" />
+<<<<<<< HEAD
+    </application>
+
+</manifest>
+=======
+    </application>
+
+</manifest>
+=======
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
         <activity android:name=".implem.Seance"></activity>
@@ -69,3 +148,5 @@
 
 
 </manifest>
+>>>>>>> dev
+>>>>>>> dev
