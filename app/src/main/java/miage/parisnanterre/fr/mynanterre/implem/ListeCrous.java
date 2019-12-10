@@ -205,6 +205,19 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+
+        FloatingActionButton Geo = findViewById(R.id.Geo);
+        Geo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
+            }
+        });
+
     }
 
     private List<Crous> getListData() {

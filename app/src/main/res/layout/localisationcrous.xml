@@ -21,19 +21,13 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/alice"
-            android:text="Lieux de Restauration"
+            android:text="Infos du Campus"
             android:textColor="#E40E1F"
             android:textSize="25sp" />
 
     </RelativeLayout>
 
-
-
-
-
-
-
-    <GridView
+    <RelativeLayout
         android:id="@+id/gridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -50,7 +44,22 @@
         app:layout_constraintTop_toTopOf="parent" >
 
 
-    </GridView>
+        <TextView
+            android:id="@android:id/empty"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="409dp"
+            android:layout_height="676dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+
+    </RelativeLayout>
 
 
 
@@ -86,78 +95,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
-    <RelativeLayout
-        android:id="@+id/LayoutMenuCrous"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|end">
 
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/MenuCrous"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:clickable="true"
-            android:src="@drawable/menucrous"
-            app:backgroundTint="@color/colorPrimary" />
-
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/LayoutTweet"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|end">
-
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/Tweet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="90dp"
-            android:clickable="true"
-            android:src="@drawable/info"
-            app:backgroundTint="@color/colorPrimary" />
-
-
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:id="@+id/LayoutGeo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|end">
-
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/Geo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="160dp"
-            android:clickable="true"
-            android:src="@drawable/localisation"
-            app:backgroundTint="@color/colorPrimary" />
-
-
-
-    </RelativeLayout>
 
 
 
