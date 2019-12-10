@@ -76,8 +76,43 @@ public class Accueil extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
+<<<<<<< HEAD
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         selectDrawerItem(menuItem);
+=======
+<<<<<<< HEAD
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        selectDrawerItem(menuItem);
+=======
+                    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
+
+                        switch (menuItem.getItemId()) {
+                          //  case R.id.navigation_accueil:
+                            //    fragment = new AccueilFragment();
+                              //  break;
+                            case R.id.navigation_sports:
+                                fragment = new SportFragment();
+                                break;
+                            case R.id.navigation_crous:
+                                fragment = new CrousFragment();
+                                break;
+                            case R.id.navigation_biblio:
+                                fragment = new BiblioFragment();
+                                break;
+                            case R.id.navigation_train:
+                                fragment = new TrainFragment();
+                                break;
+                            case R.id.navigation_plan:
+                                fragment= new PlanFragment();
+                                break;
+                            default:
+                                break;
+                        }
+                        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+                        transaction.replace(R.id.container, fragment).commit();
+>>>>>>> dev
+>>>>>>> dev
                         return true;
                     }
                 });
@@ -128,3 +163,4 @@ public class Accueil extends AppCompatActivity {
         mDrawer.closeDrawers();
     }
 }
+

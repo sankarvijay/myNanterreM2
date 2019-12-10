@@ -110,21 +110,30 @@ public class GoogleMaps extends FragmentActivity implements OnMapReadyCallback,
                 myAsyncTasks.execute();
                 lettre = myAsyncTasks.dataParsed;
                 System.out.println("lettre " + lettre);
+
                 nomUsage = myAsyncTasks.dataParsed2;
                 System.out.println("nomUsage " + nomUsage);
+
                 campus = myAsyncTasks.dataParsed3;
                 System.out.println("campus " + campus);
+
                 annee = myAsyncTasks.dataParsed4;
                 System.out.println("annee " + annee);
+
                 descActivite = myAsyncTasks.dataParsed5;
                 System.out.println("descActivite " + descActivite);
+
                 activite = myAsyncTasks.dataParsed6;
                 System.out.println("activite " + activite);
+
                 coordonnesGps = myAsyncTasks.dataParsed7;
+
+
                 coordonnesGps = coordonnesGps.replaceAll("\\[", "").replaceAll("\\]","");
                 String[] parts = coordonnesGps.split(",");
                 String latitude = parts[0];
                 String longitude = parts[1];
+
             }
         });
 */
@@ -157,7 +166,7 @@ public class GoogleMaps extends FragmentActivity implements OnMapReadyCallback,
                 mMap.setInfoWindowAdapter(new CustomWindowAdapter(GoogleMaps.this));
 
                 mMap.addMarker(new MarkerOptions().position(new LatLng(48.903732,2.212187)).title("Batiment A").snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Réné Rémond"+"\n\n"+"Annéee de construction : 1964"+
-                        "\n\n"+"Activités : Services administratifs (scolarité, inscriptions, bourses …) et fonctions support de certains laboratoires de recherche."));
+                                "\n\n"+"Activités : Services administratifs (scolarité, inscriptions, bourses …) et fonctions support de certains laboratoires de recherche."));
 
                 mMap.addMarker(new MarkerOptions().position(new LatLng(48.904943, 2.213485)).title("Batiment S")
                         .snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Allice Milliat\n\n"+"Annéee de construction : 2006"+
