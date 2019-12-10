@@ -17,17 +17,31 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+<<<<<<< HEAD
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
         <activity android:name=".implem.Accueil">
+=======
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw" />
+
+        <activity android:name=".implem.Accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+>>>>>>> dev
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
         <activity android:name=".implem.Seance"></activity>
@@ -75,4 +89,28 @@
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
 
 
+=======
+        <activity android:name=".implem.ListeSport" />
+        <activity android:name=".implem.Plannification" />
+        <activity android:name=".implem.Seance" />
+        <activity android:name=".implem.TrainLigneL" />
+        <activity android:name=".implem.TrainPlanLigneL" />
+        <activity android:name=".implem.GareFavoriteLigneL" />
+        <activity android:name=".implem.GareFavoriteRerA" />
+        <activity android:name=".implem.TrainRerA" />
+        <activity android:name=".implem.TrainPlanRerA" />
+        <activity android:name=".implem.ListeCrous" />
+        <activity android:name=".implem.ListeProduit" />
+        <activity android:name=".implem.Cgu" />
+        <activity android:name=".implem.PlanBatiments" />
+        <activity android:name=".implem.ListeTrain" />
+        <activity android:name=".implem.GoogleMaps" />
+        <activity android:name=".implem.FrequentationBatiment" />
+        <activity android:name=".implem.MenuCrous" />
+        <activity android:name=".implem.LiveTweet" />
+        <activity android:name=".implem.CarteCrous" />
+
+    </application>
+
+>>>>>>> dev
 </manifest>

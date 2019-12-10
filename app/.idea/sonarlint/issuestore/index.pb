@@ -75,7 +75,16 @@ L
 Nsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteLigneL.java,5/6/5658807330e6bd01b8e0e68e1ff13237a331371c
 z
 Jsrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/PlanFragment.java,5/8/5823229c16148efa98d45f3355b0531530a67ed5
+<<<<<<< HEAD
 v
 Fsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java,7/a/7ab458c64fbeba06e95ee043bb8d9cf1566cd33b
 u
 Esrc/main/java/miage/parisnanterre/fr/mynanterre/implem/MenuCrous.java,f/1/f1421f8a440167101d8f975775afda9fb6b1b12b
+=======
+@
+local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+v
+Fsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java,7/a/7ab458c64fbeba06e95ee043bb8d9cf1566cd33b
+>>>>>>> dev
