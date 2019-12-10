@@ -182,6 +182,50 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
+<<<<<<< HEAD
+
+
+
+        FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
+        MenuCrous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
+            }
+        });
+
+
+        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
+        TweetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+            }
+        });
+
+
+        FloatingActionButton Geo = findViewById(R.id.Geo);
+        Geo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
+            }
+        });
+
+=======
+>>>>>>> b3fa37f69a7f614143ce604bda94d111536a0c1a
     }
 
     private List<Crous> getListData() {

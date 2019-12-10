@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="miage.parisnanterre.fr.mynanterre">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission." />
 
     <!-- on crée une permission pour notre application -->
@@ -24,6 +25,12 @@
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+=======
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+>>>>>>> 6dbfa811ad8e766ee63d3a6f6bb1b92c1cb46ebd
 
     <application
         android:allowBackup="true"
@@ -121,8 +128,10 @@
 
         <activity android:name=".implem.MenuCrous"></activity>
         <activity android:name=".implem.LiveTweet"></activity>
+        <activity android:name=".implem.LocalisationCrous"></activity>
 		<activity android:name=".implem.CarteCrous"></activity>
 		
+
 
     </application>
 
