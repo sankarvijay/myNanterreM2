@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -182,15 +184,12 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
-<<<<<<< HEAD
-
-
 
         FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
@@ -224,8 +223,6 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-=======
->>>>>>> b3fa37f69a7f614143ce604bda94d111536a0c1a
     }
 
     private List<Crous> getListData() {
