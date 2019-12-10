@@ -26,9 +26,6 @@ import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
@@ -59,6 +56,14 @@ public class ListeCrous extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), Accueil.class));
+            }
+        });
+
+        Button menuBtn = (Button) findViewById(R.id.menuCrous);
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CarteCrous.class));
             }
         });
 
@@ -167,7 +172,7 @@ public class ListeCrous extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
-                      //  Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(ListeCrous.this, ListeCrous.class));
 
@@ -177,6 +182,7 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
+<<<<<<< HEAD
 
 
 
@@ -218,6 +224,8 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> b3fa37f69a7f614143ce604bda94d111536a0c1a
     }
 
     private List<Crous> getListData() {
