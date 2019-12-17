@@ -12,8 +12,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -184,45 +182,6 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
-
-        FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
-        MenuCrous.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
-                Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-
-            }
-        });
-
-
-        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
-        TweetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-            }
-        });
-
-
-        FloatingActionButton Geo = findViewById(R.id.Geo);
-        Geo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-
-            }
-        });
-
     }
 
     private List<Crous> getListData() {
