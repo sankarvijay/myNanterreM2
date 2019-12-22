@@ -26,6 +26,9 @@ import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
@@ -182,7 +185,7 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
-<<<<<<< HEAD
+
 
 
 
@@ -216,7 +219,7 @@ public class ListeCrous extends AppCompatActivity {
         Geo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
@@ -224,8 +227,6 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-=======
->>>>>>> b3fa37f69a7f614143ce604bda94d111536a0c1a
     }
 
     private List<Crous> getListData() {

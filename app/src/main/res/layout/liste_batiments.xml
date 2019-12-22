@@ -79,7 +79,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
-<<<<<<< HEAD
+
     <RelativeLayout
         android:id="@+id/LayoutMenuCrous"
         android:layout_width="match_parent"
@@ -154,7 +154,6 @@
     </RelativeLayout>
 
 
-=======
     <TextView
         android:id="@+id/descri"
         android:layout_width="83dp"
@@ -167,7 +166,6 @@
         app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
->>>>>>> b3fa37f69a7f614143ce604bda94d111536a0c1a
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
