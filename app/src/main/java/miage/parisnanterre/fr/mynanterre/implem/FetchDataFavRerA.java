@@ -37,139 +37,139 @@ public class FetchDataFavRerA extends AsyncTask<Void, Void, Void> {
         try {
             switch (gareFavori) {
                 case "Saint-Germain-en-Laye":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/saint+germain+en+laye/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/saint+germain+en+laye/R";
                     break;
                 case "Le Vesinet-Le Pecq":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/le+vesinet+le+pecq/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/le+vesinet+le+pecq/R";
                     break;
                 case "Le Vesinet-Centre":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/le+vesinet+centre/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/le+vesinet+centre/R";
                     break;
                 case "Chatou-Croissy":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/chatou+croissy/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/chatou+croissy/R";
                     break;
                 case "Rueil-Malmaison":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/rueil+malmaison/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/rueil+malmaison/R";
                     break;
                 case "Nanterre-Ville":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/nanterre+ville/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/nanterre+ville/R";
                     break;
                 case "Cergy-Le-Haut":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/cergy+le+haut/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/cergy+le+haut/R";
                     break;
                 case "Cergy-Saint-Christophe":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/cergy+saint+christophe/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/cergy+saint+christophe/R";
                     break;
                 case "Cergy-Prefecture":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/cergy+prefecture/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/cergy+prefecture/R";
                     break;
                 case "Neuville-Universite":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/neuville+universite/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/neuville+universite/R";
                     break;
                 case "Conflans-Fin d'Oise":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/conflans+fin+d'oise/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/conflans+fin+d'oise/R";
                     break;
                 case "Acheres-Ville":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/acheres+ville/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/acheres+ville/R";
                     break;
                 case "Poissy":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/poissy/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/poissy/R";
                     break;
                 case "Acheres Grand Cormier":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/acheres+grand+cormier/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/acheres+grand+cormier/R";
                     break;
                 case "Maisons-Laffitte":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/maisons+laffitte/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/maisons+laffitte/R";
                     break;
                 case "Sartrouville":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/sartrouville/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/sartrouville/R";
                     break;
                 case "Houilles Carrieres-sur-Seine":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/houilles+carrieres+sur+seine/R";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/houilles+carrieres+sur+seine/R";
                     break;
                 case "Nanterre-Prefecture":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/nanterre+prefecture/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/nanterre+prefecture/A";
                     break;
                 case "La Defense (Grande Arche)":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/la+defense+(grande+arche)/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/la+defense+(grande+arche)/A";
                     break;
                 case "Charles de Gaulle-Etoile":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/charles+de+gaulle+etoile/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/charles+de+gaulle+etoile/A";
                     break;
                 case "Auber":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/auber/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/auber/A";
                     break;
                 case "Chatelet-Les-Halles":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/chatelet+les+halles/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/chatelet+les+halles/A";
                     break;
                 case "Gare de Lyon":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/gare+de+lyon/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/gare+de+lyon/A";
                     break;
                 case "Nation":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/nation/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/nation/A";
                     break;
                 case "Vincennes":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/vincennes/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/vincennes/A";
                     break;
                 case "Val de Fontenay":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/val+de+fontenay/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/val+de+fontenay/A";
                     break;
                 case "Neuilly-Plaisance":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/neuilly+plaisance/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/neuilly+plaisance/A";
                     break;
                 case "Bry-sur-Marne":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/bry+sur+marne/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/bry+sur+marne/A";
                     break;
                 case "Noisy-le-Grand (Mont d'Est)":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/noisy+le+grand+(mont+d'est)/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/noisy+le+grand+(mont+d'est)/A";
                     break;
                 case "Noisy-Champs":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/noisy+champs/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/noisy+champs/A";
                     break;
                 case "Noisiel":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/noisiel/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/noisiel/A";
                     break;
                 case "Lognes":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/lognes/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/lognes/A";
                     break;
                 case "Torcy":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/torcy/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/torcy/A";
                     break;
                 case "Bussy-Saint-Georges":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/bussy+saint+georges/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/bussy+saint+georges/A";
                     break;
                 case "Val d'Europe":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/val+d'europe/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/val+d'europe/A";
                     break;
                 case "Marne-la-Vallee Chessy":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/marne+la+vallee+chessy/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/marne+la+vallee+chessy/A";
                     break;
                 case "Fontenay-sous-Bois":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/fontenay+sous+bois/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/fontenay+sous+bois/A";
                     break;
                 case "Nogent-sur-Marne":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/nogent+sur+marne/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/nogent+sur+marne/A";
                     break;
                 case "Joinville-le-Pont":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/joinville+le+pont/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/joinville+le+pont/A";
                     break;
                 case "Saint-Maur Creteil":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/saint+maur+creteil/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/saint+maur+creteil/A";
                     break;
                 case "Le Parc de Saint-Maur":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/le+parc+de+saint+maur/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/le+parc+de+saint+maur/A";
                     break;
                 case "Champigny":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/champigny/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/champigny/A";
                     break;
                 case "La Varenne-Chennevieres":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/la+varenne+chennevieres/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/la+varenne+chennevieres/A";
                     break;
                 case "Sucy Bonneuil":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/sucy+bonneuil/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/sucy+bonneuil/A";
                     break;
                 case "Boissy-Saint-Leger":
-                    lien = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/A/boissy+saint+leger/A";
+                    lien = "https://api-ratp.pierre-grimaud.fr/v4/schedules/rers/A/boissy+saint+leger/A";
                     break;
 
                 default:

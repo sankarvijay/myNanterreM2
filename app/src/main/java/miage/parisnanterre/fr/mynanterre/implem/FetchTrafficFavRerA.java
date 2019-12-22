@@ -26,7 +26,7 @@ public class FetchTrafficFavRerA extends AsyncTask<Void, Void, Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api-ratp.pierre-grimaud.fr/v3/traffic/rers/A");
+            URL url = new URL("https://api-ratp.pierre-grimaud.fr/v4/traffic/rers/A");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();

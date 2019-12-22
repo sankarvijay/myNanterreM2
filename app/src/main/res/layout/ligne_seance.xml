@@ -11,7 +11,8 @@
     android:foregroundGravity="top|center"
     android:gravity="top|center_vertical|center"
     android:orientation="vertical"
-    android:theme="@android:style/Theme.Dialog">
+    android:theme="@android:style/Theme.Dialog"
+    android:id="@+id/ligneSeances">
 
     <TextView
         android:id="@+id/numSeance2"

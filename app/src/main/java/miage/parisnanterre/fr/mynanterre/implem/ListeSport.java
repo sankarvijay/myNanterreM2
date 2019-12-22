@@ -22,6 +22,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.SportGridAdapter;
 import miage.parisnanterre.fr.mynanterre.fragment.SeancesFragment;
@@ -121,15 +123,44 @@ public class ListeSport extends AppCompatActivity {
         Button btnFiltre = (Button) findViewById(R.id.btnFiltre);
         btnFiltre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-               openDialog();
+                Bundle extras = getIntent().getExtras();
+                String stringVariableName = extras.getString(SportFragment.EXTRA_MESSAGE);
+                int idCategorie = Integer.parseInt(stringVariableName);
+               openDialog(idCategorie);
             }
         });
 
     }
 
-    //ouverture du dialog box pour filtre
-    public void openDialog(){
+    //Appelé depuis FiltreDialog
+    public void sendFilterQueryToSeancesFragment(int idCategorie, CharSequence dateChosen) {
+
+        /*
+        Bundle bundle = new Bundle();
+        bundle.putInt("idcat_sport",idCategorie);
+        bundle.putCharSequence("date", dateChosen);
+        SeancesFragment sf = new SeancesFragment();
+        sf.setArguments(bundle);
+        */
+
+        //Pb ici
+        FragmentManager fm = getSupportFragmentManager();
+        //fm.beginTransaction().add(R.id.myFrame, new SeancesFragment()).commit();
+        //SeancesFragment fragment = (SeancesFragment) fm.findFragmentById(R.id.myFrame);
+        System.out.println("IDDDDDDDD " + idCategorie + " DAaaaaaaaaaate " + dateChosen);//fonctionne
+
+        //System.out.println("FRAGMEEEEEEEEEEENTT" + fragment.toString());
+        //fragment.queryWithDateFiltered(idCategorie, dateChosen); //pb dans la classe SeancesFragment
+
+    }
+
+
+    //ouverture du dialog box pour filtre et envoie de l'id cat sport
+    public void openDialog(int idCategorie){
+        Bundle bundle = new Bundle();
+        bundle.putInt("idcat_sport",idCategorie);
         FiltreDialog filtreDialog = new FiltreDialog();
+        filtreDialog.setArguments(bundle);
         filtreDialog.show(getSupportFragmentManager(), "filtre dialog");
     }
 

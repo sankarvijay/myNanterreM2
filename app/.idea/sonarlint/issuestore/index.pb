@@ -18,8 +18,6 @@ Jsrc/main/java/miage/parisnanterre/fr/mynanterre/adapter/SeanceAdapter.java,d/1
 }
 Msrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/AccueilFragment.java,5/7/57d6125a51bf40aadd87902edc45535c96047a18
 }
-Msrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/ProduitFragment.java,3/a/3a1a3dc7aa50e70ff5d4d297b08f43e95efabde4
-}
 Msrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/SeancesFragment.java,b/d/bd7faa1cfbb045955828406e575900b9b6fa5f26
 {
 Ksrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/SportFragment.java,d/d/dddae2d59724128f1b01c0f7843d863ade323b80
@@ -75,9 +73,18 @@ L
 src/main/AndroidManifest.xml,0/6/066a3db98a4a279fde40d6ddf92c417b5c93198b
 ~
 Nsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteLigneL.java,5/6/5658807330e6bd01b8e0e68e1ff13237a331371c
-A
-gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
 z
 Jsrc/main/java/miage/parisnanterre/fr/mynanterre/fragment/PlanFragment.java,5/8/5823229c16148efa98d45f3355b0531530a67ed5
-}
-Msrc/main/java/miage/parisnanterre/fr/mynanterre/implem/PlanBatimentCarte.java,6/b/6b704dccff4ab6d47a4851b6ae7638e49b30b770
+<<<<<<< HEAD
+v
+Fsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java,7/a/7ab458c64fbeba06e95ee043bb8d9cf1566cd33b
+u
+Esrc/main/java/miage/parisnanterre/fr/mynanterre/implem/MenuCrous.java,f/1/f1421f8a440167101d8f975775afda9fb6b1b12b
+=======
+@
+local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+v
+Fsrc/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java,7/a/7ab458c64fbeba06e95ee043bb8d9cf1566cd33b
+>>>>>>> dev

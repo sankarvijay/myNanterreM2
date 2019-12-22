@@ -19,15 +19,12 @@ public class CarteCrous extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.carte_crous);
 
-        PhotoView photoView = findViewById(R.id.photo_view);
-        photoView.setImageResource(R.drawable.carteducrous);
-
         retour = (ImageView) findViewById(R.id.back);
 
         retour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getApplicationContext(), Accueil.class);
+                Intent myIntent = new Intent(getApplicationContext(), ListeCrous.class);
                 startActivity(myIntent);
             }
         });

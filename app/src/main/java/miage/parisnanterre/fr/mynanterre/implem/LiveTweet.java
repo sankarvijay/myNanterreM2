@@ -51,11 +51,10 @@ public class LiveTweet extends ListActivity {
                 .build();
         setListAdapter(adapter);
 
-
-
-
-
     }
-
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> dev

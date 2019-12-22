@@ -10,12 +10,12 @@
 
     <Button
         android:id="@+id/menuCrous"
-        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginStart="330dp"
         android:layout_marginTop="2dp"
         android:text="Carte"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +79,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     <RelativeLayout
         android:id="@+id/LayoutMenuCrous"
         android:layout_width="match_parent"
@@ -91,7 +94,6 @@
             android:id="@+id/MenuCrous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
@@ -99,8 +101,6 @@
             android:clickable="true"
             android:src="@drawable/menucrous"
             app:backgroundTint="@color/colorPrimary" />
-
-
 
     </RelativeLayout>
 
@@ -124,10 +124,9 @@
             android:src="@drawable/info"
             app:backgroundTint="@color/colorPrimary" />
 
-
-
     </RelativeLayout>
 
+<<<<<<< HEAD
 
     <RelativeLayout
         android:id="@+id/LayoutGeo"
@@ -154,6 +153,8 @@
     </RelativeLayout>
 
 
+=======
+>>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     <TextView
         android:id="@+id/descri"
         android:layout_width="83dp"

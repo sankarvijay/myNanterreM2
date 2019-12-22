@@ -185,6 +185,7 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
+<<<<<<< HEAD
 
 
 
@@ -227,6 +228,8 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     }
 
     private List<Crous> getListData() {
