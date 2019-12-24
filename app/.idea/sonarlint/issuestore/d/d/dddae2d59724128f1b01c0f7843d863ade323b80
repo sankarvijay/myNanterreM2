@@ -1,11 +1,0 @@
-
-asquid:S2184"@Cast one of the operands of this addition operation to a "long".(¡”şÜûÿÿÿÿ8ÑªµØŞ-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8ÑªµØŞ-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8ÑªµØŞ-
-|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ8ÑªµØŞ-
-tsquid:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(ÎœÈ³ÿÿÿÿÿ8ÑªµØŞ-
-hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8ÑªµØŞ-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8ÑªµØŞ-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÑªµØŞ-
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š“±Ú8ÑªµØŞ-
-csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8ÑªµØŞ-

@@ -28,6 +28,9 @@ import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
@@ -68,6 +71,8 @@ public class ListeCrous extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), CarteCrous.class));
             }
         });
+
+
 
 
         List<Crous> donnees = getListData();
@@ -185,12 +190,22 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
         FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
+=======
+              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                Intent myIntent = new Intent(getApplicationContext(), CarteCrous.class);
+>>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
@@ -215,7 +230,11 @@ public class ListeCrous extends AppCompatActivity {
         Geo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
+=======
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
+>>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
@@ -262,12 +281,5 @@ public class ListeCrous extends AppCompatActivity {
             e.printStackTrace();
         }
         return liste;
-    }
-
-    public void customDialog(String title, String message) {
-        final AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle(title);
-        builderSingle.setMessage(message);
-        builderSingle.show();
     }
 }

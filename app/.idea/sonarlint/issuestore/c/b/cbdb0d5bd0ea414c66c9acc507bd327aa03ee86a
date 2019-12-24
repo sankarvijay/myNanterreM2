@@ -1,17 +1,0 @@
-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8÷¾«Þ™-
-psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ì„æþÿÿÿÿ8÷¾«Þ™-
-hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8÷¾«Þ™-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8÷¾«Þ™-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8÷¾«Þ™-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷¾«Þ™-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8÷¾«Þ™-
-ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8÷¾«Þ™-
-|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ8÷¾«Þ™-
-psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ì„æþÿÿÿÿ8÷¾«Þ™-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8÷¾«Þ™-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷¾«Þ™-
-jsquid:S1192"NDefine a constant instead of duplicating this literal "' AND id_bat=" 4 times.(ÑŠÀ 8÷¾«Þ™-
-csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ð×8÷¾«Þ™-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷¾«Þ™-
-ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8÷¾«Þ™-

@@ -8,23 +8,25 @@
     tools:context=".implem.ListeCrous">
 
 
+<<<<<<< HEAD
+
+
+=======
     <Button
         android:id="@+id/menuCrous"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="70dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="296dp"
         android:text="Carte"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:layout_weight="2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="3dp">
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
 
         <TextView
             android:id="@+id/textGrid"
@@ -32,8 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="13dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="0dp"
             android:fontFamily="@font/alice"
             android:text="Lieux de Restauration"
             android:textColor="#E40E1F"
@@ -76,7 +78,6 @@
         android:id="@+id/back"
         android:layout_width="29dp"
         android:layout_height="33dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
@@ -169,6 +170,120 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+
+
+    <RelativeLayout
+        android:id="@+id/LayoutMenuCrous"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/MenuCrous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/menucrous"
+            app:backgroundTint="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutTweet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Tweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="90dp"
+            android:clickable="true"
+            android:src="@drawable/info"
+            app:backgroundTint="@color/colorPrimary" />
+
+<<<<<<< HEAD
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/LayoutGeo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Geo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="160dp"
+            android:clickable="true"
+            android:src="@drawable/localisation"
+            app:backgroundTint="@color/colorPrimary" />
+
+
+
+    </RelativeLayout>
+
+
+=======
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/LayoutGeo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Geo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="160dp"
+            android:clickable="true"
+            android:src="@drawable/localisation"
+            app:backgroundTint="@color/colorPrimary" />
+
+
+
+    </RelativeLayout>
+
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
+    <TextView
+        android:id="@+id/descri"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/alice"
+        android:text="Votes selon les étudiants"
+        app:layout_constraintBottom_toTopOf="@+id/gridview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

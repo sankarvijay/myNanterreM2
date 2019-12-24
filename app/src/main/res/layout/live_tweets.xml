@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".implem.ListeCrous">
+    >
 
 
     <RelativeLayout
@@ -45,23 +45,18 @@
 
 
 
-        <TextView
-            android:id="@android:id/empty"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="Chargement des tweets"/>
-
         <ListView
             android:id="@android:id/list"
             android:layout_width="409dp"
-            android:layout_height="676dp"
+            android:layout_height="647dp"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="54dp" />
 
 
+
     </RelativeLayout>
+
+
 
 
 
@@ -87,6 +82,7 @@
         app:layout_constraintStart_toEndOf="@+id/gridView"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/back"
         android:layout_width="29dp"
@@ -96,7 +92,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
-
 
 
 
