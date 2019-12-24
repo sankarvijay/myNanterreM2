@@ -108,7 +108,7 @@
         android:layout_height="176dp"
         android:layout_alignParentStart="false"
         android:layout_alignParentTop="false"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="190dp"
         android:fontFamily="@font/alice"
         android:padding="5dp"
         android:textColor="@android:color/black"
@@ -203,7 +203,7 @@
         android:layout_height="33dp"
         android:layout_below="@+id/editText"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="303dp"
+        android:layout_marginStart="297dp"
         android:layout_marginTop="8dp"
         app:srcCompat="@mipmap/star" />
 
@@ -249,5 +249,14 @@
         android:layout_marginTop="13dp"
         android:layout_toEndOf="@+id/echange"
         app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/notif"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/horaire"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="-170dp"
+        app:srcCompat="@drawable/notif" />
 
 </RelativeLayout>

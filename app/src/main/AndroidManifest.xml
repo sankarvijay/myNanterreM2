@@ -3,6 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="miage.parisnanterre.fr.mynanterre">
 
+<<<<<<< HEAD
+=======
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     <application
         android:allowBackup="true"
         android:icon="@drawable/logomynanterre"
@@ -23,8 +31,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
         <activity android:name=".implem.Seance"></activity>
@@ -44,6 +55,7 @@
 
         <activity android:name=".implem.MenuCrous"></activity>
         <activity android:name=".implem.LiveTweet"></activity>
+<<<<<<< HEAD
 
         <activity android:name=".implem.CarteCrous"></activity>
         <activity android:name=".implem.LocalisationCrousMain"></activity>
@@ -53,6 +65,12 @@
 
 
 
+=======
+        <activity android:name=".implem.CarteCrous"></activity>
+        <activity android:name=".implem.LocalisationCrousMain"></activity>
+
+        <receiver android:name=".implem.NotificationReceiver" />
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     </application>
 
     <uses-permission android:name="android.permission." />
@@ -64,13 +82,20 @@
     <uses-permission android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
         android:protectionLevel="signature"/>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<<<<<<< HEAD
+=======
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
 
 

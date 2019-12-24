@@ -62,6 +62,14 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+        Button menuBtn = (Button) findViewById(R.id.menuCrous);
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CarteCrous.class));
+            }
+        });
+
 
 
 

@@ -24,8 +24,11 @@ import miage.parisnanterre.fr.mynanterre.R;
 
 public class LocalisationCrousMain extends AppCompatActivity {
 
+<<<<<<< HEAD
     ImageView retour;
 
+=======
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
     private FusedLocationProviderClient fusedLocationClient;
     public Location current;
@@ -54,6 +57,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
 
+<<<<<<< HEAD
 
         retour = (ImageView) findViewById(R.id.back);
 
@@ -69,6 +73,8 @@ public class LocalisationCrousMain extends AppCompatActivity {
 
 
 
+=======
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     }
 
 

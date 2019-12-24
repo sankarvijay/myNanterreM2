@@ -11,7 +11,11 @@ import miage.parisnanterre.fr.mynanterre.*;
 public class LocalisationCafet {
 
 
+<<<<<<< HEAD
     private int image;
+=======
+    private int  image;
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     private String nom;
     private String distance;
     private String info;
@@ -42,6 +46,11 @@ public class LocalisationCafet {
     }
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
     public String getDistance() {
         return distance;
     }
@@ -58,7 +67,12 @@ public class LocalisationCafet {
         this.info = info;
     }
 
+<<<<<<< HEAD
     public String CalculDistance(double latitudeCafet, double longitudeCafet, double latitudeUser, double longitudeUser) {
+=======
+    public String CalculDistance(double latitudeCafet, double longitudeCafet, double latitudeUser, double longitudeUser )
+    {
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
         Location locCafet = new Location("");
         locCafet.setLatitude(latitudeCafet);
@@ -69,13 +83,26 @@ public class LocalisationCafet {
         locUser.setLongitude(longitudeUser);
 
 
+<<<<<<< HEAD
         // Float Distance = locCafet.distanceTo(locUser);
+=======
+
+       // Float Distance = locCafet.distanceTo(locUser);
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
 
         String distanceToReturn = String.format("%.0f", locCafet.distanceTo(locUser));
 
 
+<<<<<<< HEAD
         return distanceToReturn;
     }
 }
 
+=======
+
+
+    return distanceToReturn;
+    }
+}
+>>>>>>> fb4140644f959b499f88c731102c140363cac88c
