@@ -1,0 +1,20 @@
+
+Asquid:S1444",Make this "public static theure" field final(‹¬Ğ
+Ksquid:S1444"1Make this "public static destination" field final(ƒˆ‰Ùıÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake heureT a static final constant or non-public and provide accessors if needed.(á¤àñ
+~"squid:ClassVariableVisibilityCheck"RMake theure a static final constant or non-public and provide accessors if needed.(‹¬Ğ
+"squid:ClassVariableVisibilityCheck"PMake info a static final constant or non-public and provide accessors if needed.(àé‰øÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake title a static final constant or non-public and provide accessors if needed.(ı¸”¼ûÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"TMake horaires a static final constant or non-public and provide accessors if needed.(’™¥™
+Bsquid:S1604"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+Dsquid:S1444"*Make this "public static info" field final(àé‰øÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"UMake direction a static final constant or non-public and provide accessors if needed.(ŸßŞà
+Asquid:S1444",Make this "public static heureT" field final(á¤àñ
+Esquid:S1444"+Make this "public static title" field final(ı¸”¼ûÿÿÿÿ
+?squid:S1444"*Make this "public static code" field final(»†œÈ
+ˆ"squid:ClassVariableVisibilityCheck"WMake destination a static final constant or non-public and provide accessors if needed.(ƒˆ‰Ùıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Dsquid:S1444"/Make this "public static direction" field final(ŸßŞà
+|"squid:ClassVariableVisibilityCheck"PMake code a static final constant or non-public and provide accessors if needed.(»†œÈ
+Csquid:S1444".Make this "public static horaires" field final(’™¥™

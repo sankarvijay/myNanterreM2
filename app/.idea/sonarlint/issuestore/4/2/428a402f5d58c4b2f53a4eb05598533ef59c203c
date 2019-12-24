@@ -1,0 +1,8 @@
+
+=squid:S1643"Use a StringBuilder instead.(áÚž©ýÿÿÿÿ8Ë¢†±“-
+xsquid:S1450"\Remove the "singleParsed2" field and declare it as a local variable in the relevant methods.(ÏÙ² 8Î¹ÿñ–-
+7squid:S1643"Use a StringBuilder instead.(î±òm8Ë¢†±“-
+=squid:S1643"Use a StringBuilder instead.(º„¸Úúÿÿÿÿ8Ë¢†±“-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®¾ç¸þÿÿÿÿ8Î¹ÿñ–-
+}squid:S1450"\Remove the "singleParsed3" field and declare it as a local variable in the relevant methods.(Üý´ÿÿÿÿÿÿ8Î¹ÿñ–-

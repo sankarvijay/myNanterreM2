@@ -1,0 +1,29 @@
+
+qsquid:S1192"PDefine a constant instead of duplicating this literal " inscrits pour " 3 times.(ÇÕúÙÿÿÿÿÿ8âÏ®ØŞ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(úÚÿ½8âÏ®ØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8âÏ®ØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8âÏ®ØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8âÏ®ØŞ-
+isquid:S1192"MDefine a constant instead of duplicating this literal "9IDCqTm8Lig2" 3 times.(ƒ‰¥8âÏ®ØŞ-
+›squid:S1192"zDefine a constant instead of duplicating this literal "SELECT nbInscrit FROM plannification_sport where sport= '" 3 times.(ïÑ¾¤ıÿÿÿÿ8âÏ®ØŞ-
+fsquid:S1192"JDefine a constant instead of duplicating this literal "nbInscrit" 3 times.(ÅãêÜ8âÏ®ØŞ-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8âÏ®ØŞ-
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Ğİ­¿úÿÿÿÿ8âÏ®ØŞ-
+rsquid:S1192"QDefine a constant instead of duplicating this literal "u749839367_vijay" 3 times.(ÀÎ¥¨øÿÿÿÿ8âÏ®ØŞ-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8âÏ®ØŞ-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8âÏ®ØŞ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(úÚÿ½8âÏ®ØŞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8âÏ®ØŞ-
+osquid:S1192"NDefine a constant instead of duplicating this literal "' and numero=" 5 times.(ïÑ¾¤ıÿÿÿÿ8âÏ®ØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8âÏ®ØŞ-
+squid:S1192"rDefine a constant instead of duplicating this literal "jdbc:mysql://sql171.main-hosting.eu/u749839367_m1" 3 times.(·¨ø8âÏ®ØŞ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(úÚÿ½8âÏ®ØŞ-
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Ğİ­¿úÿÿÿÿ8âÏ®ØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8âÏ®ØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8âÏ®ØŞ-
+csquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(½–ñÌ8âÏ®ØŞ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(úÚÿ½8âÏ®ØŞ-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×8âÏ®ØŞ-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8âÏ®ØŞ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(úÚÿ½8âÏ®ØŞ-
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú€­8âÏ®ØŞ-
