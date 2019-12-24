@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -26,9 +28,6 @@ import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
@@ -59,6 +58,14 @@ public class ListeCrous extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), Accueil.class));
+            }
+        });
+
+        Button menuBtn = (Button) findViewById(R.id.menuCrous);
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CarteCrous.class));
             }
         });
 
@@ -167,7 +174,7 @@ public class ListeCrous extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
-                      //  Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(ListeCrous.this, ListeCrous.class));
 
@@ -178,13 +185,11 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-
-
         FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
@@ -202,6 +207,19 @@ public class ListeCrous extends AppCompatActivity {
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
+            }
+        });
+
+
+        FloatingActionButton Geo = findViewById(R.id.Geo);
+        Geo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrous.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
             }
         });
 

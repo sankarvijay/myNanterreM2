@@ -5,17 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".implem.ListeSport"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    android:id="@+id/listeSport"
+    >
 
-    <Button
-        android:id="@+id/btnFiltre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="19dp"
-        android:text="Filtre Date"
-        app:layout_constraintEnd_toStartOf="@+id/btnSeances"
-        app:layout_constraintTop_toBottomOf="@+id/myFrame" />
+
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -95,6 +89,25 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonRdv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/buttonRdv" />
+
+    <Button
+        android:id="@+id/btnFiltre"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@android:drawable/ic_menu_my_calendar"
+        android:fontFamily="@font/alice"
+        android:paddingTop="10dp"
+        android:text="Filtre Date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeances"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myFrame" />
 
     <FrameLayout
         android:id="@+id/myFrame"

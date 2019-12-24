@@ -148,7 +148,7 @@
         android:layout_height="109dp"
         android:layout_alignEnd="@+id/button"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="458dp"
         android:layout_marginEnd="-231dp"
         android:background="#FF8FABE6"
         android:orientation="vertical">
@@ -233,10 +233,10 @@
 
     <ImageView
         android:id="@+id/plan"
-        android:layout_width="50dp"
-        android:layout_height="38dp"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
         android:layout_alignBottom="@+id/refresh"
-        android:layout_marginStart="31dp"
+        android:layout_marginStart="14dp"
         android:layout_marginBottom="-7dp"
         android:layout_toEndOf="@+id/button2"
         app:srcCompat="@drawable/map" />
