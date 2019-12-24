@@ -11,12 +11,12 @@
     <TextView
         android:id="@+id/batiment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
+        android:fontFamily="@font/alice"
         android:gravity="center"
         android:text="TextView"
-        android:fontFamily="@font/alice"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -24,11 +24,11 @@
     <TextView
         android:id="@+id/lieu"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         android:layout_marginBottom="30dp"
+        android:fontFamily="@font/alice"
         android:gravity="center"
         android:text="TextView"
-        android:fontFamily="@font/alice"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -58,7 +58,8 @@
             android:layout_width="43dp"
             android:layout_height="45dp"
             app:srcCompat="@drawable/chart"
-            tools:layout_marginLeft="60dp" />
+            tools:layout_marginLeft="10dp" />
+
 
     </LinearLayout>
 

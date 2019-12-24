@@ -128,4 +128,3 @@ public class Accueil extends AppCompatActivity {
         mDrawer.closeDrawers();
     }
 }
-

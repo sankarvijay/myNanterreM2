@@ -3,6 +3,7 @@ package miage.parisnanterre.fr.mynanterre.fragment;
 import android.os.Bundle;
 import android.os.StrictMode;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,6 +42,9 @@ public class SeancesFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
+        //int idCategorie = getArguments().getInt("idcat_sport");
+        //CharSequence date = getArguments().getCharSequence("date");
+
         return inflater.inflate(R.layout.liste_seances, container, false);
     }
 
@@ -62,7 +66,12 @@ public class SeancesFragment extends Fragment {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        prepareSeanceData();
+        //prepareSeanceData();
+
+
+        //queryWithDateFiltered(idCategorie,date);
+
+        //queryWithDateFiltered(1,"2019-03-12"); //fonctionne
     }
 
     private void prepareSeanceData() {
@@ -74,6 +83,41 @@ public class SeancesFragment extends Fragment {
 
             conn = DriverManager.getConnection(url, user, psw);
             String sqliD = "SELECT * FROM plannification_sport where categorie=" + idCategorie + " ORDER by dateRdv ASC";
+            Statement st = conn.createStatement();
+            ResultSet rst = st.executeQuery(sqliD);
+
+            while (rst.next()) {
+
+                int numero = rst.getInt("numero");
+                Time heured = rst.getTime("heured");
+                Time heuref = rst.getTime("heuref");
+                String dateRdv = rst.getString("dateRdv");
+                String sport = rst.getString("sport");
+                String lieu = rst.getString("lieu");
+                int nbInscrit = rst.getInt("nbInscrit");
+                Seance seance = new Seance(numero, heured, heuref, sport, lieu, dateRdv, nbInscrit);
+                liste.add(seance);
+
+            }
+            sAdapter.notifyDataSetChanged();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        sAdapter.notifyDataSetChanged();
+    }
+
+
+    //Appelée par ListeSport sendFilterQueryToSeancesFragment
+    public  void queryWithDateFiltered (int idCategorie, CharSequence dateChosen) {//pb ici genre je soit instacier un truc peut etre les methodes d'avant
+        System.out.println("IDDDDDDDD" + idCategorie + "DAaaaaaaaaaate " + dateChosen);
+
+       //recup ici les données idcat et date de ListeSport aessayer avec le intent get extras voir dans listesport
+
+        try {
+            conn = DriverManager.getConnection(url, user, psw);
+            String sqliD = "Select * from plannification_sport where categorie ='" + idCategorie + "' and dateRdv ='" + dateChosen + "';";
             Statement st = conn.createStatement();
             ResultSet rst = st.executeQuery(sqliD);
 

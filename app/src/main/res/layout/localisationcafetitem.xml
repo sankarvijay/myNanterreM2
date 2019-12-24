@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/item_border">
+
+        <!-- icon -->
+        <ImageView
+            android:id="@+id/imageCafet"
+            android:layout_width="78dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="1dp"
+            android:contentDescription="icon"
+            android:src="@drawable/ic_link" />
+
+        <!-- title -->
+        <TextView
+            android:id="@+id/NomCafet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageCafet"
+            android:layout_alignBaseline="@+id/imageCafet"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/infoCafet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageCafet"
+            android:layout_below="@+id/NomCafet"
+            android:layout_alignBaseline="@+id/imageCafet"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp" />
+
+        <TextView
+        android:id="@+id/plat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageCafet"
+        android:layout_below="@+id/infoCafet"
+        android:layout_alignBaseline="@+id/imageCafet"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/DistanceCafet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageCafet"
+            android:layout_below="@+id/plat"
+            android:layout_alignBaseline="@+id/imageCafet"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

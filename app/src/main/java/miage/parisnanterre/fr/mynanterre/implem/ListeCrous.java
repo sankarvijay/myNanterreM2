@@ -62,6 +62,14 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
+        Button menuBtn = (Button) findViewById(R.id.menuCrous);
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CarteCrous.class));
+            }
+        });
+
 
         List<Crous> donnees = getListData();
         final GridView gridView = (GridView) findViewById(R.id.gridview);
@@ -167,7 +175,7 @@ public class ListeCrous extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
-                      //  Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "c'est noté!", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(ListeCrous.this, ListeCrous.class));
 
@@ -202,6 +210,19 @@ public class ListeCrous extends AppCompatActivity {
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
+            }
+        });
+
+
+        FloatingActionButton Geo = findViewById(R.id.Geo);
+        Geo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
             }
         });
 
@@ -244,12 +265,5 @@ public class ListeCrous extends AppCompatActivity {
             e.printStackTrace();
         }
         return liste;
-    }
-
-    public void customDialog(String title, String message) {
-        final AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle(title);
-        builderSingle.setMessage(message);
-        builderSingle.show();
     }
 }

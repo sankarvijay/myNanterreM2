@@ -69,7 +69,6 @@ public class FetchTrafficRerA extends AsyncTask<Void, Void, Void> {
         TrainRerA.title.setText(this.dataParsed);
         TrainRerA.info.setText(this.dataParsed2);
 
-
     }
 
 }

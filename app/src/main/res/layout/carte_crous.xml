@@ -1,0 +1,4981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E40E1F"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="Crous Cafet' La carte 2019/2020"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/number0"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="HT = prix étudiant / TTC = prix externe"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!--PART1-->
+
+            <TextView
+                android:id="@+id/Part1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Pâtisseries et viennoiseries"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+
+            <TextView
+                android:id="@+id/number1"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Mini viennoiserie"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT1"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC1"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.55"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Croissant au beure"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT2"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.80"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC2"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.88"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Croissant aux amendes"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT3"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC3"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pain au chocolat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT4"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC4"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number5"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Panini au chocolat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT5"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC5"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Cookie grand modele 106g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT6"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC6"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.76"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Cookie standard emballé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT7"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC7"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number8"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Crêpes-gauffres"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT8"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC8"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Donut standard"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT9"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC9"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Macaron 55g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT10"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC10"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Muffin"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT11"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC11"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number12"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pain aux raisins"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT12"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC12"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number13"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pâtisserie américaine classique"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT13"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC13"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number14"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pâtisserie américaine medium"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT14"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC14"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number15"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pâtisserie américaine excellence"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT15"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC15"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number16"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Tartelette premium"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT16"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC16"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.75"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number17"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Part de gâteau"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT17"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC17"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.76"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number18"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Chausson aux pommes/chocoSuisse"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT18"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC18"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART2-->
+
+            <TextView
+                android:id="@+id/Part2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Snacks chauds"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT11"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC11"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number19"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Quiche"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT19"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC19"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.19"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number20"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Bruschetta"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT20"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC20"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.29"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number21"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Bun"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT21"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC21"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number22"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Bun"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT22"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC22"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number23"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Croque monsieur"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT23"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC23"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.75"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number24"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Gratin-lasagnes-mousaka"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT24"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC24"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number25"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Panani"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT25"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.25"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC25"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.58"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number26"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pasta box"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT26"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.25"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC26"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.58"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number27"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pasta box XL-pasta balls"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT27"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.80"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC27"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.18"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number28"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pizza"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT28"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.80"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC28"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.08"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART3-->
+
+            <TextView
+                android:id="@+id/Part3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Salades"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number29"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade repas maison"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT29"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC29"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number30"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade santé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT30"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC30"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.95"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number31"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade sodébo"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT31"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC31"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.95"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number32"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade crudités"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT32"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC32"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.86"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number33"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Supp simple bar à salade"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT33"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.80"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC33"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.88"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number34"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Supp protéine bar à salade"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT34"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC34"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.76"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART4-->
+
+            <TextView
+                android:id="@+id/Part4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Fruits"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT1111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC1111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number35"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Compote coupelle"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT35"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC35"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.55"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number36"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fruit à la pièce"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT36"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC36"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number37"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fruit du mois"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT37"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC37"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.55"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number38"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Gourde compote"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT38"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC38"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number39"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Compotées"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT39"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC39"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/number40"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade de fruits"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT40"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC40"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number41"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Salade de fruits frais maison"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT41"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC41"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART5-->
+
+            <TextView
+                android:id="@+id/Part5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Sandwiches fait maison"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT11111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC11111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number42"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="La parisienne (jambon, beurre, emmental)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT42"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC42"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.42"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/number43"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le végétal (courgette, carotte, pomme, granny, jus de citron)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT43"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC43"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.42"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number44"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le dieppois (thon, mayo, crudités)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT44"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC44"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.19"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number45"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le cabri (chèvre, roquette, tomates séchées)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT45"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC45"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.19"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number46"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le madras (poulet, sauce curry, coriandre)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT46"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC46"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.85"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number47"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le nordique (saumon fumé, concombre, sauce à l'aneth)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT47"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC47"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.85"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number48"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Le bretsec (pain bretzel, saucisson, mortadelle, emmental)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT48"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC48"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.85"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number49"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Sandwich gamme saisonnière"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT49"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC49"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.07"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number50"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Sandwich excellence"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT50"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC50"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.29"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number51"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Sandwich santé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT51"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="4.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC51"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number52"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Wrap maison"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT52"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC52"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.74"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number53"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Baget maison"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT53"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC53"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.96"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <!--PART6-->
+
+            <TextView
+                android:id="@+id/Part6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Sandwiches prêts à consommer"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number54"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Baguette standard"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT54"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC54"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number55"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Club complet viennois"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT55"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC55"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number56"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Club (emmental/jambom/thon)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT56"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC56"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.75"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number57"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Club suédois"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT57"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC57"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number58"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fresh"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT58"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC58"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="4.29"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number59"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Wrap"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT59"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC59"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.74"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number60"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="XL"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT60"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.25"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC60"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.58"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART7-->
+
+            <TextView
+                android:id="@+id/Part7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Snacking"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT1111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC1111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number61"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Chips 45g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT61"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC61"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number62"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Apéro croustille/monaco/pi"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT62"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC62"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number63"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Mini saucisson 30g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT63"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC63"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number64"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Mini saucisson 75g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT64"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC64"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number65"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Pringle/tuc"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT65"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC65"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART8-->
+
+            <TextView
+                android:id="@+id/Part8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Services"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT11111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC11111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+
+            <TextView
+                android:id="@+id/number66"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Couverts à l'unité"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT66"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.05"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC66"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.06"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number67"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Couverts biodégradable à l'unité"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT67"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC67"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.11"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number68"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Kit couverts biodégradable"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT68"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC68"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.33"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART9-->
+
+            <TextView
+                android:id="@+id/Part9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Produits laitiers"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number69"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fromage blanc standard"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT69"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC69"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number70"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fromage blanc gourmand"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT70"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC70"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.21"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number71"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Liégois mousse standard"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT71"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC71"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number72"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Liégois fruits 100g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT72"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC72"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number73"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Crème dessert standard"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT73"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC73"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number74"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Danette simple"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT74"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC74"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number75"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Dessert 100g bio"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT75"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC75"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number76"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt à boire 125g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT76"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC76"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number77"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt à boire 250g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT77"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC77"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.43"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number78"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Dessert lacté bio"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT78"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC78"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number79"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt bio 125g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT79"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC79"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number80"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt gourmand"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT80"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC80"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.43"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number81"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt nature 125g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT81"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC81"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.55"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number82"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt pot verre 125g"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT82"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC82"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number83"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt saveur autrefois"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT83"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC83"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.43"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number84"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt soja"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT84"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC84"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number85"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Yaourt VG"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT85"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC85"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.43"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART10-->
+
+            <TextView
+                android:id="@+id/Part10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Boissons froides"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT1111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC1111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number86"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Boisson énergetique"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT86"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC86"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number87"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="San pellegrino"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT87"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC87"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number88"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Boisson soja"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT88"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC88"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number89"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Canette 25-33cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT89"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC89"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number90"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Soda 50cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT90"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC90"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number91"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau de coco 35cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT91"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC91"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number92"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau de source 50cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT92"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC92"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.66"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number93"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau de source 50cl gazeuse"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT93"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC93"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number94"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau minérale 50cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT94"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC94"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number95"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau minérale aromatisée 50cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT95"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC95"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number96"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Eau minérale gazeuse 50cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT96"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC96"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.21"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number97"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Fuze tea -honest 40cl -37.5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT97"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC97"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.76"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number98"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Jus de fuits et de légumes frais maison"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT98"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC98"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number99"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Jus de fuits nectar pago"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT99"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC99"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number100"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Jus de fuits nectar 20-25cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT100"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC100"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number101"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Jus de fuits nectar 25-30cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT101"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.40"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC101"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.54"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number102"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Smoothie"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT102"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC102"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.75"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <!--PART11-->
+
+            <TextView
+                android:id="@+id/Part11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Boissons chaudes"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT11111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC11111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number103"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Expresso/déca/américain"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT103"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.70"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC103"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.77"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number104"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Café pod"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT104"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC104"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.32"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number105"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Cappucino/latté/chocolat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT105"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC105"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number106"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Thé/infusion"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT106"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.80"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC106"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.88"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number107"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Café crème/café au lait"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT107"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC107"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.99"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number108"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Boisson gourmande 12cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT108"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC108"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.09"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number110"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Boisson gourmande 25cl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT110"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC110"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.75"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number111"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Topping sucré salé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT111"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC111"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.33"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number112"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Potage de légumes"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT112"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.60"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC112"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.76"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number113"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Verre de lait"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT113"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.90"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC113"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.99"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number114"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Soupe de légumes frais froide/chaude"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT114"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC114"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/number115"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Participation achat eco-cup"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT115"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="3.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC115"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number116"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Remise eco-cup"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT116"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="0.05"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC116"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="0.06"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+            <!--PART12-->
+
+            <TextView
+                android:id="@+id/Part12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E40E1F"
+                android:fontFamily="@font/alice"
+                android:text="Glaces"
+                android:textAlignment="center"
+                android:textColor="#EEEEF0"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/HT111111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:ems="10"
+                android:text="HT"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TTC111111111111"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-25dp"
+                android:ems="10"
+                android:text="TTC"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Contenu-->
+
+            <TextView
+                android:id="@+id/number117"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Barre glacé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT117"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC117"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number118"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Cône glacé batônnet"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT118"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="2.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC118"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="2.20"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number119"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Glace italienne 1 parfum"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT119"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.00"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC119"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.10"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/number120"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:text="Glace italienne 2 parfums"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceHT120"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-17dp"
+                android:ems="10"
+                android:text="1.50"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTTC120"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="-19dp"
+                android:ems="10"
+                android:text="1.65"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="25dp"
+        app:srcCompat="@drawable/back" />
+
+</RelativeLayout>
