@@ -12,8 +12,7 @@
         android:id="@+id/menuCrous"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="330dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginStart="296dp"
         android:text="Carte"
         app:backgroundTint="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +27,10 @@
             android:id="@+id/textGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="0dp"
             android:fontFamily="@font/alice"
             android:text="Lieux de Restauration"
             android:textColor="#E40E1F"
@@ -73,16 +73,11 @@
         android:id="@+id/back"
         android:layout_width="29dp"
         android:layout_height="33dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     <RelativeLayout
         android:id="@+id/LayoutMenuCrous"
         android:layout_width="match_parent"
@@ -126,7 +121,6 @@
 
     </RelativeLayout>
 
-<<<<<<< HEAD
 
     <RelativeLayout
         android:id="@+id/LayoutGeo"
@@ -152,13 +146,10 @@
 
     </RelativeLayout>
 
-
-=======
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     <TextView
         android:id="@+id/descri"
-        android:layout_width="83dp"
-        android:layout_height="35dp"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="4dp"

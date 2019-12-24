@@ -1,13 +1,7 @@
 <component name="libraryTable">
-<<<<<<< HEAD:app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_beta2_jar.xml
-  <library name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.0-beta2@jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.0-beta2/eeefeaa292ad9cd529d6025fe3758eddd946b2f0/constraintlayout-solver-2.0.0-beta2.jar!/" />
-=======
   <library name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.0-beta3@jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.0-beta3/747ea37b6347698061aaa89f0a70bbdcf2345a66/constraintlayout-solver-2.0.0-beta3.jar!/" />
->>>>>>> dev:app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_beta3_jar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES />

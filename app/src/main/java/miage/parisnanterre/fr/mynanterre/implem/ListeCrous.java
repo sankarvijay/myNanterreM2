@@ -185,8 +185,6 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
-<<<<<<< HEAD
-
 
 
 
@@ -228,8 +226,6 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-=======
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     }
 
     private List<Crous> getListData() {
@@ -269,12 +265,5 @@ public class ListeCrous extends AppCompatActivity {
             e.printStackTrace();
         }
         return liste;
-    }
-
-    public void customDialog(String title, String message) {
-        final AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle(title);
-        builderSingle.setMessage(message);
-        builderSingle.show();
     }
 }

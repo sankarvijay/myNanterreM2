@@ -1,14 +1,0 @@
-
-‰"squid:ClassVariableVisibilityCheck"TMake horaires a static final constant or non-public and provide accessors if needed.(’™¥™8º‹íØŞ-
-Ksquid:S1604N"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ8º‹íØŞ-
-‡"squid:ClassVariableVisibilityCheck"RMake theure a static final constant or non-public and provide accessors if needed.(‹¬Ğ8º‹íØŞ-
-Msquid:S1444"/Make this "public static direction" field final(ŸßŞà8º‹íØŞ-
-Jsquid:S1444",Make this "public static theure" field final(‹¬Ğ8º‹íØŞ-
-Lsquid:S1444".Make this "public static horaires" field final(’™¥™8º‹íØŞ-
-Š"squid:ClassVariableVisibilityCheck"UMake direction a static final constant or non-public and provide accessors if needed.(ŸßŞà8º‹íØŞ-
-‡"squid:ClassVariableVisibilityCheck"RMake heureT a static final constant or non-public and provide accessors if needed.(á¤àñ8º‹íØŞ-
-dsquid:S2142Z"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8º‹íØŞ-
-Fsquid:S1148["#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8º‹íØŞ-
-Jsquid:S1444",Make this "public static heureT" field final(á¤àñ8º‹íØŞ-
-Tsquid:S1444"1Make this "public static destination" field final(ƒˆ‰Ùıÿÿÿÿ8º‹íØŞ-
-‘"squid:ClassVariableVisibilityCheck"WMake destination a static final constant or non-public and provide accessors if needed.(ƒˆ‰Ùıÿÿÿÿ8º‹íØŞ-

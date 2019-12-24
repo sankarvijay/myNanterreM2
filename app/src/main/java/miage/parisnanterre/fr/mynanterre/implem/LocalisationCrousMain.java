@@ -6,9 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.location.Location;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -32,6 +35,15 @@ public class LocalisationCrousMain extends AppCompatActivity {
         setContentView(R.layout.localisationcafetlist);
         recyclerView = findViewById(R.id.recyclerView);
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ListeCrous.class));
+            }
+        });
+
         // layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -40,13 +52,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
 
-
-
-
-
     }
-
-    ;
 
 
     //generate a list of Link

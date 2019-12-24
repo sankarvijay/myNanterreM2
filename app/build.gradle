@@ -61,16 +61,9 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.twitter.sdk.android:twitter:3.3.0'
-<<<<<<< HEAD
     implementation 'com.android.support:appcompat-v7:28.+'
-=======
     implementation 'com.google.android.material:material:1.2.0-alpha2.0'
-<<<<<<< HEAD
 
-=======
->>>>>>> dev
-
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
 }
 repositories {
     mavenCentral()
