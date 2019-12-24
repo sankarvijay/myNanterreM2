@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
         <activity android:name=".implem.Seance"></activity>
@@ -45,8 +46,9 @@
         <activity android:name=".implem.LiveTweet"></activity>
 
         <activity android:name=".implem.CarteCrous"></activity>
-
         <activity android:name=".implem.LocalisationCrousMain"></activity>
+
+
 
 
 
@@ -69,7 +71,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
 
 
     <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->

@@ -11,7 +11,7 @@ import miage.parisnanterre.fr.mynanterre.*;
 public class LocalisationCafet {
 
 
-    private int  image;
+    private int image;
     private String nom;
     private String distance;
     private String info;
@@ -42,8 +42,6 @@ public class LocalisationCafet {
     }
 
 
-
-
     public String getDistance() {
         return distance;
     }
@@ -60,8 +58,7 @@ public class LocalisationCafet {
         this.info = info;
     }
 
-    public String CalculDistance(double latitudeCafet, double longitudeCafet, double latitudeUser, double longitudeUser )
-    {
+    public String CalculDistance(double latitudeCafet, double longitudeCafet, double latitudeUser, double longitudeUser) {
 
         Location locCafet = new Location("");
         locCafet.setLatitude(latitudeCafet);
@@ -72,19 +69,13 @@ public class LocalisationCafet {
         locUser.setLongitude(longitudeUser);
 
 
-
-       // Float Distance = locCafet.distanceTo(locUser);
+        // Float Distance = locCafet.distanceTo(locUser);
 
 
         String distanceToReturn = String.format("%.0f", locCafet.distanceTo(locUser));
 
 
-
-
-    return distanceToReturn;
+        return distanceToReturn;
     }
 }
-
-
-
 

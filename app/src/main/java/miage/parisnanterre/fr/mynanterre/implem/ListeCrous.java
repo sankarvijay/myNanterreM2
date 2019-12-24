@@ -182,8 +182,6 @@ public class ListeCrous extends AppCompatActivity {
 
 
 
-
-
         FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -261,12 +259,5 @@ public class ListeCrous extends AppCompatActivity {
             e.printStackTrace();
         }
         return liste;
-    }
-
-    public void customDialog(String title, String message) {
-        final AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle(title);
-        builderSingle.setMessage(message);
-        builderSingle.show();
     }
 }

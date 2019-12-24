@@ -37,6 +37,15 @@ public class LocalisationCrousMain extends AppCompatActivity {
         setContentView(R.layout.localisationcafetlist);
         recyclerView = findViewById(R.id.recyclerView);
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ListeCrous.class));
+            }
+        });
+
         // layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -44,6 +53,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         // adapter
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
+
 
         retour = (ImageView) findViewById(R.id.back);
 
@@ -60,8 +70,6 @@ public class LocalisationCrousMain extends AppCompatActivity {
 
 
     }
-
-    ;
 
 
     //generate a list of Link
