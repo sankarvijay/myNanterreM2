@@ -3,17 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="miage.parisnanterre.fr.mynanterre">
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
 
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     <application
         android:allowBackup="true"
         android:icon="@drawable/logomynanterre"
@@ -24,39 +18,16 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-<<<<<<< HEAD
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
-
-        <activity android:name=".implem.Accueil"
-            android:theme="@style/AppTheme.NoActionBar">
-=======
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
         <activity android:name=".implem.Accueil">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
         <activity android:name=".implem.Seance"></activity>
@@ -76,27 +47,10 @@
 
         <activity android:name=".implem.MenuCrous"></activity>
         <activity android:name=".implem.LiveTweet"></activity>
-<<<<<<< HEAD
-        <activity android:name=".implem.LocalisationCrous"></activity>
-        <activity android:name=".implem.CarteCrous"></activity>
-=======
-<<<<<<< HEAD
-
-        <activity android:name=".implem.CarteCrous"></activity>
-        <activity android:name=".implem.LocalisationCrousMain"></activity>
-
-
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-
-
-
-
-=======
         <activity android:name=".implem.CarteCrous"></activity>
         <activity android:name=".implem.LocalisationCrousMain"></activity>
 
         <receiver android:name=".implem.NotificationReceiver" />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     </application>
 
     <uses-permission android:name="android.permission." />
@@ -108,27 +62,14 @@
     <uses-permission android:name="com.abyster.tuto.mapv2.permission.MAPS_RECEIVE"
         android:protectionLevel="signature"/>
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
 
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
 
 
     <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->

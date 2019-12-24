@@ -2,13 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-<<<<<<< HEAD
       <config />
-=======
-      <config>
-        <device id="Nexus 5" />
-      </config>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     </shared>
   </component>
   <component name="CMakeSettings">
@@ -17,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e2d4a9-69d1-4d73-b328-9f093b52a24b" name="Default" comment="" />
+    <list default="true" id="253ed1d2-cb43-4d16-aebc-a4c87d77ed1f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,325 +32,138 @@
     </system>
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FetchTrafficRerA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchTrafficRerA.java">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="84">
-              <caret line="185" column="11" selection-start-line="185" selection-start-column="11" selection-end-line="185" selection-end-column="11" />
-=======
-            <state relative-caret-position="105">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
->>>>>>> dev
-            </state>
+            <state />
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="LocalisationCrous.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
-=======
-      <file leaf-file-name="GoogleMaps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> dev
-=======
-    <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="localisationcafetlist.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetlist.xml">
           <provider editor-type-id="text-editor">
-            <state />
+            <state relative-caret-position="383">
+              <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+            </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GareFavoriteRerA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteRerA.java">
+      <file leaf-file-name="localisationcafetitem.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetitem.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListeCrous.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="56" column="11" selection-start-line="50" selection-start-column="8" selection-end-line="56" selection-end-column="11" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
+            <state relative-caret-position="337">
+              <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="LocalisationCafet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
+      <file leaf-file-name="liste_batiments.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="1373">
+              <caret line="158" column="52" selection-start-line="158" selection-start-column="52" selection-end-line="158" selection-end-column="52" />
             </state>
-=======
-      <file leaf-file-name="plan.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/plan.xml">
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalisationCafet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state />
->>>>>>> dev
-=======
-      <file leaf-file-name="TrainPlanRerA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanRerA.java">
+            <state relative-caret-position="262">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalisationCrousAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="-319">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalisationCrousMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalisationCrousMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="838">
-              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+            <state relative-caret-position="-316">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#492#510#0" expanded="true" />
-=======
-            <state relative-caret-position="230">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-              <folding>
-                <element signature="e#1448#1466#0" expanded="true" />
->>>>>>> dev
+                <element signature="imports" expanded="true" />
               </folding>
-=======
-            <state relative-caret-position="245">
-              <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="localisationcrous.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1435">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-=======
-      <file leaf-file-name="Seance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Seance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
->>>>>>> dev
-=======
       <file leaf-file-name="LocalisationListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuCrous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/MenuCrous.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="173">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-=======
-            <state relative-caret-position="-1358">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
->>>>>>> dev
-=======
-            <state relative-caret-position="225">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-=======
-      <file leaf-file-name="FetchDataAllerRerA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataAllerRerA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
->>>>>>> dev
-=======
-      <file leaf-file-name="menucrous.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/menucrous.xml">
+      <file leaf-file-name="localisationcrous.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml">
           <provider editor-type-id="text-editor">
-            <state />
+            <state relative-caret-position="338">
+              <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+            </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalisationCafet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-=======
-      <file leaf-file-name="TrainRerA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="liste_batiments.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="205" column="43" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
-=======
-      <file leaf-file-name="Crous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Crous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
->>>>>>> dev
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-=======
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-            <state />
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="LiveTweet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-=======
-      <file leaf-file-name="ListeCrous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
->>>>>>> dev
-=======
-      <file leaf-file-name="ListeCrous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="23" />
-=======
-      <file leaf-file-name="NotificationReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/NotificationReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="LocalisationCrousAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="1047">
-              <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-            <state relative-caret-position="967">
-              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
->>>>>>> dev
-=======
-            <state relative-caret-position="60">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-            </state>
-=======
-      <file leaf-file-name="train_horaires_rer_a.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/train_horaires_rer_a.xml">
-          <provider editor-type-id="text-editor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
-=======
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-<<<<<<< HEAD
-      <find>imageView_flag</find>
-      <find>@</find>
-      <find>$PROJECT_DIR$/../D:\Android\Sdk</find>
-      <find>D:\Android</find>
-=======
-      <find>getListData</find>
-      <find>info</find>
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-    </findStrings>
-  </component>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
@@ -804,54 +611,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="compileDebugRenderscript" />
-<<<<<<< HEAD
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateReleaseResources" />
-=======
->>>>>>> dev
-=======
                 <option name="name" value="generateReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
                 <option name="name" value="generateReleaseFeatureMetadata" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="uninstallDebug" />
-=======
-                <option name="name" value="generateReleaseResources" />
->>>>>>> dev
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="packageAppClassesRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="buildReleasePreBundle" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateDebugBuildConfig" />
-=======
-                <option name="name" value="uninstallDebug" />
-=======
                 <option name="name" value="generateReleaseFeatureTransitiveDeps" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -863,52 +631,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="preDebugBuild" />
->>>>>>> dev
-=======
                 <option name="name" value="generateReleaseSources" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles all Release builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="assembleRelease" />
-=======
-                <option name="name" value="generateDebugBuildConfig" />
->>>>>>> dev
-=======
                 <option name="name" value="generateReleaseUnitTestAssets" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="writeReleaseApplicationId" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateReleaseResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="reportSourceSetTransformRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="transformClassesWithDexBuilderForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="assembleReleaseUnitTest" />
-=======
-                <option name="name" value="assembleRelease" />
-=======
                 <option name="name" value="generateReleaseUnitTestResources" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -926,43 +657,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="transformClassesWithDexBuilderForDebug" />
->>>>>>> dev
-=======
                 <option name="name" value="javaPreCompileDebug" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Creates all Debug bundles." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="bundleDebug" />
-=======
-                <option name="name" value="assembleReleaseUnitTest" />
->>>>>>> dev
-=======
                 <option name="name" value="javaPreCompileDebugAndroidTest" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="reportSourceSetTransformDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="processReleaseJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-=======
-                <option name="name" value="bundleDebug" />
-=======
                 <option name="name" value="javaPreCompileDebugUnitTest" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -975,12 +678,7 @@
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
->>>>>>> dev
-                <option name="name" value="generateReleaseAssets" />
-=======
                 <option name="name" value="lint" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Debug build." />
@@ -1288,54 +986,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-<<<<<<< HEAD
-=======
                 <option name="name" value="transformDexArchiveWithDexMergerForDebug" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="buildDependents" />
-=======
->>>>>>> dev
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="mergeDebugJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="packageAppClassesDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateReleaseBuildConfig" />
-=======
-                <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
-=======
                 <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
                 <option name="name" value="transformDexArchiveWithDexMergerForRelease" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -1351,73 +1010,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="generateDebugUnitTestSources" />
->>>>>>> dev
-=======
                 <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="signingReport" />
-=======
-                <option name="name" value="generateReleaseBuildConfig" />
->>>>>>> dev
-=======
                 <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <option name="name" value="compileDebugAndroidTestAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="mergeDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="packageReleaseUniversalApk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="resolveConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="compileDebugAndroidTestRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="generateDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="processDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="packageDebugAndroidTest" />
-=======
-                <option name="name" value="signingReport" />
-=======
                 <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -1457,36 +1058,19 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-                <option name="name" value="processDebugManifest" />
->>>>>>> dev
-=======
                 <option name="name" value="validateSigningDebug" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'MyNanterre'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                <option name="name" value="packageDebugAndroidTest" />
-=======
                 <option name="name" value="validateSigningDebugAndroidTest" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-<<<<<<< HEAD
->>>>>>> dev
-                <option name="name" value="properties" />
-=======
                 <option name="name" value="writeDebugApplicationId" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
                 <option name="name" value="writeReleaseApplicationId" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
               </ExternalTaskPojo>
             </list>
           </value>
@@ -2210,10 +1794,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageAppClassesDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -3139,91 +2719,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/src/main/res/layout/train_horaires_favoris_ligne_l.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
->>>>>>> dev
-        <option value="$PROJECT_DIR$/src/main/res/layout/train_horaires_ligne_l.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main_train.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataAllerRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataFavLigneL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataFavRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataLigneL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchDataRetourRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchTrafficFavRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchTrafficRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/liste_produit.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/formrdv.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/adapter/ProduitGridAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/train_horaires_rer_a.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Plannification.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/accueil.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/train_horaires_favoris_rer_a.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/menu/navigation.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/plan.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/google_maps_api.xml" />
-        <option value="$PROJECT_DIR$/../gradle.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/adapter/SeanceAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/PlanFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/SeancesFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/ProduitFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/AccueilFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/SportFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/CrousFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/fragment/TrainFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeTrain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/PlanBatiments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeProduit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanLigneL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteLigneL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Cgu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/PlanBatimentCarte.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeSport.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainLigneL.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrous.java" />
-=======
-=======
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/localisationcafetlist.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/localisationcafetitem.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java" />
-=======
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java" />
         <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml" />
-<<<<<<< HEAD
->>>>>>> dev
-=======
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/grid_batiment.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchTrafficRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/NotificationReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/train_horaires_rer_a.xml" />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
       </list>
     </option>
   </component>
@@ -3237,21 +2741,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-<<<<<<< HEAD
-=======
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
@@ -3263,13 +2764,6 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="mynanterre" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mynanterre" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
@@ -3293,7 +2787,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -3424,11 +2918,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5e2d4a9-69d1-4d73-b328-9f093b52a24b" name="Default" comment="" />
-      <created>1577193690474</created>
+      <changelist id="253ed1d2-cb43-4d16-aebc-a4c87d77ed1f" name="Default" comment="" />
+      <created>1577206840208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577193690474</updated>
+      <updated>1577206840208</updated>
     </task>
     <servers />
   </component>
@@ -3436,42 +2930,9 @@
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32833788" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32833788" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32970026" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-=======
-=======
       <window_info anchor="bottom" id="TODO" order="6" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="right" id="Palette&#9;" />
-<<<<<<< HEAD
->>>>>>> dev
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Preview" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32833788" />
-=======
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Preview" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32970026" />
->>>>>>> dev
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-=======
       <window_info id="Image Layers" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -3480,62 +2941,20 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
       <window_info anchor="bottom" id="Logcat" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.28746593" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32970026" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Assistant" order="3" weight="0.3297568" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-=======
-      <window_info anchor="right" id="Android Model" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
->>>>>>> dev
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-=======
       <window_info anchor="bottom" id="Find" order="1" />
-=======
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.28746593" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Preview" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970026" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Captures" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3548,740 +2967,127 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Crous.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainLigneL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_bar_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/local.properties">
->>>>>>> dev
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main_train.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/app_bar_bar_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/batiments_map.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/carte_crous.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/biblio.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/chart_frequentation.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/live_tweets.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetitem.xml">
-      <provider editor-type-id="text-editor">
-        <state />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetitem.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetlist.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/nav_header_bar_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/navbar.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/plan.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/train_horaires_favoris_ligne_l.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainLigneL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="56" column="11" selection-start-line="50" selection-start-column="8" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/plan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-=======
->>>>>>> dev
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/google_maps_api.xml">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetlist.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousAdapter.java">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/MenuCrous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/menucrous.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Produit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/PlanBatiments.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="176">
-<<<<<<< HEAD
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
->>>>>>> dev
-=======
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/MenuCrous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeSport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeProduit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="225">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-=======
-        <state relative-caret-position="135">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteLigneL.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="270">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-=======
-        <state relative-caret-position="105">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FrequentationBatiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="330">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="315">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
->>>>>>> dev
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeSport.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="2250">
-          <caret line="152" column="57" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="248">
-          <caret line="152" column="60" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
->>>>>>> dev
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/PlanBatimentCarte.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainLigneL.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="330">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="205" column="43" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-=======
-        <state relative-caret-position="315">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/train_map_rer_a.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/menucrous.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_seances.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_produit.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_cat_sport.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LiveTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
->>>>>>> dev
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Accueil.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1047">
-          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-=======
-        <state relative-caret-position="1545">
-          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/ligne_seance.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/grid_produit.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GoogleMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
->>>>>>> dev
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/plan.xml">
-      <provider editor-type-id="android-designer2">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/grid_item.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/grid_batiment.xml">
-      <provider editor-type-id="text-editor">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
->>>>>>> dev
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/GareFavoriteRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state relative-caret-position="838">
-          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding>
-            <element signature="e#492#510#0" expanded="true" />
-=======
-        <state relative-caret-position="230">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding>
-            <element signature="e#1448#1466#0" expanded="true" />
->>>>>>> dev
-          </folding>
-=======
-        <state relative-caret-position="133">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-        </state>
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/FetchTrafficRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="75">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1435">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/Seance.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-        </state>
-=======
-        <state relative-caret-position="308">
-          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/NotificationReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
->>>>>>> dev
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state relative-caret-position="84">
-          <caret line="185" column="11" selection-start-line="185" selection-start-column="11" selection-end-line="185" selection-end-column="11" />
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
-=======
-        <state relative-caret-position="239">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-=======
-        <state relative-caret-position="168">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
+        <state relative-caret-position="435">
+          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/train_horaires_rer_a.xml">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="967">
-          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
->>>>>>> dev
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetlist.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
         </state>
-=======
+      </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
->>>>>>> 46e34c0d8b2097d912ea7cfab88ae4c0b4c90e3c
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcrous.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/localisationcafetitem.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCafet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationCrousMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/LocalisationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/liste_batiments.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1373">
+          <caret line="158" column="52" selection-start-line="158" selection-start-column="52" selection-end-line="158" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miage/parisnanterre/fr/mynanterre/implem/ListeCrous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
+        </state>
       </provider>
     </entry>
   </component>

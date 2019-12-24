@@ -64,11 +64,6 @@
 
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     <TextView
         android:id="@+id/nothing"
         android:layout_width="wrap_content"
@@ -84,10 +79,6 @@
         app:layout_constraintStart_toEndOf="@+id/gridView"
         app:layout_constraintTop_toTopOf="parent" />
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     <ImageView
         android:id="@+id/back"
         android:layout_width="29dp"
@@ -102,8 +93,5 @@
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,3 @@
-
 package miage.parisnanterre.fr.mynanterre.implem;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +13,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 
-import com.google.android.gms.location.FusedLocationProviderClient;
-
-
 import java.util.LinkedList;
 import java.util.List;
 
@@ -24,21 +20,16 @@ import miage.parisnanterre.fr.mynanterre.R;
 
 public class LocalisationCrousMain extends AppCompatActivity {
 
-<<<<<<< HEAD
-    ImageView retour;
 
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
-
-    private FusedLocationProviderClient fusedLocationClient;
     public Location current;
-
     private RecyclerView recyclerView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.localisationcafetlist);
         recyclerView = findViewById(R.id.recyclerView);
+
 
         ImageView back = (ImageView) findViewById(R.id.back);
 
@@ -57,24 +48,6 @@ public class LocalisationCrousMain extends AppCompatActivity {
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
 
-<<<<<<< HEAD
-
-        retour = (ImageView) findViewById(R.id.back);
-
-        retour.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(getApplicationContext(), ListeCrous.class);
-                startActivity(myIntent);
-            }
-        });
-
-
-
-
-
-=======
->>>>>>> fb4140644f959b499f88c731102c140363cac88c
     }
 
 
@@ -149,11 +122,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         cafetcroissanterie.setDistance("Se trouve à " + DistanceCroissanterie + " mètres");
         cafetcroissanterie.setPlat("Wraps, sandwichs, paninis, viennoiserie, tartes, boissons chaudes, jus de fruits frais");
 
-
         cafets.add(cafetcroissanterie);
-
-
-
 
         LocalisationCafet cafetAsiatique = new LocalisationCafet();
 
@@ -169,7 +138,5 @@ public class LocalisationCrousMain extends AppCompatActivity {
 
 
     }
-
-
 
 }

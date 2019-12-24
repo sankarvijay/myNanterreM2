@@ -55,17 +55,17 @@
             android:textSize="14dp" />
 
         <TextView
-        android:id="@+id/plat"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/imageCafet"
-        android:layout_below="@+id/infoCafet"
-        android:layout_alignBaseline="@+id/imageCafet"
-        android:textColor="@android:color/black"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="2dp"
-        android:textSize="14dp" />
+            android:id="@+id/plat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageCafet"
+            android:layout_below="@+id/infoCafet"
+            android:layout_alignBaseline="@+id/imageCafet"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/DistanceCafet"
