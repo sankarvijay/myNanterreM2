@@ -1,50 +1,31 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.Description;
-import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.formatter.IAxisValueFormatter;
-import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLClientInfoException;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import miage.parisnanterre.fr.mynanterre.R;
-import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
-import miage.parisnanterre.fr.mynanterre.adapter.ProduitGridAdapter;
 
 
-public class FrequentationBatiment extends AppCompatActivity {
+public class FrequentationBu extends AppCompatActivity {
 
     private static final String url = "jdbc:mysql://sql171.main-hosting.eu/u749839367_m1";
     private static final String user = "u749839367_vijay";
@@ -56,7 +37,7 @@ public class FrequentationBatiment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chart_frequentation_cafet);
+        setContentView(R.layout.chart_frequentation_bu);
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -72,14 +53,14 @@ public class FrequentationBatiment extends AppCompatActivity {
         try {
             conn = DriverManager.getConnection(url, user, psw);
             Bundle extras = getIntent().getExtras();
-            String stringVariableName = extras.getString(CrousGridAdapter.EXTRA_MESSAGE);//id batiment
-            String stringVariableName2 = extras.getString(CrousGridAdapter.EXTRA_MESSAGE2);//nom batiment
+            String stringVariableName = extras.getString(ListeEspacesBu.EXTRA_MESSAGE);//id espace bu
+            String stringVariableName2 = extras.getString(ListeEspacesBu.EXTRA_MESSAGE2);//nom de l'espace
 
-            int idBat = Integer.parseInt(stringVariableName); //recup id du batiment cliqué
-            String nomBat = stringVariableName2; //recup nom du batiment concerné
+            int idEspace = Integer.parseInt(stringVariableName); //recup id espace cliqué
+            String nomEspace = stringVariableName2; //recup nom espace concerné
 
-            //Get la frequentation de la cafet cliquée
-            String sqliD = "SELECT * FROM frequentation_cafet where id_cafet ='" + idBat + "';";
+            //Get la frequentation de l'espace bu cliqué
+            String sqliD = "SELECT * FROM frequentation_bu where id_bu ='" + idEspace + "';";
             Statement st = conn.createStatement();
             ResultSet rst = st.executeQuery(sqliD);
             while (rst.next()) {
@@ -90,8 +71,8 @@ public class FrequentationBatiment extends AppCompatActivity {
                 barEntries.add(new BarEntry(xValues,yValues));
             }
 
-            TextView txtview = (TextView) findViewById(R.id.nomBatiment);
-            txtview.setText(nomBat);
+            TextView txtview = (TextView) findViewById(R.id.nomEspace);
+            txtview.setText(nomEspace);
 
             barChart = (BarChart) findViewById(R.id.barchart);
 

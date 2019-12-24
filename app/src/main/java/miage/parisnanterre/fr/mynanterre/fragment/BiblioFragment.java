@@ -1,5 +1,6 @@
 package miage.parisnanterre.fr.mynanterre.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,15 +8,18 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import miage.parisnanterre.fr.mynanterre.R;
+import miage.parisnanterre.fr.mynanterre.implem.Accueil;
+import miage.parisnanterre.fr.mynanterre.implem.CarteCrous;
+import miage.parisnanterre.fr.mynanterre.implem.ListeEspacesBu;
 
-/**
- * Created by Sankar Vijay on 17/11/2019.
- */
+
 public class BiblioFragment extends Fragment {
     public WebView mWebView;
 
@@ -34,6 +38,15 @@ public class BiblioFragment extends Fragment {
         // Force links and redirects to open in the WebView instead of in a browser
         mWebView.setWebViewClient(new WebViewClient());
 
+        Button frequentationBtn = (Button) v.findViewById(R.id.btnFrequentation);
+        frequentationBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), ListeEspacesBu.class));
+            }
+        });
+
         return v;
     }
+
 }

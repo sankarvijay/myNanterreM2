@@ -192,6 +192,7 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), CarteCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+				myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }
