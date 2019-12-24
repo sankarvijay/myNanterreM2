@@ -64,6 +64,8 @@
 
 
 
+
+
     <TextView
         android:id="@+id/nothing"
         android:layout_width="wrap_content"
@@ -79,6 +81,7 @@
         app:layout_constraintStart_toEndOf="@+id/gridView"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/back"
         android:layout_width="29dp"
@@ -88,7 +91,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
-
 
 
 

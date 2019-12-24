@@ -62,13 +62,7 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-        Button menuBtn = (Button) findViewById(R.id.menuCrous);
-        menuBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), CarteCrous.class));
-            }
-        });
+
 
 
         List<Crous> donnees = getListData();
@@ -185,7 +179,7 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder.create().show();
             }
         });
-<<<<<<< HEAD
+
 
 
 
@@ -195,7 +189,7 @@ public class ListeCrous extends AppCompatActivity {
             @Override
             public void onClick(View view) {
               //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
-                Intent myIntent = new Intent(getApplicationContext(), MenuCrous.class);
+                Intent myIntent = new Intent(getApplicationContext(), CarteCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 getApplicationContext().startActivity(myIntent);
@@ -228,8 +222,6 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-=======
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
     }
 
     private List<Crous> getListData() {

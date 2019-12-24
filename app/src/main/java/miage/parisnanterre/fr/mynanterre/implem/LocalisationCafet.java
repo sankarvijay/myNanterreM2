@@ -73,7 +73,6 @@ public class LocalisationCafet {
 
 
 
-<<<<<<< HEAD
        // Float Distance = locCafet.distanceTo(locUser);
 
 
@@ -86,6 +85,6 @@ public class LocalisationCafet {
     }
 }
 
-=======
-}
->>>>>>> 615f04fd6479d5ad9c19b429da4b2d22d33c93dd
+
+
+

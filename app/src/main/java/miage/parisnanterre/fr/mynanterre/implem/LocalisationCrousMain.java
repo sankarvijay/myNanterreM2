@@ -6,9 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.location.Location;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -20,6 +23,8 @@ import java.util.List;
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class LocalisationCrousMain extends AppCompatActivity {
+
+    ImageView retour;
 
 
     private FusedLocationProviderClient fusedLocationClient;
@@ -39,6 +44,16 @@ public class LocalisationCrousMain extends AppCompatActivity {
         // adapter
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
+
+        retour = (ImageView) findViewById(R.id.back);
+
+        retour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), ListeCrous.class);
+                startActivity(myIntent);
+            }
+        });
 
 
 
