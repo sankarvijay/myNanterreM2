@@ -56,7 +56,7 @@ public class FrequentationBatiment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chart_frequentation);
+        setContentView(R.layout.chart_frequentation_cafet);
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -79,7 +79,7 @@ public class FrequentationBatiment extends AppCompatActivity {
             String nomBat = stringVariableName2; //recup nom du batiment concerné
 
             //Get la frequentation de la cafet cliquée
-            String sqliD = "SELECT * FROM frequentation where id_cafet ='" + idBat + "';";
+            String sqliD = "SELECT * FROM frequentation_cafet where id_cafet ='" + idBat + "';";
             Statement st = conn.createStatement();
             ResultSet rst = st.executeQuery(sqliD);
             while (rst.next()) {

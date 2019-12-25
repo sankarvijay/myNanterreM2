@@ -1,14 +1,0 @@
-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¼Ë«Þ™-
-`squid:HiddenFieldCheck"9Rename "liste" which hides the field declared at line 35.(Ù‚öè8¼Ë«Þ™-
-hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8¼Ë«Þ™-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8¼Ë«Þ™-
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŸ’“üÿÿÿÿ8¼Ë«Þ™-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¼Ë«Þ™-
-|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ8¼Ë«Þ™-
-csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ð×8¼Ë«Þ™-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8¼Ë«Þ™-
-csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ð×8¼Ë«Þ™-
-hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(µäÙêùÿÿÿÿ8¼Ë«Þ™-
-<squid:S2068" Remove this hard-coded password.(úÚÿ½8¼Ë«Þ™-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8¼Ë«Þ™-

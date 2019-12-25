@@ -1,20 +1,0 @@
-
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Šõã
-Ssquid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ
-nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö‹’
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ³ë«
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Zsquid:S2147"ECombine this catch with the one at line 128, which has the same body.(à®¿­
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Àêîíøÿÿÿÿ
-Ysquid:UselessImportCheck"7Remove this unused import 'android.widget.AdapterView'.(¶¾éæ
-hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ƒŒ•¬üÿÿÿÿ
-Usquid:UselessImportCheck".Remove this unused import 'android.text.Html'.(ø¿ˆÛùÿÿÿÿ
-Zsquid:S2147"ECombine this catch with the one at line 128, which has the same body.(ï­£Ä
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Â±¸
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷—ÿÖ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñÍÿ}
-Isquid:S1066"/Merge this if statement with the enclosing one.(ï”Öşÿÿÿÿ
-Tsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G

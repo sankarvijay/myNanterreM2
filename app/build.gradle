@@ -61,6 +61,7 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.twitter.sdk.android:twitter:3.3.0'
+    implementation 'com.android.support:appcompat-v7:28.+'
     implementation 'com.google.android.material:material:1.2.0-alpha2.0'
 
 

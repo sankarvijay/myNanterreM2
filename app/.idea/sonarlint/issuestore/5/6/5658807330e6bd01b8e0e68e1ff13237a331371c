@@ -1,30 +1,0 @@
-
-…"squid:ClassVariableVisibilityCheck"RMake heureT a static final constant or non-public and provide accessors if needed.(á¤àñ8ì¡¡°“-
-Isquid:S1604"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ8Çÿ¢°“-
-"squid:ClassVariableVisibilityCheck"WMake destination a static final constant or non-public and provide accessors if needed.(ƒˆ‰Ùıÿÿÿÿ8ì¡¡°“-
-ƒ"squid:ClassVariableVisibilityCheck"PMake code a static final constant or non-public and provide accessors if needed.(»†œÈ8ì¡¡°“-
-Š"squid:ClassVariableVisibilityCheck"RMake title2 a static final constant or non-public and provide accessors if needed.(Á’µ—ıÿÿÿÿ8ì¡¡°“-
-Vsquid:S2209"5Change this instance-reference to a static reference.(Şàéûüÿÿÿÿ8ì¡¡°“-
-Hsquid:S1444",Make this "public static heureT" field final(á¤àñ8ì¡¡°“-
-‡"squid:ClassVariableVisibilityCheck"TMake horaires a static final constant or non-public and provide accessors if needed.(’™¥™8ì¡¡°“-
-Qsquid:S2209"5Change this instance-reference to a static reference.(õŞë8ì¡¡°“-
-Qsquid:S2209"5Change this instance-reference to a static reference.(ÉÚ´Î8ì¡¡°“-
-Qsquid:S2209"5Change this instance-reference to a static reference.(Ş»ö˜8ì¡¡°“-
-"squid:ClassVariableVisibilityCheck"VMake direction2 a static final constant or non-public and provide accessors if needed.(×«¶“úÿÿÿÿ8ì¡¡°“-
-Qsquid:S2209"5Change this instance-reference to a static reference.(¶±°8ì¡¡°“-
-Rsquid:S1444"1Make this "public static destination" field final(ƒˆ‰Ùıÿÿÿÿ8ì¡¡°“-
-Qsquid:S2209"5Change this instance-reference to a static reference.(• 8ì¡¡°“-
-Fsquid:S1444"*Make this "public static code" field final(»†œÈ8ì¡¡°“-
-ˆ"squid:ClassVariableVisibilityCheck"UMake direction a static final constant or non-public and provide accessors if needed.(ŸßŞà8ì¡¡°“-
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Çÿ¢°“-
-‰"squid:ClassVariableVisibilityCheck"QMake info2 a static final constant or non-public and provide accessors if needed.(ù’ò†üÿÿÿÿ8ì¡¡°“-
-Msquid:S1444",Make this "public static title2" field final(Á’µ—ıÿÿÿÿ8ì¡¡°“-
-Lsquid:S1444"+Make this "public static info2" field final(ù’ò†üÿÿÿÿ8ì¡¡°“-
-…"squid:ClassVariableVisibilityCheck"RMake theure a static final constant or non-public and provide accessors if needed.(‹¬Ğ8ì¡¡°“-
-Vsquid:S2209"5Change this instance-reference to a static reference.(¶ÛÉƒúÿÿÿÿ8ì¡¡°“-
-Jsquid:S1444".Make this "public static horaires" field final(’™¥™8ì¡¡°“-
-Qsquid:S1444"0Make this "public static direction2" field final(×«¶“úÿÿÿÿ8ì¡¡°“-
-Hsquid:S1444",Make this "public static theure" field final(‹¬Ğ8ì¡¡°“-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8à¹©½˜-
-Vsquid:S2209"5Change this instance-reference to a static reference.(‡ìıæøÿÿÿÿ8ì¡¡°“-
-Ksquid:S1444"/Make this "public static direction" field final(ŸßŞà8ì¡¡°“-

@@ -22,14 +22,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
-
-        <activity android:name=".implem.Accueil"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".implem.Accueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -54,11 +47,12 @@
 
         <activity android:name=".implem.MenuCrous"></activity>
         <activity android:name=".implem.LiveTweet"></activity>
-        <activity android:name=".implem.LocalisationCrous"></activity>
         <activity android:name=".implem.CarteCrous"></activity>
+        <activity android:name=".implem.LocalisationCrousMain"></activity>
+		<activity android:name=".implem.ListeEspacesBu" />
+		<activity android:name=".implem.FrequentationBu" />
 
-
-
+        <receiver android:name=".implem.NotificationReceiver" />
     </application>
 
     <uses-permission android:name="android.permission." />
@@ -76,6 +70,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
 
 
     <!-- la librairie Maps V2 nécessite openGL pour son bon fonctionnement -->

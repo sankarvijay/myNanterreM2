@@ -16,27 +16,20 @@ public class Produit {
         this.vote = vote;
     }
 
-    Produit(int dispo, String nomProduit,String vote) {
+    Produit(int dispo, String nomProduit, String vote) {
         this.dispo = dispo;
         this.nomProduit = nomProduit;
-        this.vote=vote;
+        this.vote = vote;
     }
 
     public int getDispo() {
         return dispo;
     }
-
-    public void setDispo(int dispo) {
-        this.dispo = dispo;
-    }
-
+    
     public String getNomProduit() {
         return nomProduit;
     }
 
-    public void setNomProduit(String nomProduit) {
-        this.nomProduit = nomProduit;
-    }
 
     @Override
     public String toString() {
