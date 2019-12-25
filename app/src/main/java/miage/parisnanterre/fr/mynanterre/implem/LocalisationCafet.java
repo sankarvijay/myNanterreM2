@@ -1,9 +1,6 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
 import android.location.Location;
-import android.widget.ImageView;
-
-import java.util.List;
 
 import miage.parisnanterre.fr.mynanterre.*;
 
@@ -69,8 +66,6 @@ public class LocalisationCafet {
         Location locUser = new Location("");
         locUser.setLatitude(latitudeUser);
         locUser.setLongitude(longitudeUser);
-
-        // Float Distance = locCafet.distanceTo(locUser);
 
         String distanceToReturn = String.format("%.0f", locCafet.distanceTo(locUser));
 

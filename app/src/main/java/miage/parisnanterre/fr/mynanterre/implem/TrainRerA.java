@@ -58,9 +58,7 @@ public class TrainRerA extends AppCompatActivity {
         this.plans = (ImageView) findViewById(R.id.plan);
         this.exchange = (ImageView) findViewById(R.id.echange);
         this.gare = (Spinner) findViewById(R.id.gare);
-        this.notif=(ImageView)findViewById(R.id.notif);
-
-
+        this.notif = (ImageView) findViewById(R.id.notif);
 
 
         ImageView back = (ImageView) findViewById(R.id.back);
@@ -142,15 +140,15 @@ public class TrainRerA extends AppCompatActivity {
 
                 Calendar calendar = Calendar.getInstance();
 
-                Intent intent = new Intent(getApplicationContext(),NotificationReceiver.class);
+                Intent intent = new Intent(getApplicationContext(), NotificationReceiver.class);
 
                 Bundle extras = new Bundle();
                 extras.putString("trafic", info.getText().toString());
                 intent.putExtras(extras);
 
-                PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),0,intent,PendingIntent.FLAG_UPDATE_CURRENT);
-                AlarmManager alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
-                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(), 1000 * 60 * 60,pendingIntent);
+                PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000 * 60 * 60, pendingIntent);
 
                 sendBroadcast(intent);
             }

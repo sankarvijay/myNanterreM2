@@ -122,7 +122,7 @@ public class Plannification extends AppCompatActivity {
                     mDisplayDate2.setText(date2);
                 } else if (jour < 10 && mois >= 10) {
                     String date = "0" + jour + "-" + mois + "-" + annee;
-                    String date2 = annee + "-" +  mois + "-" + "0" + jour;
+                    String date2 = annee + "-" + mois + "-" + "0" + jour;
                     mDisplayDate.setText(date);
                     mDisplayDate2.setText(date2);
 
