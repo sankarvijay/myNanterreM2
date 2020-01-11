@@ -30,3 +30,6 @@ cache:
     $HOME/.sonar/cache
     $HOME/.gradle
     .gradle
+    
+before_install:
+  - gem install rake
