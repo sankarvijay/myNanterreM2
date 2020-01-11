@@ -3,7 +3,7 @@ dist: trusty
 env:
   global:
     - COVERALLS_REPO_TOKEN=BUA8U7NyJVhXb6VKGjfSVotuEG5SW2Jj5
-    - CODECOV_TOKEN="8942fd6b-2782-45b7-8842-aa97ca17d230"
+    - CODECOV_TOKEN="639f6565-ada0-40c1-b688-98c6cef74b5d"
 
 android:
   components:
