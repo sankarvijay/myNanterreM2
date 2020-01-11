@@ -22,7 +22,7 @@ before_script:
 
 script:
   - ./gradlew check
-  - ./gradlew build cobertura coveralls
+  - ./gradlew build coveralls
 	
 cache:
   directories:
@@ -30,7 +30,3 @@ cache:
     $HOME/.sonar/cache
     $HOME/.gradle
     .gradle
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
-  - ./gradlew cobertura coveralls
