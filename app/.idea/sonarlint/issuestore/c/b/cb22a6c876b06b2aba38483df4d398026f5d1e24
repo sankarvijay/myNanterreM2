@@ -1,0 +1,17 @@
+
+esquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+tsquid:S2637"ZParameter 2 to this call is marked "androidx.annotation.NonNull" but null could be passed.(¦âáÈûÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(Ëš›Ì
+…squid:UselessImportCheck"^Remove this unused import 'com.google.android.material.bottomnavigation.BottomNavigationView'.(ºØÇÿÿÿÿÿ
+Zsquid:UselessImportCheck"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ
+msquid:UselessImportCheck"FRemove this unused import 'androidx.fragment.app.FragmentTransaction'.(¦İÚ¿şÿÿÿÿ
+Xsquid:UselessImportCheck"6Remove this unused import 'android.os.CountDownTimer'.(Ğˆ“ë
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ï¯Ş“ûÿÿÿÿ
+ksquid:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—
+lsquid:S1450"WRemove the "nvDrawer" field and declare it as a local variable in the relevant methods.(±ÊÜÚ
+Dsquid:S1905"*Remove this unnecessary cast to "Toolbar".(«ó·øÿÿÿÿ
+Csquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(Ÿ§Ê&
+Fsquid:S1905"1Remove this unnecessary cast to "NavigationView".(¼İ¾‚
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
+Jsquid:S1068"0Remove this unused "drawerToggle" private field.(ùÙŸşÿÿÿÿ

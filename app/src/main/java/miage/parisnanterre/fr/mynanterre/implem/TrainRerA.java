@@ -41,6 +41,7 @@ public class TrainRerA extends AppCompatActivity {
     ImageView exchange;
     Spinner gare;
     ImageView notif;
+    static ImageView statusTraffic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,7 @@ public class TrainRerA extends AppCompatActivity {
         this.exchange = (ImageView) findViewById(R.id.echange);
         this.gare = (Spinner) findViewById(R.id.gare);
         this.notif = (ImageView) findViewById(R.id.notif);
+        this.statusTraffic=(ImageView)findViewById(R.id.trafficStatus);
 
 
         ImageView back = (ImageView) findViewById(R.id.back);

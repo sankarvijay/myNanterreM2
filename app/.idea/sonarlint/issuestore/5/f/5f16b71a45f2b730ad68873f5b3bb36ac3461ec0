@@ -1,0 +1,17 @@
+
+jsquid:S1192"IDefine a constant instead of duplicating this literal " mÃ¨tres" 6 times.(ºŒ›‘øÿÿÿÿ8÷ù¶Óó-
+osquid:S1192"NDefine a constant instead of duplicating this literal "Se trouve Ã  " 6 times.(ºŒ›‘øÿÿÿÿ8÷ù¶Óó-
+†"squid:ClassVariableVisibilityCheck"SMake current a static final constant or non-public and provide accessors if needed.(ïô‘8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÙ·Á8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óçß´8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–óÔƒ8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü²Ñš8÷ù¶Óó-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿üãÒøÿÿÿÿ8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò‡ûø8÷ù¶Óó-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±•Ö©ùÿÿÿÿ8÷ù¶Óó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘¹§8÷ù¶Óó-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(èÇ¦Ú8÷ù¶Óó-
+|squid:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ıÿÿÿÿ8÷ù¶Óó-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(™‘Ö€øÿÿÿÿ8÷ù¶Óó-
+tsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡ß„8÷ù¶Óó-

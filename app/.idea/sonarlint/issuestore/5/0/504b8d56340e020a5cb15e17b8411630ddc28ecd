@@ -1,0 +1,37 @@
+
+6squid:S1643"Use a StringBuilder instead.(º„¸Úúÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(ÑĞ§Úşÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(áÚ©ıÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(áÚ©ıÿÿÿÿ
+0squid:S1643"Use a StringBuilder instead.(î±òm
+1squid:S1643"Use a StringBuilder instead.(Û–óƒ
+1squid:S1643"Use a StringBuilder instead.(ä¯Õ½
+1squid:S1643"Use a StringBuilder instead.(ä¯Õ½
+1squid:S1643"Use a StringBuilder instead.(°‰ßÃ
+1squid:S1643"Use a StringBuilder instead.(‹Ë‡Â
+Jsquid:S1444"0Make this "public static dataParsed" field final(¾£Ççøÿÿÿÿ
+Ksquid:S1444"1Make this "public static dataParsed2" field final(çÆäøÿÿÿÿ
+Ksquid:S1444"1Make this "public static dataParsed3" field final(ÁË—ïúÿÿÿÿ
+Ksquid:S1444"1Make this "public static dataParsed4" field final(Ì˜»‚ÿÿÿÿÿ
+Fsquid:S1444"1Make this "public static dataParsed5" field final(“Ó±á
+Ksquid:S1444"1Make this "public static dataParsed6" field final(ÉŞ‘üıÿÿÿÿ
+Ksquid:S1444"1Make this "public static dataParsed7" field final(Ëš›®ÿÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"VMake dataParsed a static final constant or non-public and provide accessors if needed.(¾£Ççøÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"WMake dataParsed2 a static final constant or non-public and provide accessors if needed.(çÆäøÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"WMake dataParsed3 a static final constant or non-public and provide accessors if needed.(ÁË—ïúÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"WMake dataParsed4 a static final constant or non-public and provide accessors if needed.(Ì˜»‚ÿÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"WMake dataParsed5 a static final constant or non-public and provide accessors if needed.(“Ó±á
+ˆ"squid:ClassVariableVisibilityCheck"WMake dataParsed6 a static final constant or non-public and provide accessors if needed.(ÉŞ‘üıÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"WMake dataParsed7 a static final constant or non-public and provide accessors if needed.(Ëš›®ÿÿÿÿÿ
+Vsquid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è
+Tsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
+Ssquid:UselessImportCheck"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ
+usquid:S1450"[Remove the "singleParsed" field and declare it as a local variable in the relevant methods.(ª½Ô²ıÿÿÿÿ
+qsquid:S1450"\Remove the "singleParsed2" field and declare it as a local variable in the relevant methods.(ÏÙ² 
+vsquid:S1450"\Remove the "singleParsed3" field and declare it as a local variable in the relevant methods.(Üı´ÿÿÿÿÿÿ
+vsquid:S1450"\Remove the "singleParsed4" field and declare it as a local variable in the relevant methods.(“ıñúÿÿÿÿ
+vsquid:S1450"\Remove the "singleParsed5" field and declare it as a local variable in the relevant methods.(ü˜Íıùÿÿÿÿ
+qsquid:S1450"\Remove the "singleParsed6" field and declare it as a local variable in the relevant methods.(ˆÿ¸
+vsquid:S1450"\Remove the "singleParsed7" field and declare it as a local variable in the relevant methods.(Ù’Ø€üÿÿÿÿ
+=squid:S1185"(Remove this method to simply inherit it.(ËĞƒ
+Bsquid:S1185"(Remove this method to simply inherit it.(Û¶…óøÿÿÿÿ

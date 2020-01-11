@@ -1,0 +1,7 @@
+
+€"squid:ClassVariableVisibilityCheck"TMake mWebView a static final constant or non-public and provide accessors if needed.(­ò²¬
+Zsquid:UselessImportCheck"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ
+\squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+jsquid:UselessImportCheck"CRemove this unused import 'androidx.fragment.app.FragmentActivity'.(Êñô–úÿÿÿÿ
+tsquid:UselessImportCheck"MRemove this unused import 'miage.parisnanterre.fr.mynanterre.implem.Accueil'.(©·”ìûÿÿÿÿ
+rsquid:UselessImportCheck"PRemove this unused import 'miage.parisnanterre.fr.mynanterre.implem.CarteCrous'.(ËˆÎ½

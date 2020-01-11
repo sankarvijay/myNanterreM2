@@ -1,0 +1,13 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Àêîíøÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö‹’
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â±¸
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(êô‡Åıÿÿÿÿ
+hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ƒŒ•¬üÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S2147"ECombine this catch with the one at line 100, which has the same body.(à®¿­
+Zsquid:S2147"ECombine this catch with the one at line 100, which has the same body.(ï­£Ä
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Šõã

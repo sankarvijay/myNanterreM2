@@ -1,0 +1,16 @@
+
+Tsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ
+Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ¶°Ø
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+Ysquid:UnusedPrivateMethod"6Remove this unused private "prepareSeanceData" method.(¿İ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ğ›Šù
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºêãÅÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( ô¯øÿÿÿÿ
