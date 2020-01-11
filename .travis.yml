@@ -1,4 +1,8 @@
 language: android
+env:
+  global:
+    - COVERALLS_REPO_TOKEN=BUA8U7NyJVhXb6VKGjfSVotuEG5SW2Jj5
+    - CODECOV_TOKEN="8942fd6b-2782-45b7-8842-aa97ca17d230"
 
 android:
   components:
@@ -22,7 +26,7 @@ before_script:
 
 script:
   - ./gradlew check
-  - ./gradlew build coveralls
+  - ./gradlew build cobertura coveralls
 	
 cache:
   directories:
@@ -30,6 +34,7 @@ cache:
     $HOME/.sonar/cache
     $HOME/.gradle
     .gradle
-    
-before_install:
-  - gem install rake
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  - ./gradlew cobertura coveralls
