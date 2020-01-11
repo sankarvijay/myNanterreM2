@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sankarvijay/myNanterreM2.svg?branch=master)](https://travis-ci.org/sankarvijay/myNanterreM2)
+[![CircleCI](https://circleci.com/gh/sankarvijay/myNanterreM2.svg?style=svg)](https://circleci.com/gh/sankarvijay/myNanterreM2)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b55330b80abb423bac3057216091bb04)](https://www.codacy.com/manual/sankarvijay/myNanterreM2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sankarvijay/myNanterreM2&amp;utm_campaign=Badge_Grade)
 [![GitHub issues](https://img.shields.io/github/issues/sankarvijay/myNanterreM2.svg)](https://github.com/sankarvijay/myNanterreM2/issues)
 [![License](https://img.shields.io/github/license/sankarvijay/myNanterreM2.svg?style=flat-square)](LICENSE)
