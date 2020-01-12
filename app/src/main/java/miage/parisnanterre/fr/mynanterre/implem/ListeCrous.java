@@ -192,23 +192,12 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), CarteCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
-				myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }
         });
 
-
-        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
-        TweetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-            }
-        });
 
 
         FloatingActionButton Geo = findViewById(R.id.Geo);
@@ -218,6 +207,7 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }

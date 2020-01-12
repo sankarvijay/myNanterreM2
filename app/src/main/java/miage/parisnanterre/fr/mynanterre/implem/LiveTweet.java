@@ -1,8 +1,11 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.twitter.sdk.android.core.DefaultLogger;
 import com.twitter.sdk.android.core.Twitter;
@@ -51,6 +54,16 @@ public class LiveTweet extends ListActivity {
                 .build();
         setListAdapter(adapter);
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Accueil.class));
+            }
+        });
+
     }
+
+
 
 }

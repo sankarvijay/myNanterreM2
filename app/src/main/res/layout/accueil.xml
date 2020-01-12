@@ -14,6 +14,7 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,7 +45,7 @@
         <TextView
             android:id="@+id/editText"
             android:layout_width="match_parent"
-            android:layout_height="6dp"
+            android:layout_height="4dp"
             android:layout_below="@+id/direction"
             android:layout_alignParentStart="true"
             android:layout_marginStart="0dp"
@@ -54,8 +55,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="109dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
             android:orientation="horizontal"
             android:paddingBottom="20dp">
 
@@ -68,13 +69,37 @@
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="190dp"
+                android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Une pause midi de 40 minutes ? Pas de stress, ouvre myNanterre et regarde où il y a encore des salades et où aller pour attendre le moins longtemps." />
+                android:text="Consulte toutes les cafétariats disponibles dans l'université et aussi leurs affluence ainsi que les produits encore disponibles pour chacune. Tu peux aussi regarder la carte des prix du Crous" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/transpo" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Jette un oeil sur les horaires des prochains trains depuis la gare de Nanterre université, mais aussi l'état du trafic. Tu peux aussi activer les notifications d'alertes" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,21 +109,22 @@
             android:paddingBottom="20dp">
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="60dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/transpo" />
+                app:srcCompat="@drawable/twitter_accueil" />
 
             <TextView
-                android:id="@+id/textView19"
-                android:layout_width="190dp"
+                android:id="@+id/textView22"
+                android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Envie de papoter avant de rentrer ? Pas de soucis, jette un coup d'oeil aux horaires du prochain train sur myNanterre" />
+                android:text="Reste informé de l'actualité sur l'université de Nanterre en consultant les live tweets" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -109,22 +135,74 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="67dp"
+                android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/ballon" />
 
             <TextView
                 android:id="@+id/textView17"
-                android:layout_width="190dp"
+                android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Pas de motivation pour ta séance de sport ? Programme ta séance de sport sur myNanterre et des étudiants te rejoindront " />
+                android:text="Regarde l'ensemble des activités sportives de l'univerité avec leurs horaires. Tu peux aussi programmer un séance de sport pour que d'autres étudiants te rejoignent" />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/map_accueil" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Consulte le plan en 3D du campus avec sa navigation en temps réel pour te guider vers n'importe quel batiment" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/library_accueil" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="Pour te rendre vers n'importe quelle bibliothèque du campus et connaître les horaires, consulte le plan 3D avec sa navigation" />
+
+        </LinearLayout>
+
+
 
         <TextView
             android:id="@+id/editText21"
@@ -133,7 +211,7 @@
             android:layout_below="@+id/direction"
             android:layout_alignParentStart="true"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
             android:background="#E40E1F"
             android:ems="10" />
@@ -158,6 +236,22 @@
             android:layout_marginTop="-40dp"
             app:srcCompat="@drawable/map" />
 
+        <Button
+            android:id="@+id/Tweet"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-50dp"
+            android:background="#E40E1F"
+            android:fontFamily="@font/alice"
+            android:text="Live Tweets"
+            android:textColor="@color/white" />
+
+
+
     </LinearLayout>
 
+
+
 </LinearLayout>
+
