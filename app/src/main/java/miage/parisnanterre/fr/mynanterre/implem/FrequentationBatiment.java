@@ -122,14 +122,6 @@ public class FrequentationBatiment extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        ImageView back = (ImageView) findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ListeCrous.class));
-            }
-        });
-
     }
 
 }

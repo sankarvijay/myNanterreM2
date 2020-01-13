@@ -1,16 +1,16 @@
 
-usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ
-nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êç¢‡
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ‡¡Ëıÿÿÿÿ
-5squid:S2068" Remove this hard-coded password.(úÚÿ½
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
 5squid:S2068" Remove this hard-coded password.(úÚÿ½
 Esquid:S1659"+Declare "mDisplayDate2" on a separate line.(İƒˆÿÿÿÿÿ
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
-5squid:S2068" Remove this hard-coded password.(úÚÿ½
-hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(–æÄ½øÿÿÿÿ
 gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ßìê¯
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ‡¡Ëıÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êç¢‡
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(–æÄ½øÿÿÿÿ

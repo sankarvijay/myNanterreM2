@@ -1,10 +1,8 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -104,14 +102,6 @@ public class FrequentationBu extends AppCompatActivity {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-        ImageView back = (ImageView) findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ListeEspacesBu.class));
-            }
-        });
 
     }
 

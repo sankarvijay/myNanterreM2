@@ -9,13 +9,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.implem.Cgu;
-import miage.parisnanterre.fr.mynanterre.implem.LiveTweet;
 import miage.parisnanterre.fr.mynanterre.implem.PlanBatiments;
 
 
@@ -37,17 +34,6 @@ public class AccueilFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), Cgu.class);
                 //Start details activity
                 startActivity(intent);
-            }
-        });
-
-        Button TweetButton = v.findViewById(R.id.Tweet);
-        TweetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(v.getContext(), LiveTweet.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                v.getContext().startActivity(myIntent);
             }
         });
 
