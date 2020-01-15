@@ -135,25 +135,25 @@ public class ListeSport extends AppCompatActivity {
     //Appelé depuis FiltreDialog
     public void sendFilterQueryToSeancesFragment(int idCategorie, CharSequence dateChosen) {
 
-        /*
         Bundle bundle = new Bundle();
         bundle.putInt("idcat_sport",idCategorie);
         bundle.putCharSequence("date", dateChosen);
         SeancesFragment sf = new SeancesFragment();
         sf.setArguments(bundle);
-        */
+
+        //getSupportFragmentManager().beginTransaction().add(R.id.myFrame, new SeancesFragment()).commit(); passe mais ne fair rien
 
         //Pb ici
-        FragmentManager fm = getSupportFragmentManager();
+        //FragmentManager fm = getSupportFragmentManager();
         //fm.beginTransaction().add(R.id.myFrame, new SeancesFragment()).commit();
         //SeancesFragment fragment = (SeancesFragment) fm.findFragmentById(R.id.myFrame);
         System.out.println("IDDDDDDDD " + idCategorie + " DAaaaaaaaaaate " + dateChosen);//fonctionne
 
         //System.out.println("FRAGMEEEEEEEEEEENTT" + fragment.toString());
         //fragment.queryWithDateFiltered(idCategorie, dateChosen); //pb dans la classe SeancesFragment
+        //java.lang.NullPointerException: Attempt to invoke virtual method 'void miage.parisnanterre.fr.mynanterre.fragment.SeancesFragment.queryWithDateFiltered(int, java.lang.CharSequence)' on a null object reference
 
     }
-
 
     //ouverture du dialog box pour filtre et envoie de l'id cat sport
     public void openDialog(int idCategorie){
