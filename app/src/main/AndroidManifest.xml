@@ -50,9 +50,11 @@
         <activity android:name=".implem.CarteCrous"></activity>
         <activity android:name=".implem.LocalisationCrousMain"></activity>
 		<activity android:name=".implem.ListeEspacesBu" />
-		<activity android:name=".implem.FrequentationBu" />
+        <activity android:name=".implem.FrequentationBu" />
 
         <receiver android:name=".implem.NotificationReceiver" />
+        <activity android:name=".implem.AuthSandwich" />
+        <activity android:name=".implem.SandwichDispo" />
     </application>
 
     <uses-permission android:name="android.permission." />

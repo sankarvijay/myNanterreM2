@@ -12,6 +12,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import miage.parisnanterre.fr.mynanterre.R;
+
 /**
  * Created by Sankar Vijay on 23/02/2019.
  */
@@ -68,6 +70,13 @@ public class FetchTrafficRerA extends AsyncTask<Void, Void, Void> {
         super.onPostExecute(aVoid);
         TrainRerA.title.setText(this.dataParsed);
         TrainRerA.info.setText(this.dataParsed2);
+        if(this.dataParsed2.contains("mouvement social") || this.dataParsed2.contains("perturbé") || this.dataParsed2.contains("interrompu")){
+            TrainRerA.statusTraffic.setImageResource(android.R.drawable.ic_notification_overlay);
+        }else if (dataParsed2.contains("travaux")){
+            TrainRerA.statusTraffic.setImageResource(R.drawable.orange);
+        }else{
+            TrainRerA.statusTraffic.setImageResource(android.R.drawable.presence_online);
+        }
 
     }
 

@@ -1,0 +1,16 @@
+
+Zsquid:S2184"@Cast one of the operands of this addition operation to a "long".(¡”şÜûÿÿÿÿ
+Zsquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ
+\squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+Usquid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá
+fsquid:UselessImportCheck"?Remove this unused import 'androidx.fragment.app.ListFragment'.(ö•Ñƒÿÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ê§äæüÿÿÿÿ
+msquid:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(ÎœÈ³ÿÿÿÿÿ
+psquid:S00116"URename this field "m_listview" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡”´—şÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ
+Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹†¡›ıÿÿÿÿ

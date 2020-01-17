@@ -1,0 +1,10 @@
+
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ÆÙ«À
+msquid:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(ÎœÈ³ÿÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ
+Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+5squid:S2068" Remove this hard-coded password.(úÚÿ½
+@squid:S1905"+Remove this unnecessary cast to "BarChart".(›å¿þ

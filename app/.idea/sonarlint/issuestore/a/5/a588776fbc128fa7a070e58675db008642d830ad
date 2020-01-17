@@ -1,0 +1,24 @@
+
+gsquid:S1192"FDefine a constant instead of duplicating this literal "HH:mm" 3 times.(¢šµÖùÿÿÿÿ8èàµÓó-
+tsquid:S1192"SDefine a constant instead of duplicating this literal "' WHERE batiment='" 3 times.(ôş¯øÿÿÿÿ8èàµÓó-
+isquid:S1192"MDefine a constant instead of duplicating this literal "c'est notÃ©!" 3 times.(‡¸‚8èàµÓó-
+ysquid:S1192"XDefine a constant instead of duplicating this literal "UPDATE Crous SET vote='" 3 times.(ôş¯øÿÿÿÿ8èàµÓó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÂ†¸8èàµÓó-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÆ‚Ä8èàµÓó-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õİÇ¤ûÿÿÿÿ8èàµÓó-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èàµÓó-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èàµÓó-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èàµÓó-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èàµÓó-
+osquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(‹¥Ï¯ùÿÿÿÿ8èàµÓó-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8èàµÓó-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á8èàµÓó-
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ8èàµÓó-
+Nsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8èàµÓó-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8èàµÓó-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8èàµÓó-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8èàµÓó-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8èàµÓó-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(—õË»øÿÿÿÿ8èàµÓó-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Áäİ8èàµÓó-

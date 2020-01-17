@@ -137,12 +137,21 @@ public class FiltreDialog extends DialogFragment {
 
                     Statement st = conn.createStatement();
                     ResultSet rst = st.executeQuery(sqliD);
-                    if (!rst.isBeforeFirst()) {
-                        System.out.print("Pas de séance pour cette date");
-                        Toast.makeText(getContext(), "Pas de séance pour cette date", Toast.LENGTH_SHORT).show();
+
+                    if (rst.next() == false) {
+                        Toast.makeText(getContext(), "Pas de séance pour cette date", Toast.LENGTH_LONG).show();
 
                     } else {
-                        Toast.makeText(getContext(), "Séance(s) trouvée(s) !", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(), "Séance(s) trouvée(s) ! " + rst.getString("heured") + " " +
+                                rst.getString("heuref") + " " +
+                                rst.getString("sport") + " " +
+                                rst.getString("lieu") + " " +
+                                rst.getString("numero") + " " +
+                                rst.getString("dateRdv") + " " +
+                                rst.getString("categorie") + " " +
+                                rst.getString("nbInscrit")
+                                , Toast.LENGTH_LONG).show();
+
                         while (rst.next()) {
 
                             System.out.println("RESULT HERE : " +

@@ -42,11 +42,9 @@ public class SeancesFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        //int idCategorie = getArguments().getInt("idcat_sport");
-        //CharSequence date = getArguments().getCharSequence("date");
-
         return inflater.inflate(R.layout.liste_seances, container, false);
     }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -66,12 +64,11 @@ public class SeancesFragment extends Fragment {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        //prepareSeanceData();
+        prepareSeanceData();
 
+        //queryWithDateFiltered(getArguments().getInt("idcat_sport"),getArguments().getCharSequence("date"));
 
-        //queryWithDateFiltered(idCategorie,date);
-
-        //queryWithDateFiltered(1,"2019-03-12"); //fonctionne
+        //queryWithDateFiltered(1,"2020-16-01"); //fonctionne mais affiche pas dans le petit carré
     }
 
     private void prepareSeanceData() {
@@ -111,10 +108,9 @@ public class SeancesFragment extends Fragment {
 
     //Appelée par ListeSport sendFilterQueryToSeancesFragment
     public  void queryWithDateFiltered (int idCategorie, CharSequence dateChosen) {//pb ici genre je soit instacier un truc peut etre les methodes d'avant
-        System.out.println("IDDDDDDDD" + idCategorie + "DAaaaaaaaaaate " + dateChosen);
 
        //recup ici les données idcat et date de ListeSport aessayer avec le intent get extras voir dans listesport
-
+        System.out.println("DANS LE SEANCEFRAGMENT");
         try {
             conn = DriverManager.getConnection(url, user, psw);
             String sqliD = "Select * from plannification_sport where categorie ='" + idCategorie + "' and dateRdv ='" + dateChosen + "';";
