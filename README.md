@@ -85,11 +85,11 @@ Suivre ce tuto : [Tutoriel AVD Manager](http://vogella.developpez.com/tutoriels/
 
 Une fois Git installé, il suffit de suivre les instructions ci-dessous.
 
-git clone https://github.com/sankarvijay/myNanterre.git
+git clone https://github.com/sankarvijay/myNanterreM2.git
 
 ### Via votre mobile
 
-Depuis votre mobile Android, récupérez l'apk sur notre site web https://sankarvijay.github.io/myNanterre/. Puis, autorisez l'installation. Une fois installé, vous verrez dans votre menu, l'application myNanterre.
+Depuis votre mobile Android, récupérez l'apk sur notre site web https://sankarvijay.github.io/myNanterreM2/. Puis, autorisez l'installation. Une fois installé, vous verrez dans votre menu, l'application myNanterre.
 
 Et voila ! le projet est prêt pour utilisation.
 
