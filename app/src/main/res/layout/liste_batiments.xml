@@ -8,13 +8,11 @@
     tools:context=".implem.ListeCrous">
 
 
-
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textGrid"
@@ -112,6 +110,7 @@
             android:src="@drawable/info"
             app:backgroundTint="@color/colorPrimary" />
 
+
     </RelativeLayout>
 
 
@@ -124,7 +123,7 @@
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/Geo"
+            android:id="@+id/Geobtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 

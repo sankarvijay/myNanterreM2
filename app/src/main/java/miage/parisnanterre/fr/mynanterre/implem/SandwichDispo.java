@@ -306,6 +306,7 @@ public class SandwichDispo extends AppCompatActivity {
 
                         Toast.makeText(getApplicationContext(), "Merci pour votre contribution !", Toast.LENGTH_SHORT).show();
 
+                        number.getText().clear();
 
                     }
                     catch (Exception e)

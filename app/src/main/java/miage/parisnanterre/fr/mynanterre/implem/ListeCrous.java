@@ -27,7 +27,6 @@ import java.util.List;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.auth.api.Auth;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import miage.parisnanterre.fr.mynanterre.R;
@@ -63,6 +62,8 @@ public class ListeCrous extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Accueil.class));
             }
         });
+
+
 
 
 
@@ -184,33 +185,23 @@ public class ListeCrous extends AppCompatActivity {
 
 
 
+
         FloatingActionButton MenuCrous = findViewById(R.id.MenuCrous);
         MenuCrous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
+                //  Toast.makeText(getApplicationContext(), "TEXT",Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(getApplicationContext(), CarteCrous.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }
         });
 
 
-        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
-        TweetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-            }
-        });
-
-
-        FloatingActionButton Geo = findViewById(R.id.Geo);
+        FloatingActionButton Geo = findViewById(R.id.Geobtn);
         Geo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -224,6 +215,25 @@ public class ListeCrous extends AppCompatActivity {
         });
 
 
+
+
+        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
+        TweetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                getApplicationContext().startActivity(myIntent);
+            }
+        });
+
+
+
+
+
+
         FloatingActionButton sandwich = findViewById(R.id.sandwich);
         sandwich.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -231,6 +241,7 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), AuthSandwich.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }

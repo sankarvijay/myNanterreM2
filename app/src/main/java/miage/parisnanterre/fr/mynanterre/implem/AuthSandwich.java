@@ -51,6 +51,7 @@ public class AuthSandwich extends AppCompatActivity {
                     Intent myIntent = new Intent(getApplicationContext(), SandwichDispo.class);
                     Bundle extras = new Bundle();
                     myIntent.putExtras(extras);
+                    myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     getApplicationContext().startActivity(myIntent);
                 }
                 else

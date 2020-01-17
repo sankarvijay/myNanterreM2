@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="miage.parisnanterre.fr.mynanterre">
 
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logomynanterre"
@@ -17,13 +23,13 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDM6SztNHKpGR6ZHVQ7PC3yL2925gwBPHw"/>
+
         <activity android:name=".implem.Accueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
         <activity android:name=".implem.ListeSport"></activity>
         <activity android:name=".implem.Plannification"></activity>
@@ -55,6 +61,9 @@
 
 
 
+
+        <receiver android:name=".implem.NotificationReceiver" />
+
     </application>
 
     <uses-permission android:name="android.permission." />
@@ -73,6 +82,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
 
 
 
