@@ -8,19 +8,7 @@ public class Crous {
     private String ventes;
     private int frequentation;
     private int id;
-    private int ouverture;
-    private int fermeture;
     private String vote;
-
-    public int getBurger() {
-        return burger;
-    }
-
-    public void setBurger(int burger) {
-        this.burger = burger;
-    }
-
-    private int burger;
 
     public String getVote() {
         return vote;
@@ -30,21 +18,6 @@ public class Crous {
         this.vote = vote;
     }
 
-    public int getOuverture() {
-        return ouverture;
-    }
-
-    public void setOuverture(int ouverture) {
-        this.ouverture = ouverture;
-    }
-
-    public int getFermeture() {
-        return fermeture;
-    }
-
-    public void setFermeture(int fermeture) {
-        this.fermeture = fermeture;
-    }
 
     Crous(int id, String batiment, String lieu, int frequentation, String vote) {
         this.batiment = batiment;
@@ -86,19 +59,9 @@ public class Crous {
         this.horaire = horaire;
     }
 
-    public String getVentes() {
-        return ventes;
-    }
-
-    public void setVentes(String ventes) {
-        this.ventes = ventes;
-    }
 
     public int getFrequentation() {
         return frequentation;
     }
 
-    public void setFrequentation(int frequentation) {
-        this.frequentation = frequentation;
-    }
 }

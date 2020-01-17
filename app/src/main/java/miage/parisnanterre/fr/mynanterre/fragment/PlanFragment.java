@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.ListFragment;
 import miage.parisnanterre.fr.mynanterre.implem.GoogleMaps;
-import miage.parisnanterre.fr.mynanterre.implem.ListeCrous;
 
 
 /**

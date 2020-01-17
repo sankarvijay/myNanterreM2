@@ -23,17 +23,18 @@ MyNanterre est une application qui vous permettra de :
 - naviguer au sein de l'université avec sa carte interactive.
 - connaitres toutes les informations sur l'université grâce à son live tweet.
 
-Pour avoir plus d'informations, visitez notre site web : https://sankarvijay.github.io/myNanterre/
+Pour avoir plus d'informations, visitez notre site web : https://sankarvijay.github.io/myNanterreM2/
 
 ## Télécharger 
 
 L'application peut être téléchargée 
 
-- soit via l'url : <a href="https://github.com/sankarvijay/myNanterreM2/releases/download/v1.4/myNanterreM2_v1.4.apk">/releases/download/v1.4/myNanterreM2_v1.4.apk</a> 
+
+- soit via l'url : <a href="https://github.com/sankarvijay/myNanterreM2/releases/download/v2.0-alpha/myNanterre_v2.0-alpha.apk">/releases/download/v2.0-alpha/myNanterreM2_v2.0-alpha.apk</a> 
 - soit via le QR Code : 
 
 <a rel='nofollow' href='https://www.qrcode-generator.de/
-            ' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fsankarvijay%2FmyNanterreM2%2Freleases%2Fdownload%2Fv1.4%2FmyNanterreM2_v1.4.apk&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>
+            ' border='0' style='cursor:default'></a><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fsankarvijay%2FmyNanterreM2%2Freleases%2Fdownload%2Fv2.0-alpha%2FmyNanterre_v2.0-alpha.apk&chs=180x180&choe=UTF-8&chld=L|2' alt=''>
 
 ## Librairies
 -   Données Open data : [RATP](https://github.com/pgrimaud/horaires-ratp-api) sous [(licences)](https://github.com/pgrimaud/horaires-ratp-api/blob/master/LICENSE)

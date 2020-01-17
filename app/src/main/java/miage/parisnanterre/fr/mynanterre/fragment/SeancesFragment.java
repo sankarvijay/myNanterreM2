@@ -66,10 +66,7 @@ public class SeancesFragment extends Fragment {
 
         prepareSeanceData();
 
-        //queryWithDateFiltered(getArguments().getInt("idcat_sport"),getArguments().getCharSequence("date"));
-
-        //queryWithDateFiltered(1,"2020-16-01"); //fonctionne mais affiche pas dans le petit carré
-    }
+        }
 
     private void prepareSeanceData() {
         try {
@@ -109,8 +106,6 @@ public class SeancesFragment extends Fragment {
     //Appelée par ListeSport sendFilterQueryToSeancesFragment
     public  void queryWithDateFiltered (int idCategorie, CharSequence dateChosen) {//pb ici genre je soit instacier un truc peut etre les methodes d'avant
 
-       //recup ici les données idcat et date de ListeSport aessayer avec le intent get extras voir dans listesport
-        System.out.println("DANS LE SEANCEFRAGMENT");
         try {
             conn = DriverManager.getConnection(url, user, psw);
             String sqliD = "Select * from plannification_sport where categorie ='" + idCategorie + "' and dateRdv ='" + dateChosen + "';";

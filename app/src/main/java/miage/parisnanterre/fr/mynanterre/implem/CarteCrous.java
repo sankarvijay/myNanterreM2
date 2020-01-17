@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.github.chrisbanes.photoview.PhotoView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import miage.parisnanterre.fr.mynanterre.R;
 
