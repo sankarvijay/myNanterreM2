@@ -198,17 +198,8 @@ public class ListeCrous extends AppCompatActivity {
             }
         });
 
-
-        FloatingActionButton TweetButton = findViewById(R.id.Tweet);
-        TweetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LiveTweet.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                getApplicationContext().startActivity(myIntent);
-            }
-        });
+		
+       
 
 
         FloatingActionButton Geo = findViewById(R.id.Geo);
@@ -218,11 +209,32 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+				myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }
         });
+		
+		
+		
+		
+		  FloatingActionButton sandwich = findViewById(R.id.sandwich);
+			sandwich.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), AuthSandwich.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+				myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                getApplicationContext().startActivity(myIntent);
 
+            }
+        });
+		
+		
+		
+		
+			
     }
 
     private List<Crous> getListData() {

@@ -139,6 +139,13 @@
 
 
     </RelativeLayout>
+	
+	
+	
+	
+	
+	
+	
 
 
 
@@ -154,6 +161,33 @@
         app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+		
+		
+		
+		
+		<RelativeLayout
+        android:id="@+id/LayoutSandwich"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sandwich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="230dp"
+            android:clickable="true"
+            android:src="@drawable/sandwich_logo"
+            app:backgroundTint="@color/colorPrimary"  />
+
+
+
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

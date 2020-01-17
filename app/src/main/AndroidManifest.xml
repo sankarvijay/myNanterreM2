@@ -53,6 +53,9 @@
 		<activity android:name=".implem.FrequentationBu" />
 
         <receiver android:name=".implem.NotificationReceiver" />
+		<receiver android:name=".implem.AuthSandwich" />
+		<receiver android:name=".implem.SandwichDispo" />
+		
     </application>
 
     <uses-permission android:name="android.permission." />
