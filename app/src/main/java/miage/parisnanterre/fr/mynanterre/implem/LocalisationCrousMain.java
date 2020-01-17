@@ -102,7 +102,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         cafetBU.setImage(R.drawable.cafetbu);
         cafetBU.setNom("Cafétéria de la BU");
         cafetBU.setInfo("8h30 - 18h30 en semaine, 10h - 16h les samedis");
-        String DistanceBU = cafetBU.CalculDistance(48.892423,2.21533099999999,LatitudeUser,LongitudeUser);
+        String DistanceBU = cafetBU.CalculDistance(48.905334 ,2.215758,LatitudeUser,LongitudeUser);
         cafetBU.setDistance("Se trouve à " + DistanceBU + " mètres");
         cafetBU.setPlat("Ciabatta chauds, sandwichs, viennoiserie, tartes, boissons chaudes");
 

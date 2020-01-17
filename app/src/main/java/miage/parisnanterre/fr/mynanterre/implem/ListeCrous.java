@@ -27,6 +27,7 @@ import java.util.List;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.auth.api.Auth;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import miage.parisnanterre.fr.mynanterre.R;
@@ -34,6 +35,7 @@ import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
 
 public class ListeCrous extends AppCompatActivity {
+
 
     private static final String url = "jdbc:mysql://sql171.main-hosting.eu/u749839367_m1";
     private static final String user = "u749839367_vijay";
@@ -215,10 +217,25 @@ public class ListeCrous extends AppCompatActivity {
                 Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
             }
         });
+
+
+        FloatingActionButton sandwich = findViewById(R.id.sandwich);
+        sandwich.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), AuthSandwich.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                getApplicationContext().startActivity(myIntent);
+
+            }
+        });
+
 
     }
 
