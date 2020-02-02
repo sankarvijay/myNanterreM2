@@ -25,7 +25,7 @@ public class TrainPlanLigneL extends AppCompatActivity {
         PhotoView photoView = findViewById(R.id.photo_view);
         photoView.setImageResource(R.drawable.planlignel);
 
-        retour = (ImageView) findViewById(R.id.back);
+        retour = findViewById(R.id.back);
 
         retour.setOnClickListener(new View.OnClickListener() {
             @Override

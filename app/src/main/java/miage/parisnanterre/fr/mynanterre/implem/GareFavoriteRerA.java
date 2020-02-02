@@ -36,19 +36,19 @@ public class GareFavoriteRerA extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.train_horaires_favoris_rer_a);
 
-        this.horaires = (TextView) findViewById(R.id.horaire2);
-        this.direction = (TextView) findViewById(R.id.direction2);
-        this.direction2 = (TextView) findViewById(R.id.direction3);
-        this.code = (TextView) findViewById(R.id.code2);
-        this.heureT = (TextView) findViewById(R.id.heureT2);
-        this.destination = (TextView) findViewById(R.id.destination2);
-        this.info2 = (TextView) findViewById(R.id.info_message2);
-        this.title2 = (TextView) findViewById(R.id.info_titre2);
-        this.refresh = (ImageView) findViewById(R.id.refresh2);
-        this.exchange = (ImageView) findViewById(R.id.echange2);
-        this.click = (Button) findViewById(R.id.button2);
+        horaires = findViewById(R.id.horaire2);
+        direction = findViewById(R.id.direction2);
+        direction2 = findViewById(R.id.direction3);
+        code = findViewById(R.id.code2);
+        heureT = findViewById(R.id.heureT2);
+        destination = findViewById(R.id.destination2);
+        info2 = findViewById(R.id.info_message2);
+        title2 = findViewById(R.id.info_titre2);
+        this.refresh = findViewById(R.id.refresh2);
+        this.exchange = findViewById(R.id.echange2);
+        this.click = findViewById(R.id.button2);
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,7 +93,7 @@ public class GareFavoriteRerA extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                theure = (TextView) findViewById(R.id.heure2);
+                                theure = findViewById(R.id.heure2);
                                 long date = System.currentTimeMillis();
                                 DateFormat df = DateFormat.getTimeInstance(DateFormat.LONG, Locale.FRANCE);
                                 String dateString = df.format(date);

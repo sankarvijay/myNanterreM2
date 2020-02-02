@@ -53,7 +53,7 @@ public class ListeCrous extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +65,7 @@ public class ListeCrous extends AppCompatActivity {
 
 
         List<Crous> donnees = getListData();
-        final GridView gridView = (GridView) findViewById(R.id.gridview);
+        final GridView gridView = findViewById(R.id.gridview);
         gridView.setAdapter(new CrousGridAdapter(this, donnees));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -82,9 +82,9 @@ public class ListeCrous extends AppCompatActivity {
                 alertDialogBuilder = new AlertDialog.Builder(ListeCrous.this);
                 alertDialogBuilder.setView(alertDialogView);
 
-                Button btn1 = (Button) alertDialogView.findViewById(R.id.buttonfaible);
-                Button btn2 = (Button) alertDialogView.findViewById(R.id.buttonmoyenne);
-                Button btn3 = (Button) alertDialogView.findViewById(R.id.buttonforte);
+                Button btn1 = alertDialogView.findViewById(R.id.buttonfaible);
+                Button btn2 = alertDialogView.findViewById(R.id.buttonmoyenne);
+                Button btn3 = alertDialogView.findViewById(R.id.buttonforte);
 
                 btn1.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
@@ -244,7 +244,7 @@ public class ListeCrous extends AppCompatActivity {
             ResultSet rst = st.executeQuery(sqliD);
 
             if(!rst.isBeforeFirst()) {
-                TextView nothing = (TextView) findViewById(R.id.nothing);
+                TextView nothing = findViewById(R.id.nothing);
                 nothing.setText("Il n'y a actuellement aucun restaurant/cafet ouvert ;)");
             }
             else {

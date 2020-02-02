@@ -72,10 +72,10 @@ public class FrequentationBatiment extends AppCompatActivity {
                 barEntries.add(new BarEntry(xValues,yValues));
             }
 
-            TextView txtview = (TextView) findViewById(R.id.nomBatiment);
+            TextView txtview = findViewById(R.id.nomBatiment);
             txtview.setText(nomBat);
 
-            barChart = (BarChart) findViewById(R.id.barchart);
+            barChart = findViewById(R.id.barchart);
 
             //Config
             barChart.setDrawBarShadow(false);

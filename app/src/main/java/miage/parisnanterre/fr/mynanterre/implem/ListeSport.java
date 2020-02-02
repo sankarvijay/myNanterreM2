@@ -54,10 +54,10 @@ public class ListeSport extends AppCompatActivity {
         final int idCategorie = Integer.parseInt(stringVariableName);
 
         List<Sport> image_details = getListData();
-        final GridView gridView = (GridView) findViewById(R.id.gridview);
+        final GridView gridView = findViewById(R.id.gridview);
         gridView.setAdapter(new SportGridAdapter(this, image_details));
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +99,7 @@ public class ListeSport extends AppCompatActivity {
             }
         });
 
-        Button btnRdv = (Button) findViewById(R.id.buttonRdv);
+        Button btnRdv = findViewById(R.id.buttonRdv);
         btnRdv.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), Plannification.class);
@@ -109,7 +109,7 @@ public class ListeSport extends AppCompatActivity {
             }
         });
 
-        Button btnSeance = (Button) findViewById(R.id.btnSeances);
+        Button btnSeance = findViewById(R.id.btnSeances);
         btnSeance.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 getSupportFragmentManager().beginTransaction().add(R.id.myFrame, new SeancesFragment()).commit();
@@ -117,7 +117,7 @@ public class ListeSport extends AppCompatActivity {
 
         });
 
-        Button btnFiltre = (Button) findViewById(R.id.btnFiltre);
+        Button btnFiltre = findViewById(R.id.btnFiltre);
         btnFiltre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Bundle extras = getIntent().getExtras();

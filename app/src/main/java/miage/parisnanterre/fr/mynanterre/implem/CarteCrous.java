@@ -17,7 +17,7 @@ public class CarteCrous extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.carte_crous);
 
-        retour = (ImageView) findViewById(R.id.back);
+        retour = findViewById(R.id.back);
 
         retour.setOnClickListener(new View.OnClickListener() {
             @Override

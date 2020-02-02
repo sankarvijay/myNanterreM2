@@ -71,10 +71,10 @@ public class FrequentationBu extends AppCompatActivity {
                 barEntries.add(new BarEntry(xValues,yValues));
             }
 
-            TextView txtview = (TextView) findViewById(R.id.nomEspace);
+            TextView txtview = findViewById(R.id.nomEspace);
             txtview.setText(nomEspace);
 
-            barChart = (BarChart) findViewById(R.id.barchart);
+            barChart = findViewById(R.id.barchart);
 
             //Config
             barChart.setDrawBarShadow(false);

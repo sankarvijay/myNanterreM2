@@ -54,7 +54,7 @@ public class FetchDataBatimentUniv extends AsyncTask<Void, Void, Void> {
 
             JSONObject jo = new JSONObject(data);
 
-                JSONArray arr = (JSONArray) jo.getJSONArray("records");
+                JSONArray arr = jo.getJSONArray("records");
 
                 for(int j=0;j<31;j++)
                 {
@@ -90,7 +90,7 @@ public class FetchDataBatimentUniv extends AsyncTask<Void, Void, Void> {
                         singleParsed6 = jb1.get("activites") + "\n";
                         dataParsed6 = dataParsed6 + singleParsed6;
 
-                        JSONArray jsonArray = (JSONArray) jb1.getJSONArray("coordonnees_gps");
+                        JSONArray jsonArray = jb1.getJSONArray("coordonnees_gps");
                         singleParsed7 = jsonArray.toString() + "\n";
                         dataParsed7 = dataParsed7 + singleParsed7;
                     }

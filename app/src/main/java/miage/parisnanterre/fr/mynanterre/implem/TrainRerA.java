@@ -48,22 +48,22 @@ public class TrainRerA extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.train_horaires_rer_a);
 
-        horaires = (TextView) findViewById(R.id.horaire);
-        direction = (TextView) findViewById(R.id.direction);
-        code = (TextView) findViewById(R.id.code);
-        heureT = (TextView) findViewById(R.id.heureT);
-        destination = (TextView) findViewById(R.id.destination);
-        info = (TextView) findViewById(R.id.info_message);
-        title = (TextView) findViewById(R.id.info_titre);
-        this.refresh = (ImageView) findViewById(R.id.refresh);
-        this.plans = (ImageView) findViewById(R.id.plan);
-        this.exchange = (ImageView) findViewById(R.id.echange);
-        this.gare = (Spinner) findViewById(R.id.gare);
-        this.notif = (ImageView) findViewById(R.id.notif);
-        this.statusTraffic=(ImageView)findViewById(R.id.trafficStatus);
+        horaires = findViewById(R.id.horaire);
+        direction = findViewById(R.id.direction);
+        code = findViewById(R.id.code);
+        heureT = findViewById(R.id.heureT);
+        destination = findViewById(R.id.destination);
+        info = findViewById(R.id.info_message);
+        title = findViewById(R.id.info_titre);
+        this.refresh = findViewById(R.id.refresh);
+        this.plans = findViewById(R.id.plan);
+        this.exchange = findViewById(R.id.echange);
+        this.gare = findViewById(R.id.gare);
+        this.notif = findViewById(R.id.notif);
+        statusTraffic= findViewById(R.id.trafficStatus);
 
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,8 +71,8 @@ public class TrainRerA extends AppCompatActivity {
             }
         });
 
-        click = (Button) findViewById(R.id.button);
-        clickP = (Button) findViewById(R.id.button2);
+        click = findViewById(R.id.button);
+        clickP = findViewById(R.id.button2);
 
         plans.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,7 +106,7 @@ public class TrainRerA extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                theure = (TextView) findViewById(R.id.heure);
+                                theure = findViewById(R.id.heure);
                                 long date = System.currentTimeMillis();
                                 DateFormat df = DateFormat.getTimeInstance(DateFormat.LONG, Locale.FRANCE);
                                 String dateString = df.format(date);

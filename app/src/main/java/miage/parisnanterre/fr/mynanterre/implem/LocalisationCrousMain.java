@@ -27,7 +27,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -23,7 +23,7 @@ public class BiblioFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View v=inflater.inflate(R.layout.biblio, container, false);
-        mWebView = (WebView) v.findViewById(R.id.webview);
+        mWebView = v.findViewById(R.id.webview);
         mWebView.loadUrl("http://umap.openstreetmap.fr/fr/map/bibliotheque-de-luniversite-paris-nanterre_222181#17/48.90458/2.21537");
 
         // Enable Javascript
@@ -33,7 +33,7 @@ public class BiblioFragment extends Fragment {
         // Force links and redirects to open in the WebView instead of in a browser
         mWebView.setWebViewClient(new WebViewClient());
 
-        Button frequentationBtn = (Button) v.findViewById(R.id.btnFrequentation);
+        Button frequentationBtn = v.findViewById(R.id.btnFrequentation);
         frequentationBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

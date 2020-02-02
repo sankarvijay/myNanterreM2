@@ -61,7 +61,7 @@ public class ListeEspacesBu extends AppCompatActivity implements AdapterView.OnI
             }
 
 
-            m_listview = (ListView) findViewById(R.id.list_view);
+            m_listview = findViewById(R.id.list_view);
 
             ArrayAdapter<String> adapter =
                     new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, espaces);

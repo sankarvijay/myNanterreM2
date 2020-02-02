@@ -26,7 +26,7 @@ public class AccueilFragment extends Fragment {
         View v = inflater.inflate(R.layout.accueil, container, false);
 
 
-        Button mButton = (Button) v.findViewById(R.id.cgu);
+        Button mButton = v.findViewById(R.id.cgu);
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +48,7 @@ public class AccueilFragment extends Fragment {
             }
         });
 
-        ImageView planBat = (ImageView) v.findViewById(R.id.planBat);
+        ImageView planBat = v.findViewById(R.id.planBat);
         planBat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

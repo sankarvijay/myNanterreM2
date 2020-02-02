@@ -30,7 +30,7 @@ public class ListeTrain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_train);
 
-        androidGridView = (GridView) findViewById(R.id.gridView);
+        androidGridView = findViewById(R.id.gridView);
         androidGridView.setAdapter(new TrainGridAdapter(this));
 
         androidGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -40,7 +40,7 @@ public class ListeTrain extends AppCompatActivity {
             }
         });
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

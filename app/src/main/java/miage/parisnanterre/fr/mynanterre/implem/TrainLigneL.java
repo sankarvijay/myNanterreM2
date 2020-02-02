@@ -38,15 +38,15 @@ public class TrainLigneL extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.train_horaires_ligne_l);
 
-        horaires = (TextView) findViewById(R.id.horaire);
-        direction = (TextView) findViewById(R.id.direction);
-        heureT = (TextView) findViewById(R.id.heureT);
-        destination = (TextView) findViewById(R.id.destination);
-        this.plans = (ImageView) findViewById(R.id.plan2);
-        this.exchange = (ImageView) findViewById(R.id.echange);
-        this.gare = (Spinner) findViewById(R.id.gare);
+        horaires = findViewById(R.id.horaire);
+        direction = findViewById(R.id.direction);
+        heureT = findViewById(R.id.heureT);
+        destination = findViewById(R.id.destination);
+        this.plans = findViewById(R.id.plan2);
+        this.exchange = findViewById(R.id.echange);
+        this.gare = findViewById(R.id.gare);
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +54,7 @@ public class TrainLigneL extends AppCompatActivity {
             }
         });
 
-        clickP = (Button) findViewById(R.id.button2);
+        clickP = findViewById(R.id.button2);
         clickP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +78,7 @@ public class TrainLigneL extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                theure = (TextView) findViewById(R.id.heure);
+                                theure = findViewById(R.id.heure);
                                 long date = System.currentTimeMillis();
                                 DateFormat df = DateFormat.getTimeInstance(DateFormat.LONG, Locale.FRANCE);
                                 String dateString = df.format(date);

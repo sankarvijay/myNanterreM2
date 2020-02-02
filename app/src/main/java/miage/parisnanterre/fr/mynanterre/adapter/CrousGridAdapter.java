@@ -56,11 +56,11 @@ public class CrousGridAdapter extends BaseAdapter{
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.grid_batiment, null);
             holder = new CrousGridAdapter.ViewHolder();
-            holder.batiment = (TextView) convertView.findViewById(R.id.batiment);
-            holder.lieu = (TextView) convertView.findViewById(R.id.lieu);
-            holder.sandwich = (ImageView) convertView.findViewById(R.id.buttonSand);
-            holder.vote = (TextView) convertView.findViewById(R.id.vote);
-            holder.chart = (ImageView) convertView.findViewById(R.id.buttonChartFreq);
+            holder.batiment = convertView.findViewById(R.id.batiment);
+            holder.lieu = convertView.findViewById(R.id.lieu);
+            holder.sandwich = convertView.findViewById(R.id.buttonSand);
+            holder.vote = convertView.findViewById(R.id.vote);
+            holder.chart = convertView.findViewById(R.id.buttonChartFreq);
             convertView.setTag(holder);
         } else {
             holder = (CrousGridAdapter.ViewHolder) convertView.getTag();
