@@ -2,8 +2,6 @@ package miage.parisnanterre.fr.mynanterre.fragment;
 
 import android.os.Bundle;
 import android.os.StrictMode;
-
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,9 +23,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import miage.parisnanterre.fr.mynanterre.R;
-
 import miage.parisnanterre.fr.mynanterre.adapter.SeanceAdapter;
-
 import miage.parisnanterre.fr.mynanterre.implem.Seance;
 
 public class SeancesFragment extends Fragment {

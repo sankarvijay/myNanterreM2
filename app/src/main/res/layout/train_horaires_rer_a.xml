@@ -139,7 +139,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/rerA"
             android:layout_width="73dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/rera" />
@@ -169,7 +168,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/infos"
             android:layout_width="43dp"
             android:layout_height="52dp"
             android:layout_margin="10dp"
@@ -232,7 +230,6 @@
         android:layout_marginTop="14dp" />
 
     <TextView
-        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"

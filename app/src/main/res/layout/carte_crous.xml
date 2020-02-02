@@ -33,7 +33,6 @@
 
 
             <TextView
-                android:id="@+id/number0"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -45,7 +44,6 @@
             <!--PART1-->
 
             <TextView
-                android:id="@+id/Part1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
@@ -62,7 +60,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -73,7 +70,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -88,7 +84,6 @@
 
 
             <TextView
-                android:id="@+id/number1"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -98,7 +93,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT1"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -110,7 +104,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC1"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -125,7 +118,6 @@
 
 
             <TextView
-                android:id="@+id/number2"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -135,7 +127,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT2"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -147,7 +138,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC2"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -161,7 +151,6 @@
 
 
             <TextView
-                android:id="@+id/number3"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -171,7 +160,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT3"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -183,7 +171,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC3"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -197,7 +184,6 @@
 
 
             <TextView
-                android:id="@+id/number4"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -207,7 +193,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT4"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -219,7 +204,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC4"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -234,7 +218,6 @@
 
 
             <TextView
-                android:id="@+id/number5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -244,7 +227,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT5"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -256,7 +238,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC5"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -270,7 +251,6 @@
 
 
             <TextView
-                android:id="@+id/number6"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -280,7 +260,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT6"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -292,7 +271,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC6"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -307,7 +285,6 @@
 
 
             <TextView
-                android:id="@+id/number7"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -317,7 +294,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT7"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -329,7 +305,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC7"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -344,7 +319,6 @@
 
 
             <TextView
-                android:id="@+id/number8"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -354,7 +328,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT8"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -366,7 +339,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC8"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -381,7 +353,6 @@
 
 
             <TextView
-                android:id="@+id/number9"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -391,7 +362,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT9"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -403,7 +373,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC9"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -418,7 +387,6 @@
 
 
             <TextView
-                android:id="@+id/number10"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -428,7 +396,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT10"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -440,7 +407,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC10"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -455,7 +421,6 @@
 
 
             <TextView
-                android:id="@+id/number11"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -465,7 +430,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT11"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -477,7 +441,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC11"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -492,7 +455,6 @@
 
 
             <TextView
-                android:id="@+id/number12"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -502,7 +464,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT12"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -514,7 +475,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC12"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -529,7 +489,6 @@
 
 
             <TextView
-                android:id="@+id/number13"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -539,7 +498,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT13"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -551,7 +509,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC13"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -566,7 +523,6 @@
 
 
             <TextView
-                android:id="@+id/number14"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -576,7 +532,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT14"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -588,7 +543,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC14"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -603,7 +557,6 @@
 
 
             <TextView
-                android:id="@+id/number15"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -613,7 +566,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT15"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -625,7 +577,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC15"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -640,7 +591,6 @@
 
 
             <TextView
-                android:id="@+id/number16"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -650,7 +600,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT16"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -662,7 +611,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC16"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -677,7 +625,6 @@
 
 
             <TextView
-                android:id="@+id/number17"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -687,7 +634,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT17"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -699,7 +645,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC17"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -714,7 +659,6 @@
 
 
             <TextView
-                android:id="@+id/number18"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -724,7 +668,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT18"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -736,7 +679,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC18"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -753,7 +695,6 @@
             <!--PART2-->
 
             <TextView
-                android:id="@+id/Part2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -770,7 +711,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT11"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -781,7 +721,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC11"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -796,7 +735,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number19"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -806,7 +744,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT19"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -818,7 +755,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC19"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -833,7 +769,6 @@
 
 
             <TextView
-                android:id="@+id/number20"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -843,7 +778,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT20"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -855,7 +789,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC20"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -870,7 +803,6 @@
 
 
             <TextView
-                android:id="@+id/number21"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -880,7 +812,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT21"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -892,7 +823,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC21"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -907,7 +837,6 @@
 
 
             <TextView
-                android:id="@+id/number22"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -917,7 +846,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT22"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -929,7 +857,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC22"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -944,7 +871,6 @@
 
 
             <TextView
-                android:id="@+id/number23"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -954,7 +880,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT23"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -966,7 +891,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC23"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -981,7 +905,6 @@
 
 
             <TextView
-                android:id="@+id/number24"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -991,7 +914,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT24"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1003,7 +925,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC24"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1018,7 +939,6 @@
 
 
             <TextView
-                android:id="@+id/number25"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1028,7 +948,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT25"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1040,7 +959,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC25"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1055,7 +973,6 @@
 
 
             <TextView
-                android:id="@+id/number26"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1065,7 +982,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT26"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1077,7 +993,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC26"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1092,7 +1007,6 @@
 
 
             <TextView
-                android:id="@+id/number27"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1102,7 +1016,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT27"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1114,7 +1027,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC27"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1129,7 +1041,6 @@
 
 
             <TextView
-                android:id="@+id/number28"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1139,7 +1050,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT28"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1151,7 +1061,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC28"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1168,7 +1077,6 @@
             <!--PART3-->
 
             <TextView
-                android:id="@+id/Part3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -1185,7 +1093,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1196,7 +1103,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -1211,7 +1117,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number29"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1221,7 +1126,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT29"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1233,7 +1137,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC29"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1248,7 +1151,6 @@
 
 
             <TextView
-                android:id="@+id/number30"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1258,7 +1160,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT30"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1270,7 +1171,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC30"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1285,7 +1185,6 @@
 
 
             <TextView
-                android:id="@+id/number31"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1295,7 +1194,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT31"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1307,7 +1205,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC31"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1322,7 +1219,6 @@
 
 
             <TextView
-                android:id="@+id/number32"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1332,7 +1228,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT32"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1344,7 +1239,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC32"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1359,7 +1253,6 @@
 
 
             <TextView
-                android:id="@+id/number33"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1369,7 +1262,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT33"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1381,7 +1273,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC33"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1396,7 +1287,6 @@
 
 
             <TextView
-                android:id="@+id/number34"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1406,7 +1296,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT34"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1418,7 +1307,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC34"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1435,7 +1323,6 @@
             <!--PART4-->
 
             <TextView
-                android:id="@+id/Part4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -1452,7 +1339,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT1111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1463,7 +1349,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC1111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -1477,7 +1362,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number35"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1487,7 +1371,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT35"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1499,7 +1382,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC35"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1514,7 +1396,6 @@
 
 
             <TextView
-                android:id="@+id/number36"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1524,7 +1405,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT36"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1536,7 +1416,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC36"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1551,7 +1430,6 @@
 
 
             <TextView
-                android:id="@+id/number37"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1561,7 +1439,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT37"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1573,7 +1450,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC37"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1588,7 +1464,6 @@
 
 
             <TextView
-                android:id="@+id/number38"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1598,7 +1473,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT38"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1610,7 +1484,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC38"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1625,7 +1498,6 @@
 
 
             <TextView
-                android:id="@+id/number39"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1635,7 +1507,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT39"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1647,7 +1518,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC39"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1663,7 +1533,6 @@
 
 
             <TextView
-                android:id="@+id/number40"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1673,7 +1542,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT40"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1685,7 +1553,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC40"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1700,7 +1567,6 @@
 
 
             <TextView
-                android:id="@+id/number41"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1710,7 +1576,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT41"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1722,7 +1587,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC41"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1739,7 +1603,6 @@
             <!--PART5-->
 
             <TextView
-                android:id="@+id/Part5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -1756,7 +1619,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT11111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1767,7 +1629,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC11111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -1781,7 +1642,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number42"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1791,7 +1651,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT42"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1803,7 +1662,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC42"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1816,7 +1674,6 @@
 
 
             <TextView
-                android:id="@+id/number43"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1826,7 +1683,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT43"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1838,7 +1694,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC43"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1852,7 +1707,6 @@
 
 
             <TextView
-                android:id="@+id/number44"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1862,7 +1716,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT44"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1874,7 +1727,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC44"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1889,7 +1741,6 @@
 
 
             <TextView
-                android:id="@+id/number45"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1899,7 +1750,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT45"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1911,7 +1761,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC45"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1926,7 +1775,6 @@
 
 
             <TextView
-                android:id="@+id/number46"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1936,7 +1784,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT46"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1948,7 +1795,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC46"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -1963,7 +1809,6 @@
 
 
             <TextView
-                android:id="@+id/number47"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -1973,7 +1818,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT47"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -1985,7 +1829,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC47"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2000,7 +1843,6 @@
 
 
             <TextView
-                android:id="@+id/number48"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2010,7 +1852,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT48"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2022,7 +1863,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC48"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2037,7 +1877,6 @@
 
 
             <TextView
-                android:id="@+id/number49"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2047,7 +1886,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT49"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2059,7 +1897,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC49"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2074,7 +1911,6 @@
 
 
             <TextView
-                android:id="@+id/number50"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2084,7 +1920,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT50"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2096,7 +1931,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC50"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2111,7 +1945,6 @@
 
 
             <TextView
-                android:id="@+id/number51"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2121,7 +1954,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT51"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2133,7 +1965,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC51"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2148,7 +1979,6 @@
 
 
             <TextView
-                android:id="@+id/number52"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2158,7 +1988,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT52"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2170,7 +1999,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC52"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2185,7 +2013,6 @@
 
 
             <TextView
-                android:id="@+id/number53"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2195,7 +2022,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT53"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2207,7 +2033,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC53"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2223,7 +2048,6 @@
             <!--PART6-->
 
             <TextView
-                android:id="@+id/Part6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -2240,7 +2064,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2251,7 +2074,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -2265,7 +2087,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number54"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2275,7 +2096,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT54"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2287,7 +2107,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC54"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2302,7 +2121,6 @@
 
 
             <TextView
-                android:id="@+id/number55"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2312,7 +2130,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT55"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2324,7 +2141,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC55"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2339,7 +2155,6 @@
 
 
             <TextView
-                android:id="@+id/number56"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2349,7 +2164,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT56"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2361,7 +2175,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC56"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2376,7 +2189,6 @@
 
 
             <TextView
-                android:id="@+id/number57"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2386,7 +2198,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT57"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2398,7 +2209,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC57"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2412,7 +2222,6 @@
 
 
             <TextView
-                android:id="@+id/number58"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2422,7 +2231,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT58"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2434,7 +2242,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC58"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2449,7 +2256,6 @@
 
 
             <TextView
-                android:id="@+id/number59"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2459,7 +2265,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT59"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2471,7 +2276,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC59"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2486,7 +2290,6 @@
 
 
             <TextView
-                android:id="@+id/number60"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2496,7 +2299,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT60"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2508,7 +2310,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC60"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2525,7 +2326,6 @@
             <!--PART7-->
 
             <TextView
-                android:id="@+id/Part7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -2542,7 +2342,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT1111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2553,7 +2352,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC1111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -2567,7 +2365,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number61"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2577,7 +2374,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT61"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2589,7 +2385,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC61"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2604,7 +2399,6 @@
 
 
             <TextView
-                android:id="@+id/number62"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2614,7 +2408,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT62"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2626,7 +2419,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC62"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2641,7 +2433,6 @@
 
 
             <TextView
-                android:id="@+id/number63"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2651,7 +2442,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT63"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2663,7 +2453,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC63"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2678,7 +2467,6 @@
 
 
             <TextView
-                android:id="@+id/number64"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2688,7 +2476,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT64"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2700,7 +2487,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC64"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2715,7 +2501,6 @@
 
 
             <TextView
-                android:id="@+id/number65"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2725,7 +2510,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT65"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2737,7 +2521,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC65"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2754,7 +2537,6 @@
             <!--PART8-->
 
             <TextView
-                android:id="@+id/Part8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -2771,7 +2553,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT11111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2782,7 +2563,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC11111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -2797,7 +2577,6 @@
 
 
             <TextView
-                android:id="@+id/number66"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2807,7 +2586,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT66"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2819,7 +2597,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC66"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2834,7 +2611,6 @@
 
 
             <TextView
-                android:id="@+id/number67"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2844,7 +2620,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT67"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2856,7 +2631,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC67"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2871,7 +2645,6 @@
 
 
             <TextView
-                android:id="@+id/number68"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2881,7 +2654,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT68"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2893,7 +2665,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC68"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2910,7 +2681,6 @@
             <!--PART9-->
 
             <TextView
-                android:id="@+id/Part9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -2927,7 +2697,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2938,7 +2707,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -2952,7 +2720,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number69"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2962,7 +2729,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT69"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -2974,7 +2740,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC69"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -2989,7 +2754,6 @@
 
 
             <TextView
-                android:id="@+id/number70"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -2999,7 +2763,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT70"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3011,7 +2774,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC70"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3026,7 +2788,6 @@
 
 
             <TextView
-                android:id="@+id/number71"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3036,7 +2797,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT71"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3048,7 +2808,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC71"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3063,7 +2822,6 @@
 
 
             <TextView
-                android:id="@+id/number72"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3073,7 +2831,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT72"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3085,7 +2842,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC72"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3100,7 +2856,6 @@
 
 
             <TextView
-                android:id="@+id/number73"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3110,7 +2865,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT73"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3122,7 +2876,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC73"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3137,7 +2890,6 @@
 
 
             <TextView
-                android:id="@+id/number74"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3147,7 +2899,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT74"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3159,7 +2910,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC74"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3174,7 +2924,6 @@
 
 
             <TextView
-                android:id="@+id/number75"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3184,7 +2933,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT75"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3196,7 +2944,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC75"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3211,7 +2958,6 @@
 
 
             <TextView
-                android:id="@+id/number76"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3221,7 +2967,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT76"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3233,7 +2978,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC76"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3248,7 +2992,6 @@
 
 
             <TextView
-                android:id="@+id/number77"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3258,7 +3001,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT77"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3270,7 +3012,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC77"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3285,7 +3026,6 @@
 
 
             <TextView
-                android:id="@+id/number78"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3295,7 +3035,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT78"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3307,7 +3046,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC78"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3322,7 +3060,6 @@
 
 
             <TextView
-                android:id="@+id/number79"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3332,7 +3069,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT79"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3344,7 +3080,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC79"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3359,7 +3094,6 @@
 
 
             <TextView
-                android:id="@+id/number80"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3369,7 +3103,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT80"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3381,7 +3114,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC80"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3396,7 +3128,6 @@
 
 
             <TextView
-                android:id="@+id/number81"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3406,7 +3137,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT81"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3418,7 +3148,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC81"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3433,7 +3162,6 @@
 
 
             <TextView
-                android:id="@+id/number82"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3443,7 +3171,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT82"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3455,7 +3182,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC82"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3470,7 +3196,6 @@
 
 
             <TextView
-                android:id="@+id/number83"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3480,7 +3205,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT83"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3492,7 +3216,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC83"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3507,7 +3230,6 @@
 
 
             <TextView
-                android:id="@+id/number84"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3517,7 +3239,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT84"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3529,7 +3250,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC84"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3543,7 +3263,6 @@
 
 
             <TextView
-                android:id="@+id/number85"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3553,7 +3272,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT85"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3565,7 +3283,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC85"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3582,7 +3299,6 @@
             <!--PART10-->
 
             <TextView
-                android:id="@+id/Part10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -3599,7 +3315,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT1111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3610,7 +3325,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC1111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -3624,7 +3338,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number86"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3634,7 +3347,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT86"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3646,7 +3358,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC86"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3661,7 +3372,6 @@
 
 
             <TextView
-                android:id="@+id/number87"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3671,7 +3381,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT87"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3683,7 +3392,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC87"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3698,7 +3406,6 @@
 
 
             <TextView
-                android:id="@+id/number88"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3708,7 +3415,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT88"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3720,7 +3426,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC88"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3735,7 +3440,6 @@
 
 
             <TextView
-                android:id="@+id/number89"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3745,7 +3449,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT89"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3757,7 +3460,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC89"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3772,7 +3474,6 @@
 
 
             <TextView
-                android:id="@+id/number90"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3782,7 +3483,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT90"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3794,7 +3494,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC90"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3809,7 +3508,6 @@
 
 
             <TextView
-                android:id="@+id/number91"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3819,7 +3517,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT91"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3831,7 +3528,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC91"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3846,7 +3542,6 @@
 
 
             <TextView
-                android:id="@+id/number92"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3856,7 +3551,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT92"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3868,7 +3562,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC92"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3883,7 +3576,6 @@
 
 
             <TextView
-                android:id="@+id/number93"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3893,7 +3585,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT93"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3905,7 +3596,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC93"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3920,7 +3610,6 @@
 
 
             <TextView
-                android:id="@+id/number94"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3930,7 +3619,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT94"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3942,7 +3630,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC94"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3957,7 +3644,6 @@
 
 
             <TextView
-                android:id="@+id/number95"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -3967,7 +3653,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT95"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -3979,7 +3664,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC95"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -3994,7 +3678,6 @@
 
 
             <TextView
-                android:id="@+id/number96"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4004,7 +3687,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT96"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4016,7 +3698,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC96"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4031,7 +3712,6 @@
 
 
             <TextView
-                android:id="@+id/number97"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4041,7 +3721,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT97"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4053,7 +3732,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC97"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4068,7 +3746,6 @@
 
 
             <TextView
-                android:id="@+id/number98"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4078,7 +3755,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT98"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4090,7 +3766,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC98"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4105,7 +3780,6 @@
 
 
             <TextView
-                android:id="@+id/number99"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4115,7 +3789,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT99"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4127,7 +3800,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC99"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4142,7 +3814,6 @@
 
 
             <TextView
-                android:id="@+id/number100"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4152,7 +3823,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT100"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4164,7 +3834,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC100"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4179,7 +3848,6 @@
 
 
             <TextView
-                android:id="@+id/number101"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4189,7 +3857,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT101"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4201,7 +3868,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC101"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4216,7 +3882,6 @@
 
 
             <TextView
-                android:id="@+id/number102"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4226,7 +3891,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT102"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4238,7 +3902,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC102"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4255,7 +3918,6 @@
             <!--PART11-->
 
             <TextView
-                android:id="@+id/Part11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -4272,7 +3934,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT11111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4283,7 +3944,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC11111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -4297,7 +3957,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number103"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4307,7 +3966,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT103"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4319,7 +3977,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC103"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4334,7 +3991,6 @@
 
 
             <TextView
-                android:id="@+id/number104"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4344,7 +4000,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT104"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4356,7 +4011,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC104"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4370,7 +4024,6 @@
 
 
             <TextView
-                android:id="@+id/number105"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4380,7 +4033,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT105"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4392,7 +4044,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC105"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4407,7 +4058,6 @@
 
 
             <TextView
-                android:id="@+id/number106"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4417,7 +4067,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT106"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4429,7 +4078,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC106"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4444,7 +4092,6 @@
 
 
             <TextView
-                android:id="@+id/number107"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4454,7 +4101,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT107"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4466,7 +4112,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC107"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4481,7 +4126,6 @@
 
 
             <TextView
-                android:id="@+id/number108"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4491,7 +4135,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT108"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4503,7 +4146,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC108"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4518,7 +4160,6 @@
 
 
             <TextView
-                android:id="@+id/number110"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4528,7 +4169,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT110"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4540,7 +4180,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC110"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4555,7 +4194,6 @@
 
 
             <TextView
-                android:id="@+id/number111"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4565,7 +4203,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT111"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4577,7 +4214,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC111"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4592,7 +4228,6 @@
 
 
             <TextView
-                android:id="@+id/number112"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4602,7 +4237,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT112"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4614,7 +4248,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC112"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4629,7 +4262,6 @@
 
 
             <TextView
-                android:id="@+id/number113"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4639,7 +4271,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT113"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4651,7 +4282,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC113"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4666,7 +4296,6 @@
 
 
             <TextView
-                android:id="@+id/number114"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4676,7 +4305,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT114"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4688,7 +4316,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC114"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4702,7 +4329,6 @@
 
 
             <TextView
-                android:id="@+id/number115"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4712,7 +4338,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT115"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4724,7 +4349,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC115"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4739,7 +4363,6 @@
 
 
             <TextView
-                android:id="@+id/number116"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4749,7 +4372,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT116"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4761,7 +4383,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC116"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4777,7 +4398,6 @@
             <!--PART12-->
 
             <TextView
-                android:id="@+id/Part12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -4794,7 +4414,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/HT111111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4805,7 +4424,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TTC111111111111"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="340dp"
@@ -4819,7 +4437,6 @@
             <!--Contenu-->
 
             <TextView
-                android:id="@+id/number117"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4829,7 +4446,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT117"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4841,7 +4457,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC117"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4856,7 +4471,6 @@
 
 
             <TextView
-                android:id="@+id/number118"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4866,7 +4480,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT118"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4878,7 +4491,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC118"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4893,7 +4505,6 @@
 
 
             <TextView
-                android:id="@+id/number119"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4903,7 +4514,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT119"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4915,7 +4525,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC119"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"
@@ -4930,7 +4539,6 @@
 
 
             <TextView
-                android:id="@+id/number120"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -4940,7 +4548,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceHT120"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="300dp"
@@ -4952,7 +4559,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priceTTC120"
                 android:layout_width="33dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="344dp"

@@ -9,14 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.ImageView;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import miage.parisnanterre.fr.mynanterre.R;
-import miage.parisnanterre.fr.mynanterre.implem.Accueil;
-import miage.parisnanterre.fr.mynanterre.implem.CarteCrous;
 import miage.parisnanterre.fr.mynanterre.implem.ListeEspacesBu;
 
 

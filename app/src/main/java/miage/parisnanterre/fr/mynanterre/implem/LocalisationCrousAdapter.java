@@ -6,11 +6,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.List;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class LocalisationCrousAdapter extends RecyclerView.Adapter<LocalisationCrousAdapter.MyViewHolder> {

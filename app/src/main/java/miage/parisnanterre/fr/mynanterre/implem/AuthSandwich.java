@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class AuthSandwich extends AppCompatActivity {
