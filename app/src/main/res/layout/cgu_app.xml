@@ -8,18 +8,106 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="507dp"
-        android:layout_marginTop="4dp"
+        android:layout_height="564dp"
         android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".fragment.AccueilFragment">
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alice"
+            android:text="MyNanterre: Reserved 2020 Vijay.S, Dorian.V and El Hassan.B; Apache License v2.0 https://www.apache.org/licenses/"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/alice"
+            android:text="MPAndroidChart: Copyright 2019 Philipp Jahoda; Apache License v2.0 https://www.apache.org/licenses/"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/alice"
+            android:text="Chart.js: Copyright 2018 Chart.js Contributors; The MIT License (MIT) https://opensource.org/licenses/MIT"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/alice"
+            android:text="Twitter Kit: Copyright 2017 Twitter, Inc;  Apache License v2.0 https://www.apache.org/licenses/"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/alice"
+            android:text="Google Maps: Copyright 2020 Google, Inc;  Google Maps Platform License https://www.cloud.google/maps-platform/terms"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="320dp"
+            android:fontFamily="@font/alice"
+            android:text="Open Street Map: Copyright 2020 OpenStreetMap contributors OSM-Fr map data; Open Data Commons Open Database License (ODbL) https://www.openstreetmap.org/copyright"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="392dp"
+            android:fontFamily="@font/alice"
+            android:text="API Rest RATP: Copyright 2019 Pierre Grimaud; The MIT License (MIT) https://opensource.org/licenses/MIT"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="435dp"
+            android:fontFamily="@font/alice"
+            android:text="OpenData IDF Mobilités STIF: Copyright 2020 STIF; Open Data Commons Open Database License (ODbL) https://www.data.iledefrance-mobilites.fr/pages/licences"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="490dp"
             android:fontFamily="@font/alice"
             android:text="Toutes les icones de notre application sont tirées du site : https://icones8.fr/"
             android:textColor="@android:color/black"

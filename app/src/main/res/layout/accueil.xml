@@ -22,6 +22,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/textView13"
                 android:layout_width="259dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -34,6 +35,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/imageView5"
                 android:layout_width="88dp"
                 android:layout_height="85dp"
                 app:srcCompat="@drawable/logomynanterre" />
@@ -59,12 +61,14 @@
             android:paddingBottom="20dp">
 
             <ImageView
+                android:id="@+id/imageView3"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/sandw" />
 
             <TextView
+                android:id="@+id/textView18"
                 android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
@@ -81,12 +85,14 @@
             android:paddingBottom="20dp">
 
             <ImageView
+                android:id="@+id/imageView4"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/transpo" />
 
             <TextView
+                android:id="@+id/textView19"
                 android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
@@ -103,6 +109,7 @@
             android:paddingBottom="20dp">
 
             <ImageView
+                android:id="@+id/imageView12"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -127,19 +134,21 @@
             android:paddingBottom="20dp">
 
             <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/ballon" />
 
             <TextView
+                android:id="@+id/textView17"
                 android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Regarde l'ensemble des activités sportives de l'univerité avec leurs horaires. Tu peux aussi programmer un séance de sport pour que d'autres étudiants te rejoignent" />
+                android:text="Regarde l'ensemble des activités sportives de l'université avec leurs horaires. Tu peux aussi programmer un séance de sport pour que d'autres étudiants te rejoignent" />
 
         </LinearLayout>
 
@@ -150,6 +159,7 @@
             android:paddingBottom="20dp">
 
             <ImageView
+                android:id="@+id/imageView6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -174,25 +184,28 @@
             android:paddingBottom="10dp">
 
             <ImageView
+                android:id="@+id/imageView9"
                 android:layout_width="63dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/library_accueil" />
 
             <TextView
+                android:id="@+id/textView21"
                 android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Pour te rendre vers n'importe quelle bibliothèque du campus et connaître les horaires, consulte le plan 3D avec sa navigation. L'affluence des espaces de la grande BU est aussi disponible" />
+                android:text="Pour te rendre vers n'importe quelle bibliothèque du campus et connaître les horaires, consulte le plan 2D avec sa navigation. L'affluence des espaces de la grande BU est aussi disponible" />
 
         </LinearLayout>
 
 
 
         <TextView
+            android:id="@+id/editText21"
             android:layout_width="match_parent"
             android:layout_height="6dp"
             android:layout_below="@+id/direction"
