@@ -103,3 +103,7 @@ y
 Isrc/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainPlanRerA.java,7/2/725127921f5f1f72670d50f91656152d32b397c5
 u
 Esrc/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java,4/e/4e10362d01ae12e5061098b6471bf8587596df9c
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+B
+proguard-rules.pro,8/f/8fb93e6a4b5f305875d392d25a97c87aa0ec6286

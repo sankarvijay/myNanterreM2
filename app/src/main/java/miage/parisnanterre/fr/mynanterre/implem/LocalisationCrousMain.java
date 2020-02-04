@@ -1,21 +1,17 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-
 import android.content.Intent;
 import android.location.Location;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-
 import java.util.LinkedList;
 import java.util.List;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class LocalisationCrousMain extends AppCompatActivity {
@@ -31,7 +27,7 @@ public class LocalisationCrousMain extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

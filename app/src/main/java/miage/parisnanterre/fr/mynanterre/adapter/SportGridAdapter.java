@@ -50,8 +50,8 @@ public class SportGridAdapter extends BaseAdapter {
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.grid_item, null);
             holder = new ViewHolder();
-            holder.logo = (ImageView) convertView.findViewById(R.id.image);
-            holder.sportsName = (TextView) convertView.findViewById(R.id.texte);
+            holder.logo = convertView.findViewById(R.id.image);
+            holder.sportsName = convertView.findViewById(R.id.texte);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();

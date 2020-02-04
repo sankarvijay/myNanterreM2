@@ -28,7 +28,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView24"
         android:layout_width="411dp"
         android:layout_height="46dp"
         android:layout_marginTop="560dp"
@@ -79,7 +78,6 @@
         android:layout_weight="2">
 
         <TextView
-            android:id="@+id/menuTitre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -121,7 +119,6 @@
 
 
     <TextView
-        android:id="@+id/textView21"
         android:layout_width="78dp"
         android:layout_height="24dp"
         android:layout_marginTop="16dp"
@@ -159,7 +156,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="235dp"
         android:layout_height="36dp"
         android:text="Ouvert de 11h30 à 14h00"
@@ -170,7 +166,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/TESTXML"
         android:layout_width="214dp"
         android:layout_height="35dp"
         android:text="TextView"
@@ -178,7 +173,6 @@
         tools:layout_editor_absoluteY="484dp" />
 
     <ListView
-        android:id="@+id/dynamic"
         android:layout_width="151dp"
         android:layout_height="276dp"
         tools:layout_editor_absoluteX="33dp"

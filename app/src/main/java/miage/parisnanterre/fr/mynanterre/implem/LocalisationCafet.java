@@ -2,8 +2,6 @@ package miage.parisnanterre.fr.mynanterre.implem;
 
 import android.location.Location;
 
-import miage.parisnanterre.fr.mynanterre.*;
-
 
 public class LocalisationCafet {
 

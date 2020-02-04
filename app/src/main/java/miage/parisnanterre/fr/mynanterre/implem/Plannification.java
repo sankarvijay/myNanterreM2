@@ -61,19 +61,19 @@ public class Plannification extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.formrdv);
 
-        numero = (EditText) findViewById(R.id.numId);
-        heureD = (TextView) findViewById(R.id.heureD);
-        heureF = (TextView) findViewById(R.id.heureF);
-        spinnerSport = (Spinner) findViewById(R.id.sport);
+        numero = findViewById(R.id.numId);
+        heureD = findViewById(R.id.heureD);
+        heureF = findViewById(R.id.heureF);
+        spinnerSport = findViewById(R.id.sport);
 
-        spinnerLieu = (Spinner) findViewById(R.id.lieu);
-        planifier = (Button) findViewById(R.id.planifier);
+        spinnerLieu = findViewById(R.id.lieu);
+        planifier = findViewById(R.id.planifier);
 
-        mDisplayDate = (TextView) findViewById(R.id.date);
-        mDisplayDate2 = (TextView) findViewById(R.id.date2);
+        mDisplayDate = findViewById(R.id.date);
+        mDisplayDate2 = findViewById(R.id.date2);
 
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

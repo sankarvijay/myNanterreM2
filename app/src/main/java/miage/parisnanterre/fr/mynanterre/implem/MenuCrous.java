@@ -1,12 +1,16 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
 
+import android.app.ProgressDialog;
 import android.os.AsyncTask;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,16 +21,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import android.app.ProgressDialog;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.HtmlCompat;
-
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
-
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class MenuCrous extends AppCompatActivity {

@@ -109,7 +109,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/rerA"
             android:layout_width="73dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/lignel" />
@@ -138,7 +137,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/infos"
             android:layout_width="43dp"
             android:layout_height="52dp"
             android:layout_margin="10dp"

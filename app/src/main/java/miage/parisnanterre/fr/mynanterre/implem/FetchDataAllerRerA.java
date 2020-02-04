@@ -10,7 +10,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 /**
  * Created by Sankar Vijay on 17/02/2019.
@@ -42,7 +43,7 @@ public class FetchDataAllerRerA extends AsyncTask<Void, Void, Void> {
             JSONObject jo = new JSONObject(data);
 
             for (int i = 0; i <= data.length(); i++) {
-                JSONArray arr = (JSONArray) jo.getJSONObject("result").getJSONArray("schedules");
+                JSONArray arr = jo.getJSONObject("result").getJSONArray("schedules");
 
                 singleParsed = arr.getJSONObject(i).get("message") + "\n";
                 dataParsed = dataParsed + singleParsed;

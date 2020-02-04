@@ -191,7 +191,7 @@ public class FetchDataFavRerA extends AsyncTask<Void, Void, Void> {
             JSONObject jo = new JSONObject(data);
 
             for (int i = 0; i <= data.length(); i++) {
-                JSONArray arr = (JSONArray) jo.getJSONObject("result").getJSONArray("schedules");
+                JSONArray arr = jo.getJSONObject("result").getJSONArray("schedules");
 
                 singleParsed = arr.getJSONObject(i).get("message") + "\n";
 

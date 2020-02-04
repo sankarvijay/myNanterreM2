@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class AuthSandwich extends AppCompatActivity {
@@ -23,7 +22,7 @@ public class AuthSandwich extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.authsandwich);
 
-        ImageView  Back = (ImageView) findViewById(R.id.back);
+        ImageView  Back = findViewById(R.id.back);
 
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,9 +32,9 @@ public class AuthSandwich extends AppCompatActivity {
             }
         });
 
-        EditText Password = (EditText) findViewById(R.id.password);
+        EditText Password = findViewById(R.id.password);
 
-        Button confimer = (Button) findViewById(R.id.btn_mdp);
+        Button confimer = findViewById(R.id.btn_mdp);
 
         String mdp = "0000";
 

@@ -40,7 +40,7 @@ public class FetchDataLigneL extends AsyncTask<Void, Void, Void> {
             JSONObject jo = new JSONObject(data);
 
             for (int i = 0; i < 8; i++) {
-                JSONObject ob = (JSONObject) jo.getJSONArray("departures").getJSONObject(i);
+                JSONObject ob = jo.getJSONArray("departures").getJSONObject(i);
 
                 singleParsed = ob.getJSONObject("display_informations").get("direction") + "\n";
 

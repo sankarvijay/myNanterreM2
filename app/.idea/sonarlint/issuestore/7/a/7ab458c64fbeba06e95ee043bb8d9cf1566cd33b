@@ -1,47 +1,47 @@
 
-tsquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 1968" 3 times.(ÿãŸÔ
-¶squid:S1192"›Define a constant instead of duplicating this literal "ActivitÃ©s : UFR STAPS â€“ Sciences et Techniques des ActivitÃ©s Physiques et Sportives.\n" 3 times.(ØÈÉÓÿÿÿÿÿ
-ysquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 1966" 4 times.(Åøºùÿÿÿÿ
-tsquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 2010" 3 times.(Òãî”
-hsquid:S1192"SDefine a constant instead of duplicating this literal "Campus : Nanterre" 24 times.(á²ãÏ
-esquid:S1192"PDefine a constant instead of duplicating this literal "Nom d'usage : " 24 times.(á²ãÏ
-Gsquid:S1199"-Extract this nested code block into a method.(èüü‚úÿÿÿÿ
-Asquid:S1444",Make this "public static campus" field final(şÏÑ
+usquid:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(éŒõ¦üÿÿÿÿ
 Asquid:S1444",Make this "public static lettre" field final(›«·
-Csquid:S1444".Make this "public static nomUsage" field final(İ¥¶»
-?squid:S1444"*Make this "public static code" field final(”Ş¶Ë
-Lsquid:S1444"2Make this "public static descActivite" field final(Ì»Äüúÿÿÿÿ
-Msquid:S1444"3Make this "public static coordonnesGps" field final(å™§‹şÿÿÿÿ
-@squid:S1444"+Make this "public static annee" field final(½ÒÖ…
-Hsquid:S1444".Make this "public static activite" field final(«ÿâöüÿÿÿÿ
-esquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ
-~"squid:ClassVariableVisibilityCheck"RMake campus a static final constant or non-public and provide accessors if needed.(şÏÑ
-~"squid:ClassVariableVisibilityCheck"RMake lettre a static final constant or non-public and provide accessors if needed.(›«·
-€"squid:ClassVariableVisibilityCheck"TMake nomUsage a static final constant or non-public and provide accessors if needed.(İ¥¶»
 |"squid:ClassVariableVisibilityCheck"PMake code a static final constant or non-public and provide accessors if needed.(”Ş¶Ë
-‰"squid:ClassVariableVisibilityCheck"XMake descActivite a static final constant or non-public and provide accessors if needed.(Ì»Äüúÿÿÿÿ
-Š"squid:ClassVariableVisibilityCheck"YMake coordonnesGps a static final constant or non-public and provide accessors if needed.(å™§‹şÿÿÿÿ
-}"squid:ClassVariableVisibilityCheck"QMake annee a static final constant or non-public and provide accessors if needed.(½ÒÖ…
-…"squid:ClassVariableVisibilityCheck"TMake activite a static final constant or non-public and provide accessors if needed.(«ÿâöüÿÿÿÿ
 Ysquid:UselessImportCheck"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­
-Tsquid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ
-Psquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
-`squid:UselessImportCheck">Remove this unused import 'android.location.LocationListener'.(æ‡ë 
-Zsquid:UselessImportCheck"3Remove this unused import 'org.json.JSONException'.(¹Ó·úÿÿÿÿ
-Wsquid:UselessImportCheck"0Remove this unused import 'org.json.JSONObject'.(œÖ´üşÿÿÿÿ
-[squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ì¼Ë‰úÿÿÿÿ
+}"squid:ClassVariableVisibilityCheck"QMake annee a static final constant or non-public and provide accessors if needed.(½ÒÖ…
+Vsquid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(×ö³–úÿÿÿÿ
+Lsquid:S1444"2Make this "public static descActivite" field final(Ì»Äüúÿÿÿÿ
+tsquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 1968" 3 times.(ÿãŸÔ
+ysquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 1966" 4 times.(Åøºùÿÿÿÿ
+Asquid:S1444",Make this "public static campus" field final(şÏÑ
+Msquid:S1444"3Make this "public static coordonnesGps" field final(å™§‹şÿÿÿÿ
+hsquid:S1192"SDefine a constant instead of duplicating this literal "Campus : Nanterre" 24 times.(á²ãÏ
+0squid:S3626"Remove this redundant jump.(ûÁİ…
 Tsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
 Rsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-Xsquid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ
+Csquid:S1444".Make this "public static nomUsage" field final(İ¥¶»
+[squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+Hsquid:S1444".Make this "public static activite" field final(«ÿâöüÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake campus a static final constant or non-public and provide accessors if needed.(şÏÑ
+€"squid:ClassVariableVisibilityCheck"TMake nomUsage a static final constant or non-public and provide accessors if needed.(İ¥¶»
+¶squid:S1192"›Define a constant instead of duplicating this literal "ActivitÃ©s : UFR STAPS â€“ Sciences et Techniques des ActivitÃ©s Physiques et Sportives.\n" 3 times.(ØÈÉÓÿÿÿÿÿ
 Usquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å
-Vsquid:UselessImportCheck"4Remove this unused import 'android.widget.EditText'.(†Å›Ú
-Vsquid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ
-Rsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ñ‚Ëüÿÿÿÿ
 Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(‡Íüşÿÿÿÿ
-usquid:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(éŒõ¦üÿÿÿÿ
-0squid:S3626"Remove this redundant jump.(ûÁİ…
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ñ‚Ëüÿÿÿÿ
+esquid:S1192"PDefine a constant instead of duplicating this literal "Nom d'usage : " 24 times.(á²ãÏ
+Š"squid:ClassVariableVisibilityCheck"YMake coordonnesGps a static final constant or non-public and provide accessors if needed.(å™§‹şÿÿÿÿ
 Rsquid:S1197"8Move the array designator from the variable to the type.(ÿÃ²şÿÿÿÿ
-S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(×ö³–úÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ì¼Ë‰úÿÿÿÿ
+Tsquid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Rsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
+Vsquid:UselessImportCheck"4Remove this unused import 'android.widget.EditText'.(†Å›Ú
+`squid:UselessImportCheck">Remove this unused import 'android.location.LocationListener'.(æ‡ë 
+tsquid:S1192"_Define a constant instead of duplicating this literal "AnnÃ©ee de construction : 2010" 3 times.(Òãî”
+esquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ
+Psquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
+Zsquid:UselessImportCheck"3Remove this unused import 'org.json.JSONException'.(¹Ó·úÿÿÿÿ
+Xsquid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ
+~"squid:ClassVariableVisibilityCheck"RMake lettre a static final constant or non-public and provide accessors if needed.(›«·
+?squid:S1444"*Make this "public static code" field final(”Ş¶Ë
+Wsquid:UselessImportCheck"0Remove this unused import 'org.json.JSONObject'.(œÖ´üşÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"XMake descActivite a static final constant or non-public and provide accessors if needed.(Ì»Äüúÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(èüü‚úÿÿÿÿ
+@squid:S1444"+Make this "public static annee" field final(½ÒÖ…
+…"squid:ClassVariableVisibilityCheck"TMake activite a static final constant or non-public and provide accessors if needed.(«ÿâöüÿÿÿÿ

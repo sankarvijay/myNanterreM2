@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".implem.ListeSport"
-    tools:layout_editor_absoluteY="81dp"
-    android:id="@+id/listeSport"
-    >
+    tools:layout_editor_absoluteY="81dp">
 
 
 
@@ -23,7 +21,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"

@@ -98,36 +98,6 @@ public class GoogleMaps extends FragmentActivity implements OnMapReadyCallback,
 
         FetchDataBatimentUniv myAsyncTasks = new FetchDataBatimentUniv();
         myAsyncTasks.execute();
-
-
-/*
-        // implement setOnClickListener event on displayData button
-        displayData.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // create object of MyAsyncTasks class and execute it
-                FetchDataBatimentUniv myAsyncTasks = new FetchDataBatimentUniv();
-                myAsyncTasks.execute();
-                lettre = myAsyncTasks.dataParsed;
-                System.out.println("lettre " + lettre);
-                nomUsage = myAsyncTasks.dataParsed2;
-                System.out.println("nomUsage " + nomUsage);
-                campus = myAsyncTasks.dataParsed3;
-                System.out.println("campus " + campus);
-                annee = myAsyncTasks.dataParsed4;
-                System.out.println("annee " + annee);
-                descActivite = myAsyncTasks.dataParsed5;
-                System.out.println("descActivite " + descActivite);
-                activite = myAsyncTasks.dataParsed6;
-                System.out.println("activite " + activite);
-                coordonnesGps = myAsyncTasks.dataParsed7;
-                coordonnesGps = coordonnesGps.replaceAll("\\[", "").replaceAll("\\]","");
-                String[] parts = coordonnesGps.split(",");
-                String latitude = parts[0];
-                String longitude = parts[1];
-            }
-        });
-*/
     }
 
     @Override
@@ -156,22 +126,22 @@ public class GoogleMaps extends FragmentActivity implements OnMapReadyCallback,
                         .build();
                 mMap.setInfoWindowAdapter(new CustomWindowAdapter(GoogleMaps.this));
 
-                mMap.addMarker(new MarkerOptions().position(new LatLng(48.903732,2.212187)).title("Batiment A").snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Réné Rémond"+"\n\n"+"Annéee de construction : 1964"+
+                mMap.addMarker(new MarkerOptions().position(new LatLng(48.903732,2.212187)).title("Batiment A\n").snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Réné Rémond"+"\n\n"+"Annéee de construction : 1964"+
                         "\n\n"+"Activités : Services administratifs (scolarité, inscriptions, bourses …) et fonctions support de certains laboratoires de recherche."));
 
-                mMap.addMarker(new MarkerOptions().position(new LatLng(48.904943, 2.213485)).title("Batiment S")
+                mMap.addMarker(new MarkerOptions().position(new LatLng(48.904943, 2.213485)).title("Batiment S\n")
                         .snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Allice Milliat\n\n"+"Annéee de construction : 2006"+
                                 "\n\n"+"Activités : UFR STAPS – Sciences et Techniques des Activités Physiques et Sportives.\n"));
 
-                mMap.addMarker(new MarkerOptions().position(new LatLng(48.90296, 2.209572)).title("Batiment T")
+                mMap.addMarker(new MarkerOptions().position(new LatLng(48.90296, 2.209572)).title("Batiment T\n")
                         .snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Ephémère 3\n\n"+"Annéee de construction : 1994"+
                                 "\n\n"+"Activités : Bâtiment précaire modulaire destiné à la démolition à court terme, accueillant quelques activités d’enseignement et des activités associatives.\n"));
 
-                mMap.addMarker(new MarkerOptions().position(new LatLng(48.902847, 2.211696)).title("Batiment C")
+                mMap.addMarker(new MarkerOptions().position(new LatLng(48.902847, 2.211696)).title("Batiment C\n")
                         .snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Bianka et René Zazzo\n\n"+"Annéee de construction : 1966"+
                                 "\n\n"+"Activités : UFR SPSE – Sciences Psychologiques et Sciences de l’Education.\n"));
 
-                mMap.addMarker(new MarkerOptions().position(new LatLng(48.90412, 2.211455)).title("Batiment Max Weber\n")
+                mMap.addMarker(new MarkerOptions().position(new LatLng(48.90412, 2.211455)).title("Batiment W\n")
                         .snippet("Campus : Nanterre"+"\n\n"+"Nom d'usage : "+"Max Weber\n\n"+"Annéee de construction : 2016"+
                                 "\n\n"+"Activités : Bâtiment de la recherche en Sciences Humaines et Sociales.\n"));
 

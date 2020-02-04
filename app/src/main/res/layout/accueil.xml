@@ -148,7 +148,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Regarde l'ensemble des activités sportives de l'univerité avec leurs horaires. Tu peux aussi programmer un séance de sport pour que d'autres étudiants te rejoignent" />
+                android:text="Regarde l'ensemble des activités sportives de l'université avec leurs horaires. Tu peux aussi programmer un séance de sport pour que d'autres étudiants te rejoignent" />
 
         </LinearLayout>
 
@@ -198,7 +198,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
                 android:gravity="center"
-                android:text="Pour te rendre vers n'importe quelle bibliothèque du campus et connaître les horaires, consulte le plan 3D avec sa navigation. L'affluence des espaces de la grande BU est aussi disponible" />
+                android:text="Pour te rendre vers n'importe quelle bibliothèque du campus et connaître les horaires, consulte le plan 2D avec sa navigation. L'affluence des espaces de la grande BU est aussi disponible" />
 
         </LinearLayout>
 

@@ -1,24 +1,11 @@
 
-Vsquid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è
-Msquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü
-Ysquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
-Tsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
-lsquid:UselessImportCheck"KRemove this unused import 'androidx.appcompat.app.AppCompatDialogFragment'.(Ï·©
-Ysquid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ
-isquid:UselessImportCheck"BRemove this unused import 'androidx.fragment.app.FragmentManager'.(¯­ë‹ıÿÿÿÿ
-^squid:UselessImportCheck"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ
-Wsquid:UselessImportCheck"0Remove this unused import 'android.text.Layout'.(ÔŠ²±úÿÿÿÿ
-Tsquid:UselessImportCheck"2Remove this unused import 'android.os.StrictMode'.(Ä§Ì„
-wsquid:UselessImportCheck"URemove this unused import 'miage.parisnanterre.fr.mynanterre.fragment.SportFragment'.(ÖÍÍİ
-Vsquid:UselessImportCheck"4Remove this unused import 'android.widget.EditText'.(†Å›Ú
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Esquid:S1659"+Declare "mDisplayDate2" on a separate line.(İƒˆÿÿÿÿÿ
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8äŸÀ¦û-
+Esquid:S1125")Remove the literal "false" boolean value.(®Ûª–8äŸÀ¦û-
 psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(òëÿùÿÿÿÿ8äŸÀ¦û-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8äŸÀ¦û-
 usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ıøÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(£æª³şÿÿÿÿ
-5squid:S2068" Remove this hard-coded password.(úÚÿ½
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôšß˜
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(òëÿùÿÿÿÿ
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(£æª³şÿÿÿÿ8äŸÀ¦û-
+Lsquid:S1659"+Declare "mDisplayDate2" on a separate line.(İƒˆÿÿÿÿÿ8äŸÀ¦û-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8äŸÀ¦û-

@@ -1,19 +1,15 @@
 
-lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŸ’“üÿÿÿÿ
-Zsquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ëë„
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
-usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ
-Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢™Óô
 5squid:S2068" Remove this hard-coded password.(úÚÿ½
-Psquid:S1854"6Remove this useless assignment to local variable "fm".(¡šð²ûÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÄþÍßÿÿÿÿÿ
 5squid:S2068" Remove this hard-coded password.(úÚÿ½
-Asquid:S1481"'Remove this unused "fm" local variable.(¡šð²ûÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Èý¢ùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áÅžœýÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢™Óô
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô¨ÓÉÿÿÿÿÿ8ôÃÆ¦û-
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ëë„
+Zsquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ

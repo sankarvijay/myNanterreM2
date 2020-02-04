@@ -54,7 +54,7 @@ public class ListeProduit extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,7 @@ public class ListeProduit extends AppCompatActivity {
         });
 
         List<Produit> donnees = getListData();
-        final GridView gridView = (GridView) findViewById(R.id.gridview);
+        final GridView gridView = findViewById(R.id.gridview);
         gridView.setAdapter(new ProduitGridAdapter(this, donnees));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -81,8 +81,8 @@ public class ListeProduit extends AppCompatActivity {
                 alertDialogBuilder = new AlertDialog.Builder(ListeProduit.this);
                 alertDialogBuilder.setView(alertDialogView);
 
-                Button btn1 = (Button) alertDialogView.findViewById(R.id.buttonok);
-                Button btn2 = (Button) alertDialogView.findViewById(R.id.buttonko);
+                Button btn1 = alertDialogView.findViewById(R.id.buttonok);
+                Button btn2 = alertDialogView.findViewById(R.id.buttonko);
 
                 btn1.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
@@ -160,7 +160,7 @@ public class ListeProduit extends AppCompatActivity {
             ResultSet rst = st.executeQuery(sqliD);
 
             if (!rst.isBeforeFirst()) {
-                TextView nothing = (TextView) findViewById(R.id.nothing);
+                TextView nothing = findViewById(R.id.nothing);
                 nothing.setText("Ce resto/cafet ne propose pas de produits à vendre ;)");
             } else {
                 while (rst.next()) {

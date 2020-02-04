@@ -1,28 +1,10 @@
 
-[squid:UselessImportCheck"4Remove this unused import 'android.widget.GridView'.(éÐÏ«ÿÿÿÿÿ
-fsquid:UselessImportCheck"?Remove this unused import 'androidx.appcompat.app.AlertDialog'.(¼Ìï¨üÿÿÿÿ
-Msquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü
-\squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
-Ysquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
-Tsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ð‹G
-tsquid:UselessImportCheck"RRemove this unused import 'com.github.mikephil.charting.formatter.ValueFormatter'.(‹¼Ä‚
-csquid:UselessImportCheck"<Remove this unused import 'java.sql.SQLClientInfoException'.(°ìÄÄøÿÿÿÿ
-Qsquid:UselessImportCheck"/Remove this unused import 'java.util.Calendar'.(ÿÛö´
-Ysquid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òžýÿÿÿÿ
-~squid:UselessImportCheck"WRemove this unused import 'com.github.mikephil.charting.formatter.IAxisValueFormatter'.(‡¸ß¼ýÿÿÿÿ
-Ysquid:UselessImportCheck"7Remove this unused import 'android.widget.AdapterView'.(¶¾éæ
-Zsquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ
-fsquid:UselessImportCheck"DRemove this unused import 'com.github.mikephil.charting.data.Entry'.(±§÷‰
-tsquid:UselessImportCheck"MRemove this unused import 'com.github.mikephil.charting.components.AxisBase'.(ìÿªãúÿÿÿÿ
-{squid:UselessImportCheck"YRemove this unused import 'miage.parisnanterre.fr.mynanterre.adapter.ProduitGridAdapter'.(§Íìª
-^squid:UselessImportCheck"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ
-qsquid:UselessImportCheck"JRemove this unused import 'com.github.mikephil.charting.components.XAxis'.(íóÀœøÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-hsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(þŸïÈÿÿÿÿÿ
-msquid:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(ÎœÈ³ÿÿÿÿÿ
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚»Ü8‘ÛÂ¦û-
+osquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(þŸïÈÿÿÿÿÿ8‘ÛÂ¦û-
+Gsquid:S1905"+Remove this unnecessary cast to "BarChart".(›å¿þ8‘ÛÂ¦û-
+<squid:S2068" Remove this hard-coded password.(úÚÿ½8‘ÛÂ¦û-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8‘ÛÂ¦û-
+tsquid:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(ÎœÈ³ÿÿÿÿÿ8‘ÛÂ¦û-
 usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šë«ýøÿÿÿÿ
-Gsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
-5squid:S2068" Remove this hard-coded password.(úÚÿ½
-@squid:S1905"+Remove this unnecessary cast to "BarChart".(›å¿þ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™Ë‰Á
+Nsquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8‘ÛÂ¦û-

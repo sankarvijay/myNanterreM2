@@ -1,5 +1,16 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
+import android.app.AlertDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.StrictMode;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.GridView;
+import android.widget.ImageView;
+import android.widget.Toast;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -9,21 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import android.app.AlertDialog;
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.StrictMode;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.GridView;
-import android.widget.ImageView;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.SportGridAdapter;
 import miage.parisnanterre.fr.mynanterre.fragment.SeancesFragment;
@@ -57,10 +54,10 @@ public class ListeSport extends AppCompatActivity {
         final int idCategorie = Integer.parseInt(stringVariableName);
 
         List<Sport> image_details = getListData();
-        final GridView gridView = (GridView) findViewById(R.id.gridview);
+        final GridView gridView = findViewById(R.id.gridview);
         gridView.setAdapter(new SportGridAdapter(this, image_details));
 
-        ImageView back = (ImageView) findViewById(R.id.back);
+        ImageView back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,7 +99,7 @@ public class ListeSport extends AppCompatActivity {
             }
         });
 
-        Button btnRdv = (Button) findViewById(R.id.buttonRdv);
+        Button btnRdv = findViewById(R.id.buttonRdv);
         btnRdv.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), Plannification.class);
@@ -112,7 +109,7 @@ public class ListeSport extends AppCompatActivity {
             }
         });
 
-        Button btnSeance = (Button) findViewById(R.id.btnSeances);
+        Button btnSeance = findViewById(R.id.btnSeances);
         btnSeance.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 getSupportFragmentManager().beginTransaction().add(R.id.myFrame, new SeancesFragment()).commit();
@@ -120,7 +117,7 @@ public class ListeSport extends AppCompatActivity {
 
         });
 
-        Button btnFiltre = (Button) findViewById(R.id.btnFiltre);
+        Button btnFiltre = findViewById(R.id.btnFiltre);
         btnFiltre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Bundle extras = getIntent().getExtras();

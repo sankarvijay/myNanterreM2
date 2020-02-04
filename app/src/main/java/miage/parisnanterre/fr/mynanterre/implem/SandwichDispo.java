@@ -13,8 +13,6 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -22,6 +20,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import androidx.appcompat.app.AppCompatActivity;
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class SandwichDispo extends AppCompatActivity {
@@ -48,11 +47,11 @@ public class SandwichDispo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.form_sandwich);
 
-         cafet = (Spinner) findViewById(R.id.spincafet);
-         produit = (Spinner) findViewById(R.id.spinproduit);
-         number = (EditText) findViewById(R.id.tb_number);
-         confimer = (Button) findViewById(R.id.btn_confirmerProduit);
-        ImageView  Back = (ImageView) findViewById(R.id.back);
+         cafet = findViewById(R.id.spincafet);
+         produit = findViewById(R.id.spinproduit);
+         number = findViewById(R.id.tb_number);
+         confimer = findViewById(R.id.btn_confirmerProduit);
+        ImageView  Back = findViewById(R.id.back);
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -209,7 +208,7 @@ public class SandwichDispo extends AppCompatActivity {
             //recuperer uniquement les cafets sur la BDD
             String sqliD = "SELECT * FROM Crous WHERE id_bat IN (1,3,4,5) ";
             Statement st = conn.createStatement();
-            ResultSet rs = st.executeQuery(sqliD);;
+            ResultSet rs = st.executeQuery(sqliD);
 
 
             ArrayList<String> dataCafet = new ArrayList<String>();
@@ -247,7 +246,7 @@ public class SandwichDispo extends AppCompatActivity {
             String sqliD = "SELECT * FROM vente WHERE id_bat ='" + newpositionCafet + "';";
 
             Statement st = conn.createStatement();
-            ResultSet rs = st.executeQuery(sqliD);;
+            ResultSet rs = st.executeQuery(sqliD);
 
 
             ArrayList<String> dataProduit = new ArrayList<String>();
@@ -295,7 +294,7 @@ public class SandwichDispo extends AppCompatActivity {
                            System.out.println("NB PRODUIT SELECT" + number.getText().toString());
                             String sqliD = "UPDATE vente SET produitquantite ='" + number.getText().toString() + "'  WHERE id_bat='" + newpositionCafet + "' and produit ='" + produitSelect +  "';";
 
-                            System.out.println("REQUETE ICI " + sqliD.toString());
+                            System.out.println("REQUETE ICI " + sqliD);
 
 
                         PreparedStatement preparedStatement = conn.prepareStatement(sqliD);

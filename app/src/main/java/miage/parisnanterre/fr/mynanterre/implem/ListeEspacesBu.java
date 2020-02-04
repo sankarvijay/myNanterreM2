@@ -3,12 +3,9 @@ package miage.parisnanterre.fr.mynanterre.implem;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -21,7 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.ListFragment;
 import miage.parisnanterre.fr.mynanterre.R;
 
 public class ListeEspacesBu extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -65,7 +61,7 @@ public class ListeEspacesBu extends AppCompatActivity implements AdapterView.OnI
             }
 
 
-            m_listview = (ListView) findViewById(R.id.list_view);
+            m_listview = findViewById(R.id.list_view);
 
             ArrayAdapter<String> adapter =
                     new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, espaces);

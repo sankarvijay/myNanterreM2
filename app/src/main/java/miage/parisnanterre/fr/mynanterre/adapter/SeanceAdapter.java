@@ -39,14 +39,14 @@ public class SeanceAdapter extends RecyclerView.Adapter<SeanceAdapter.MyViewHold
 
         private MyViewHolder(View view) {
             super(view);
-            this.numero = (TextView) view.findViewById(R.id.numSeance2);
-            this.heured = (TextView) view.findViewById(R.id.heured);
-            this.heuref = (TextView) view.findViewById(R.id.heuref);
-            this.sport = (TextView) view.findViewById(R.id.sport);
-            this.lieu = (TextView) view.findViewById(R.id.lieu);
-            this.dateRdv = (TextView) view.findViewById(R.id.dateSeance);
-            this.getsport = (TextView) view.findViewById(R.id.getsport);
-            this.inscrit = (TextView) view.findViewById(R.id.inscrit);
+            this.numero = view.findViewById(R.id.numSeance2);
+            this.heured = view.findViewById(R.id.heured);
+            this.heuref = view.findViewById(R.id.heuref);
+            this.sport = view.findViewById(R.id.sport);
+            this.lieu = view.findViewById(R.id.lieu);
+            this.dateRdv = view.findViewById(R.id.dateSeance);
+            this.getsport = view.findViewById(R.id.getsport);
+            this.inscrit = view.findViewById(R.id.inscrit);
 
         }
     }
@@ -67,7 +67,7 @@ public class SeanceAdapter extends RecyclerView.Adapter<SeanceAdapter.MyViewHold
     @Override
     public void onBindViewHolder(@NonNull final MyViewHolder holder, int position) {
 
-        Button inscription = (Button) holder.itemView.findViewById(R.id.inscription);
+        Button inscription = holder.itemView.findViewById(R.id.inscription);
         final Seance seance = listeSeances.get(position);
 
         holder.numero.setText("Seance n°" + String.valueOf(seance.getNumero()));
@@ -128,7 +128,7 @@ public class SeanceAdapter extends RecyclerView.Adapter<SeanceAdapter.MyViewHold
             }
         });
 
-        Button desinscription = (Button) holder.itemView.findViewById(R.id.desinscription);
+        Button desinscription = holder.itemView.findViewById(R.id.desinscription);
 
         desinscription.setOnClickListener(new View.OnClickListener() {
             @Override
