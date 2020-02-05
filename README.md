@@ -15,19 +15,13 @@ Une application pour aider les étudiants de Nanterre durant leurs vies étudian
 
 MyNanterre est une application qui vous permettra de :
 
-Notre application permettra de répondre à vos différents besoins : 
-
--Vous voulez venir à la fac ou rentrer chez vous ? Vous trouverez les prochains départs sur le RER A et la ligne L avec l'état du trafic, tout cela avec des notifications en temps réel.
-
--Vous voulez manger ? Visualisez l'affluence sur les différents points de restauration du CROUS ouverts à l'Université ainsi que la disponibilité des produits.
-
--Vous voulez faire du sport ? Programmez vos propres séances de sports et les étudiants pourront s'y inscrire, vous pourrez découvrir les sports disponibles à Nanterre et leurs horaires.
-
--Vous voulez étudier ? Consultez l'application pour connaître les horaires, la localisation et l'affluence des bibliothèques du campus.
-
--Vous êtes nouveaux et perdus sur le campus de l'université ? Consultez notre carte en 3D avec sa navigation en temps réel pour vous diriger.
-
--Vous voulez suivre l'actualité de l'Université : vous pourrez consulter les dernières infos sur l'université de Nanterre avec les Lives Tweets. 
+- programmer vos propres séances de sports auxquelles les étudiants pourront s'inscrire.
+- de découvrir les sports disponibles à Nanterre et leurs horaires.
+- visualiser l'afflucence sur les différents points de restauration ouverts à l'Université et les produits disponibles.
+- connaitre les prochains départs de train depuis Nanterre-Université, mais aussi personnalisez avec votre gare favorite pour le rer A et la ligne L.
+- connaitre les différents horaires des bibliothèque universitaires et leurs emplacements.
+- naviguer au sein de l'université avec sa carte interactive.
+- connaitres toutes les informations sur l'université grâce à son live tweet.
 
 Pour avoir plus d'informations, visitez notre site web : https://sankarvijay.github.io/myNanterreM2/
 
@@ -35,14 +29,14 @@ Pour avoir plus d'informations, visitez notre site web : https://sankarvijay.git
 
 L'application peut être téléchargée 
 
-- soit via l'url : <a href="https://github.com/sankarvijay/myNanterreM2/releases/download/v2.0-beta/myNanterre_v2.0-beta.apk">/releases/download/v2.0-beta/myNanterreM2_v2.0-beta.apk</a> 
+
+- soit via l'url : <a href="https://github.com/sankarvijay/myNanterreM2/releases/download/v2.0-alpha/myNanterre_v2.0-alpha.apk">/releases/download/v2.0-alpha/myNanterreM2_v2.0-alpha.apk</a> 
 - soit via le QR Code : 
 
 <a rel='nofollow' href='https://www.qrcode-generator.de/
-            ' border='0' style='cursor:default'></a><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fsankarvijay%2FmyNanterreM2%2Freleases%2Fdownload%2Fv2.0-beta%2FmyNanterre_v2.0-beta.apk&chs=180x180&choe=UTF-8&chld=L|2' alt=''>
+            ' border='0' style='cursor:default'></a><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fsankarvijay%2FmyNanterreM2%2Freleases%2Fdownload%2Fv2.0-alpha%2FmyNanterre_v2.0-alpha.apk&chs=180x180&choe=UTF-8&chld=L|2' alt=''>
 
 ## Librairies
-
 -   Données Open data : [RATP](https://github.com/pgrimaud/horaires-ratp-api) sous [(licences)](https://github.com/pgrimaud/horaires-ratp-api/blob/master/LICENSE)
 -   Données Open data : [STIF](https://opendata.stif.info/page/licences/) sous [(licences)](https://opendata.stif.info/page/licences/)
 -   Données Open data : [Batiment API](https://opendata.hauts-de-seine.fr/explore/dataset/affectations-et-usages-des-batiments-de-luniversite-paris-nanterre/table/?sort=campus&rows=40&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6InN1cmZhY2Vfc2hvbiIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM2NmMyYTUifV0sInhBeGlzIjoiYW5uZWVfZGVfY29uc3RydWN0aW9uIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImFmZmVjdGF0aW9ucy1ldC11c2FnZXMtZGVzLWJhdGltZW50cy1kZS1sdW5pdmVyc2l0ZS1wYXJpcy1uYW50ZXJyZSIsIm9wdGlvbnMiOnsic29ydCI6ImNhbXB1cyIsInJvd3MiOiI0MCJ9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&location=17,48.90371,2.21429&basemap=jawg.streets) sous [(licences)](https://opendata.hauts-de-seine.fr/explore/dataset/affectations-et-usages-des-batiments-de-luniversite-paris-nanterre/table/?sort=campus&rows=40&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6InN1cmZhY2Vfc2hvbiIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiM2NmMyYTUifV0sInhBeGlzIjoiYW5uZWVfZGVfY29uc3RydWN0aW9uIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImFmZmVjdGF0aW9ucy1ldC11c2FnZXMtZGVzLWJhdGltZW50cy1kZS1sdW5pdmVyc2l0ZS1wYXJpcy1uYW50ZXJyZSIsIm9wdGlvbnMiOnsic29ydCI6ImNhbXB1cyIsInJvd3MiOiI0MCJ9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&location=17,48.90371,2.21429&basemap=jawg.streets)
@@ -104,5 +98,3 @@ Et voila ! le projet est prêt pour utilisation.
 * **SANKAR Vijay** - [Github](https://github.com/sankarvijay)
 * **VIEIRA Dorian** - [Github](https://github.com/dorianvieira)
 * **Baghrar El Hassan** - [Github](https://github.com/ElHassanBaghrar)
-
-MyNanterre: Reserved 2020 Vijay.S, Dorian.V and El Hassan.B; Apache License v2.0 https://www.apache.org/licenses/

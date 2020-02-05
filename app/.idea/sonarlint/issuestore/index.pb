@@ -107,3 +107,15 @@ Esrc/main/java/miage/parisnanterre/fr/mynanterre/implem/TrainRerA.java,4/e/4e10
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 B
 proguard-rules.pro,8/f/8fb93e6a4b5f305875d392d25a97c87aa0ec6286
+~
+Nsrc/androidTest/java/miage/parisnanterre/fr/mynanterre/implem/M2CrousTest.java,d/3/d321561cefc6d3e3c1481585e93347c03e3a646b
+~
+Nsrc/androidTest/java/miage/parisnanterre/fr/mynanterre/implem/M2SportTest.java,8/0/80273309a55480aceed348ea42fd92aea6982248
+t
+Dsrc/test/java/miage/parisnanterre/fr/mynanterre/ExampleUnitTest.java,f/8/f8a4e7b8a1862eeff0c9b1e05d043f9356e67a3f
+}
+Msrc/androidTest/java/miage/parisnanterre/fr/mynanterre/implem/M2RerATest.java,6/0/60b5ebd18756b998bdb4f626830d0a990415001f
+
+Osrc/androidTest/java/miage/parisnanterre/fr/mynanterre/implem/M2BiblioTest.java,d/f/df377a9bd30ef45070a38bb982b1015f1bb42a8d
+@
+local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca

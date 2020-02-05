@@ -18,6 +18,7 @@ import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.fragment.AccueilFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.BiblioFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.CrousFragment;
+import miage.parisnanterre.fr.mynanterre.fragment.MajFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.PlanFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.SportFragment;
 import miage.parisnanterre.fr.mynanterre.fragment.TrainFragment;
@@ -98,6 +99,9 @@ public class Accueil extends AppCompatActivity {
                 break;
             case R.id.nav_train:
                 fragmentClass = TrainFragment.class;
+                break;
+            case R.id.nav_maj:
+                fragmentClass = MajFragment.class;
                 break;
             default:
                 fragmentClass = AccueilFragment.class;

@@ -28,5 +28,9 @@
             android:id="@+id/nav_plan"
             android:icon="@drawable/plan"
             android:title="Plan" />
+        <item
+            android:id="@+id/nav_maj"
+            android:icon="@drawable/maj"
+            android:title="Mise à jour" />
     </group>
 </menu>

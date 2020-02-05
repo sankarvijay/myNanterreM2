@@ -2,6 +2,6 @@
     <string name="app_name">MyNanterre</string>
     <string name="appbar_scrolling_view_behavior" />
     <string name="nav_header_title">MyNanterre</string>
-    <string name="nav_header_subtitle">mynanterre@gmail.com</string>
+    <string name="nav_header_subtitle">contact.mynanterre@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
 </resources>
