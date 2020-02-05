@@ -15,8 +15,6 @@ Une application pour aider les étudiants de Nanterre durant leurs vies étudian
 
 MyNanterre est une application qui vous permettra de :
 
-Notre application permettra de répondre à vos différents besoins : 
-
 -Vous voulez venir à la fac ou rentrer chez vous ? Vous trouverez les prochains départs sur le RER A et la ligne L avec l'état du trafic, tout cela avec des notifications en temps réel.
 
 -Vous voulez manger ? Visualisez l'affluence sur les différents points de restauration du CROUS ouverts à l'Université ainsi que la disponibilité des produits.
@@ -27,7 +25,9 @@ Notre application permettra de répondre à vos différents besoins :
 
 -Vous êtes nouveaux et perdus sur le campus de l'université ? Consultez notre carte en 3D avec sa navigation en temps réel pour vous diriger.
 
--Vous voulez suivre l'actualité de l'Université : vous pourrez consulter les dernières infos sur l'université de Nanterre avec les Lives Tweets. 
+-Vous voulez suivre l'actualité de l'Université : vous pourrez consulter les dernières infos sur l'université de Nanterre avec les Lives Tweets.
+
+-Vous pouvez récupérer la dernière version de l'application depuis la rubrique "Mise à jour".
 
 Pour avoir plus d'informations, visitez notre site web : https://sankarvijay.github.io/myNanterreM2/
 
