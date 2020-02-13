@@ -1,7 +1,6 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -39,7 +38,7 @@ import androidx.core.content.ContextCompat;
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
 
-import static miage.parisnanterre.fr.mynanterre.implem.GoogleMaps.MY_PERMISSIONS_REQUEST_LOCATION;
+
 
 
 public class ListeCrous extends AppCompatActivity {
