@@ -1,5 +1,6 @@
 package miage.parisnanterre.fr.mynanterre.fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,8 +17,9 @@ import miage.parisnanterre.fr.mynanterre.implem.ListeEspacesBu;
 
 
 public class BiblioFragment extends Fragment {
-    public WebView mWebView;
+    private WebView mWebView;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

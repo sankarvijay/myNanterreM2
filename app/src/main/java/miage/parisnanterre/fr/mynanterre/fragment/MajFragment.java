@@ -3,7 +3,6 @@ package miage.parisnanterre.fr.mynanterre.fragment;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.DownloadManager;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -13,26 +12,14 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.webkit.DownloadListener;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import miage.parisnanterre.fr.mynanterre.R;
-import miage.parisnanterre.fr.mynanterre.implem.Cgu;
-import miage.parisnanterre.fr.mynanterre.implem.ListeEspacesBu;
-import miage.parisnanterre.fr.mynanterre.implem.LiveTweet;
-import miage.parisnanterre.fr.mynanterre.implem.PlanBatiments;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
 
@@ -41,8 +28,9 @@ import static android.content.Context.DOWNLOAD_SERVICE;
  */
 public class MajFragment extends Fragment {
 
-    public WebView mWebView;
+    private WebView mWebView;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -54,9 +42,7 @@ public class MajFragment extends Fragment {
 
         haveStoragePermission();
 
-
         // Enable Javascript
-
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setDomStorageEnabled(true);
 
@@ -66,7 +52,7 @@ public class MajFragment extends Fragment {
 
         return v;
     }
-    public  boolean haveStoragePermission() {
+    private  boolean haveStoragePermission() {
         if (Build.VERSION.SDK_INT >= 23) {
             if (ActivityCompat.checkSelfPermission(getContext(),Manifest.permission.WRITE_EXTERNAL_STORAGE)
                     == PackageManager.PERMISSION_GRANTED) {

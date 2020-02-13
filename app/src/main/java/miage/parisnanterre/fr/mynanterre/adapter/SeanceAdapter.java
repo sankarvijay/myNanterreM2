@@ -26,7 +26,7 @@ public class SeanceAdapter extends RecyclerView.Adapter<SeanceAdapter.MyViewHold
     private List<Seance> listeSeances;
     private Context mcon;
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    class MyViewHolder extends RecyclerView.ViewHolder {
         private TextView numero;
         private TextView heured;
         private TextView heuref;

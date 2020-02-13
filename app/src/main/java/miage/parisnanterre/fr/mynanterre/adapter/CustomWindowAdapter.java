@@ -18,7 +18,7 @@ import miage.parisnanterre.fr.mynanterre.R;
 public class CustomWindowAdapter implements GoogleMap.InfoWindowAdapter {
 
     private final View mWindow;
-    private Context mContext;
+    Context mContext;
 
     public CustomWindowAdapter(Context context) {
         mContext = context;

@@ -46,6 +46,10 @@ public class Accueil extends AppCompatActivity {
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+
+        toolbar.setNavigationIcon(R.drawable.menu);
+
 
         // Find our drawer view
         mDrawer = findViewById(R.id.drawer_layout);
