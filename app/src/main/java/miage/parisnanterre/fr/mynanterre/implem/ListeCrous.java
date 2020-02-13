@@ -1,6 +1,10 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
+import android.Manifest;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.LayoutInflater;
@@ -26,10 +30,16 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import miage.parisnanterre.fr.mynanterre.R;
 import miage.parisnanterre.fr.mynanterre.adapter.CrousGridAdapter;
+
+import static miage.parisnanterre.fr.mynanterre.implem.GoogleMaps.MY_PERMISSIONS_REQUEST_LOCATION;
 
 
 public class ListeCrous extends AppCompatActivity {
@@ -37,8 +47,10 @@ public class ListeCrous extends AppCompatActivity {
     private static final String url = "jdbc:mysql://sql171.main-hosting.eu/u749839367_m1";
     private static final String user = "u749839367_vijay";
     private static final String psw = "9IDCqTm8Lig2";
+    private static final int REQUEST_CODE_ONE = 0;
     private static Connection conn;
     private List<Crous> liste = new ArrayList<>();
+    private int STORAGE_LOCATION_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -199,34 +211,116 @@ public class ListeCrous extends AppCompatActivity {
 
 
 
+
         FloatingActionButton Geo = findViewById(R.id.Geo);
-        Geo.setOnClickListener(new View.OnClickListener() {
+        Geo.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
-                Bundle extras = new Bundle();
-                myIntent.putExtras(extras);
-                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                getApplicationContext().startActivity(myIntent);
+            public void onClick(View view)
+            {
+                if (ContextCompat.checkSelfPermission(getApplicationContext(),
+                        Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                   // Toast.makeText(getApplicationContext(), "You have already granted this permission!",
+               //             Toast.LENGTH_SHORT).show();
+                    Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
+                    Bundle extras = new Bundle();
+                    myIntent.putExtras(extras);
+                    myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    getApplicationContext().startActivity(myIntent);
+                }
+                else {
+                    requestLocationPermission();
+                }
+
+
 
             }
         });
 
 
+
+
+
+
+
+
+
         FloatingActionButton sandwich = findViewById(R.id.sandwich);
         sandwich.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 Intent myIntent = new Intent(getApplicationContext(), AuthSandwich.class);
                 Bundle extras = new Bundle();
                 myIntent.putExtras(extras);
                 myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(myIntent);
 
+
+
             }
         });
 
     }
+
+    private void requestLocationPermission()
+    {
+        if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                Manifest.permission.ACCESS_FINE_LOCATION)) {
+
+            new AlertDialog.Builder(this)
+                    .setTitle("Permission nécessaire")
+                    .setMessage("Nous avons besoin de votre localisation pour afficher les cafétérias proche de chez vous")
+                    .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which)
+                        {
+                            ActivityCompat.requestPermissions(ListeCrous.this,
+                                    new String[] {Manifest.permission.ACCESS_FINE_LOCATION}, STORAGE_LOCATION_CODE);
+                        }
+
+
+                    })
+                    .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    })
+                    .create().show();
+
+        } else {
+            ActivityCompat.requestPermissions(this,
+                    new String[] {Manifest.permission.ACCESS_FINE_LOCATION}, STORAGE_LOCATION_CODE);
+        }
+    }
+
+
+
+
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,@NonNull int[] grantResults)
+    {
+        if (requestCode == STORAGE_LOCATION_CODE)  {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
+            {
+                Toast.makeText(this, "Permission GRANTED", Toast.LENGTH_SHORT).show();
+
+
+                Intent myIntent = new Intent(getApplicationContext(), LocalisationCrousMain.class);
+                Bundle extras = new Bundle();
+                myIntent.putExtras(extras);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                getApplicationContext().startActivity(myIntent);
+
+
+            }
+            else {
+                Toast.makeText(this, "Permission DENIED", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+
 
     private List<Crous> getListData() {
         Date currentTime = Calendar.getInstance().getTime();

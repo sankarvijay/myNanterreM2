@@ -1,15 +1,20 @@
 package miage.parisnanterre.fr.mynanterre.implem;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.LinkedList;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import miage.parisnanterre.fr.mynanterre.R;
@@ -21,17 +26,20 @@ public class LocalisationCrousMain extends AppCompatActivity {
     private RecyclerView recyclerView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.localisationcafetlist);
         recyclerView = findViewById(R.id.recyclerView);
+
 
 
         ImageView back = findViewById(R.id.back);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 startActivity(new Intent(getApplicationContext(), ListeCrous.class));
             }
         });
@@ -44,7 +52,14 @@ public class LocalisationCrousMain extends AppCompatActivity {
         RecyclerView.Adapter adapter = new LocalisationCrousAdapter(getListData());
         recyclerView.setAdapter(adapter);
 
+
+
+
+
     }
+
+
+
 
 
     //generate a list of Link
