@@ -76,7 +76,7 @@ a {
 a:focus, 
 a:hover {
     text-decoration: none;
-    color: #d64b45;
+
 }
 
 .img_res{
@@ -645,7 +645,7 @@ width:10%;
 .address-list {
     list-style: none;
     padding: 160px 0px 70px 0px;
-    max-width: 350px;
+    max-width: 430px;
     margin: 0 auto;
     display: table;
 }
