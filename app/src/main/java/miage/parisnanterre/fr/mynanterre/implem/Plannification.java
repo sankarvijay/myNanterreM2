@@ -50,6 +50,8 @@ public class Plannification extends AppCompatActivity {
 
     private DatePickerDialog.OnDateSetListener mDateSetListnener;
 
+    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
     private TextView mDisplayDate, mDisplayDate2;
     private static final String TAG = "Plannification";
     Calendar c;
@@ -231,9 +233,22 @@ public class Plannification extends AppCompatActivity {
                     preparedStatement.setString(6, spinnerLieu.getSelectedItem().toString());
                     preparedStatement.setInt(7, idCategorie);
                     preparedStatement.executeUpdate();
-                    Toast.makeText(getApplicationContext(), "Votre séance a bien été planifié !", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Votre séance a bien été planifié !", Toast.LENGTH_LONG).show();
 
-                    startActivity(new Intent(getApplicationContext(), SportFragment.class));
+
+                    //on récupere l'id de la categorie du sport issu de ListeSport pour l'utliser et le renvoyer dans listsport lors de la redirection
+                    Intent intent = getIntent();
+                    final Integer idCategorie = intent.getIntExtra("ID_CATEGORIE", 1);
+                    Intent listesport = new Intent(getApplicationContext(), ListeSport.class);
+                    Bundle extras = new Bundle();
+                    extras.putString(EXTRA_MESSAGE, idCategorie + "");
+                    listesport.putExtras(extras);
+
+                    //Start details activity
+                    startActivity(listesport);
+
+                    //startActivity(new Intent(getApplicationContext(), SportFragment.class));
+
 
                 } catch (SQLException e) {
                     e.printStackTrace();

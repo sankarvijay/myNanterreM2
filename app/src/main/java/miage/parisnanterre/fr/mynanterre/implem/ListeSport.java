@@ -50,7 +50,7 @@ public class ListeSport extends AppCompatActivity {
 
 
         Bundle extras = getIntent().getExtras();
-        String stringVariableName = extras.getString(SportFragment.EXTRA_MESSAGE);
+        String stringVariableName = extras.getString(SportFragment.EXTRA_MESSAGE); //récup aussi Plannification.EXTRA_MESSAGE
         final int idCategorie = Integer.parseInt(stringVariableName);
 
         List<Sport> image_details = getListData();
