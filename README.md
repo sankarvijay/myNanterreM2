@@ -2,6 +2,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b55330b80abb423bac3057216091bb04)](https://www.codacy.com/manual/sankarvijay/myNanterreM2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sankarvijay/myNanterreM2&amp;utm_campaign=Badge_Grade)
 [![GitHub issues](https://img.shields.io/github/issues/sankarvijay/myNanterreM2.svg)](https://github.com/sankarvijay/myNanterreM2/issues)
 [![License](https://img.shields.io/github/license/sankarvijay/myNanterreM2.svg?style=flat-square)](LICENSE)
+
 [![Version](https://img.shields.io/github/release/sankarvijay/MyNanterreM2.svg?label=version&style=flat-square)](build.gradle)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
